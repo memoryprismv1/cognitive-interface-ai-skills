@@ -1,0 +1,60 @@
+# History: How Automaticity Emerged
+
+This history records the path from the user's initial question about reading to the `automaticity` AI skill. It is a project history, not a claim that the user discovered automaticity as a scientific phenomenon. It is reconstructed from available conversation records; it does not pretend to be a verbatim transcript of every exchange.
+
+## 6 October 2026 — The starting observation: reading can become work
+
+The investigation began with a question about the brain's “fallback in reading standard.” The user was reacting to the extra work imposed by *professor-speak*: an answer could contain a useful idea yet make the reader spend attention decoding its wording before getting to think about the idea itself.
+
+A grade-level comparison came up as a way to illustrate differences in reading difficulty, but the user clarified that grade level was not the target. The question was about the processing work demanded by the language, not about assigning a reader a grade or making every answer simplistic.
+
+The user then connected reading to motor learning. Practised actions can become automatic; a person can learn newer skills while older routines remain available as a fallback. The user's game-controller analogy helped express the idea: once a routine is practised, it may no longer need the same deliberate attention it needed while being learned. The user proposed that language, being a learned skill too, might have comparable layers of automaticity, effort, and fallback.
+
+This was the conceptual starting point for the skill: familiar words and ordinary sentence patterns may be processed more automatically, while unfamiliar wording or demanding constructions can make reading effortful. The practical concern was that unnecessary effort spent decoding an answer can compete with the attention needed to reason about it.
+
+## The first research questions — Reading, ageing, and the brain
+
+The user next asked about Alzheimer's disease and diminishing reading and writing capacity. This was a question to investigate, not an assumption that reading necessarily survives intact as other abilities decline. The underlying interest was whether practised components of reading might behave differently from other parts of reading and comprehension as abilities change.
+
+The user then asked for EEG and fMRI research involving people reading prose at different levels of difficulty. The aim was to look for evidence about the brain's processing demands, rather than rely only on subjective impressions that one passage feels harder than another.
+
+These questions established the project's research direction: examine what is known about automatic and effortful reading, the demands created by words and sentence structure, and what changes when reading becomes difficult. The research should inform the design, but it should not be used to present the eventual AI skill as already scientifically validated.
+
+## From the reading question to an AI response intervention
+
+The application followed from the original problem with AI answers: the same idea can be expressed in language that either helps a reader get to the idea or makes the reader work through avoidable linguistic friction first.
+
+The design goal was therefore not merely to make writing sound friendly, casual, or “simple.” It was to change the *form* of the explanation while retaining its substance. Grade level was not a universal target, and short sentences were not treated as automatically better. The relevant question was whether the wording and structure made the idea easier to process without removing any of the idea.
+
+A proposed research comparison was to have people read answers from different AI systems that conveyed equivalent meaning, then examine whether differences in wording and sentence structure were associated with differences in neural workload. This was a proposed experiment, not a completed study.
+
+## 7 October 2026 — Turning the idea into a reusable skill
+
+The user took the idea to Claude and asked for a reusable skill file and a research README. The intended artifact was an AI-use skill grounded in a research rationale, not a personality preset or a request to flatten every answer to a particular reading grade.
+
+The guiding rule became:
+
+> **Simplify the form. Never simplify the idea.**
+
+The operational approach is to prefer common words, shorter and more direct sentences, one main idea at a time, concrete examples before abstractions where useful, and plain explanations of technical terms. It also asks the writer to preserve the full conceptual content and check whether a reader would need to reread unnecessarily. These are design instructions to test, not proof that every listed technique reduces cognitive load for every reader.
+
+The research document and the skill file serve different purposes:
+
+- `automaticity/README.md` records the rationale, relevant research, references, and limits of the claims.
+- `automaticity/SKILL.md` turns the proposed approach into instructions an AI agent can follow.
+
+## 12 October 2026 — Recovering the project and preparing to publish
+
+The user brought the existing research README and skill file back into the current workflow and decided to give the project a public, citable home. The intended sequence is to prepare a GitHub repository, add a page to the existing Memory Prism website, and then archive a version in Zenodo.
+
+The user explicitly asked to review the history before anything was pushed. The repository was then simplified to keep each skill self-contained: one folder, with its `HISTORY.md`, `README.md`, and `SKILL.md`. The current skill is named `automaticity`, without prematurely narrowing it to “writing.” No publication step should be inferred from this history draft.
+
+## Evidence boundary
+
+This history distinguishes three things:
+
+1. **The user's starting observation and hypothesis:** language can impose avoidable processing work, and practiced reading routines may become automatic in ways that make the motor-skill analogy useful.
+2. **The research questions:** what neuroscience and reading research says about automaticity, text difficulty, neural workload, and reading/writing changes associated with Alzheimer's disease.
+3. **The engineering proposal:** an AI skill designed to reduce unnecessary friction while preserving meaning.
+
+The first motivated the second; the second informs the third. That sequence does not establish that the proposed skill has already been tested experimentally or that it improves comprehension, reasoning, or neural efficiency. Those remain claims to evaluate rather than conclusions to announce.
