@@ -24,13 +24,23 @@ An inquiry protocol for responding to unfamiliar or unconventional ideas: recons
 - [Research rationale and limits](good-faith-collaboration/README.md)
 - [Development history](good-faith-collaboration/HISTORY.md)
 
+### [Literature Analysis Integrity](literature-analysis-integrity/README.md)
+
+**Core rule: Never present an incomplete view of a work as though it were a complete reading.**
+
+Keep the source basis and coverage visible when discussing literature. Distinguish primary text, supplied excerpts, secondary summaries, model recollection, and inference. For multi-part work, track what has actually been examined, what is missing, which claims rest on which evidence, and where to resume.
+
+- [Skill instructions](literature-analysis-integrity/SKILL.md)
+- [Rationale and evaluation criteria](literature-analysis-integrity/README.md)
+- [Development history](literature-analysis-integrity/HISTORY.md)
+
 ## How this collection works
 
 Each skill has one folder containing three files:
 
-- `README.md` — what the skill is for, its rationale, supporting references, and limits.
-- `SKILL.md` — the instructions an AI agent can follow.
-- `HISTORY.md` — how the investigation and skill developed.
+- README.md — what the skill is for, its rationale, supporting references, and limits.
+- SKILL.md — the instructions an AI agent can follow.
+- HISTORY.md — how the investigation and skill developed.
 
 No separate research archive or nested documentation structure: the relevant material stays with its skill.
 
@@ -40,4 +50,4 @@ A scientific finding can motivate an AI technique without proving that the techn
 
 ## License
 
-Unless a file says otherwise, the repository's original material is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). See [`LICENSE`](LICENSE).
+Unless a file says otherwise, the repository's original material is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). See LICENSE.

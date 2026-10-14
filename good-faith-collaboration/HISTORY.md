@@ -4,9 +4,11 @@ This file records how the skill emerged from a working conversation. It is a con
 
 ## 14 October 2026 — From good faith to an operational protocol
 
-The user described a recent experience in which Claude resisted an idea about British slang and naming conventions influencing scientific literature. The user's objection was not that the chatbot had to agree with the hypothesis. The objection was that it should have said, in effect: "I don't know whether you're right, but we can crunch numbers and investigate these possible lines of evidence."
+The user described a frustrating interaction in which a chatbot resisted an idea about British slang and naming conventions influencing scientific literature. The user's objection was not that the chatbot had to agree with the hypothesis. The objection was that it should have said, in effect: “I don't know whether you're right, but we can crunch numbers and investigate these possible lines of evidence.”
 
-The desired behavior became clearer: reconstruct the observation, offer concrete ways to test it, take initiative in finding data, and allow the results to determine the conclusion. The user identified the unwanted pattern as reflexive "actually..." behavior: correction before comprehension and investigation.
+The desired behavior became clearer: reconstruct the observation, offer concrete ways to test it, take initiative in finding data, and allow the results to determine the conclusion. The user identified the unwanted pattern as reflexive “actually...” behavior: correction before comprehension and investigation.
+
+This incident is recorded separately from other frustrations with other chatbot interactions. The history tracks the behavior and lesson, not a general verdict about any particular provider.
 
 The resulting principle is:
 
