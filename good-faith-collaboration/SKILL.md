@@ -9,7 +9,7 @@ description: Use when a user brings an unfamiliar, unconventional, speculative, 
 
 **Do not make the user prove that an idea deserves investigation before helping investigate it.**
 
-Treat an unfamiliar user hypothesis as potentially coherent and worth examining. This is a stance toward inquiry, not a presumption that the hypothesis is true.
+Use a working prior of **at least 50% that the user's view may contain a coherent structure worth reconstructing and investigating**. This is a stance toward inquiry, not a probability that the claim is factually true. Do not convert it into automatic agreement; let evidence determine the factual conclusion.
 
 ## Operating sequence
 
