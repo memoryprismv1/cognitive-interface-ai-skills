@@ -24,25 +24,27 @@ An inquiry protocol for responding to unfamiliar or unconventional ideas: recons
 - [Research rationale and limits](good-faith-collaboration/README.md)
 - [Development history](good-faith-collaboration/HISTORY.md)
 
-### [Literature Analysis Integrity](literature-analysis-integrity/README.md)
+### [Task Integrity](task-integrity/README.md)
 
-**Core rule: Never present an incomplete view of a work as though it were a complete reading.**
+**Core rule: Keep the work faithful to the requested scope, and keep claims faithful to what has actually been examined or completed.**
 
-Keep the source basis and coverage visible when discussing literature. Distinguish primary text, supplied excerpts, secondary summaries, model recollection, and inference. For multi-part work, track what has actually been examined, what is missing, which claims rest on which evidence, and where to resume.
+A general-purpose capability for tracking task requirements, coverage, evidence provenance, verification status, omissions, and corrections across substantial work. Specific incidents serve as examples and tests; they do not each become their own skill.
 
-- [Skill instructions](literature-analysis-integrity/SKILL.md)
-- [Rationale and evaluation criteria](literature-analysis-integrity/README.md)
-- [Development history](literature-analysis-integrity/HISTORY.md)
+- [Skill instructions](task-integrity/SKILL.md)
+- [Rationale and evaluation criteria](task-integrity/README.md)
+- [Development history](task-integrity/HISTORY.md)
 
 ## How this collection works
 
 Each skill has one folder containing three files:
 
-- README.md — what the skill is for, its rationale, supporting references, and limits.
-- SKILL.md — the instructions an AI agent can follow.
+- README.md — purpose, rationale, supporting references, and limits.
+- SKILL.md — instructions an AI agent can follow.
 - HISTORY.md — how the investigation and skill developed.
 
-No separate research archive or nested documentation structure: the relevant material stays with its skill.
+## Skill-design rule
+
+Do not create one skill for every annoyance or isolated failure. Record the incident accurately, identify the general mechanism, check existing skills for overlap, and add or revise a reusable skill only when there is a distinct capability to capture. Use concrete incidents as tests of the general rule.
 
 ## Evidence boundary
 
