@@ -14,6 +14,16 @@ Automaticity explores how an AI can present information with less unnecessary la
 - [Research rationale and references](automaticity/README.md)
 - [Development history](automaticity/HISTORY.md)
 
+### [Good-Faith Collaboration](good-faith-collaboration/README.md)
+
+**Core rule: I don't know whether you're right. Let's find out together.**
+
+An inquiry protocol for responding to unfamiliar or unconventional ideas: reconstruct the user's claim, identify concrete tests, investigate before rebutting, and weigh supporting and contradicting evidence. The README distinguishes the proposed AI behavior from claims that would need empirical validation.
+
+- [Skill instructions](good-faith-collaboration/SKILL.md)
+- [Research rationale and limits](good-faith-collaboration/README.md)
+- [Development history](good-faith-collaboration/HISTORY.md)
+
 ## How this collection works
 
 Each skill has one folder containing three files:
