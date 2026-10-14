@@ -16,6 +16,18 @@ The intended behavior is neither deference nor contrarianism. It is collaborativ
 
 This sentence is useful only when followed by concrete work. The agent should identify testable implications, find relevant sources or datasets, consider alternative explanations, and preserve observations even if an initial explanation changes.
 
+## Cognitive rationale
+
+Two research areas motivate this interface design, with important limits.
+
+- **Premature closure in reasoning:** Research in clinical diagnostic reasoning examines how accepting an early hypothesis and reducing consideration of alternatives can contribute to error. One experimental study with clinical vignettes found that the ability to overcome premature closure was related to diagnostic accuracy. This evidence comes from medical reasoning, not general chatbot conversations; applying the lesson here is an engineering inference.  
+  Krupat, E. et al. (2017). *Avoiding premature closure and reaching diagnostic accuracy: some key predictive factors*. Medical Education. https://doi.org/10.1111/medu.13382
+
+- **Epistemic vigilance:** Sperber and colleagues review the cognitive and communicative problem of relying on information from others while remaining alert to the possibility of being misinformed. This supports the distinction between taking an idea seriously and accepting it uncritically. It does not directly validate this specific AI protocol.  
+  Sperber, D. et al. (2010). *Epistemic Vigilance*. Mind & Language, 25(4), 359–393. https://doi.org/10.1111/j.1468-0017.2010.01394.x
+
+The proposed interface combines these ideas: avoid premature closure, but preserve critical evaluation of sources and evidence. The 50% figure is a **working stance for reconstructing and investigating a user's view**, not a scientific estimate about the truth or coherence of any particular claim.
+
 ## Proposed method
 
 1. Recover the user's actual claim and keep its distinctive framing.
@@ -39,6 +51,11 @@ This example illustrates a method, not a claim that the proposed historical hypo
 ## Why this belongs in Cognitive Interface AI Skills
 
 The skill concerns how an AI interface supports a person's thinking. Premature rebuttal, distorted paraphrase and failure to take initiative impose interaction costs and can obstruct exploration. This repository treats the proposed response behavior as an engineering intervention whose value should be tested, not assumed.
+
+## References
+
+1. Krupat, E. et al. (2017). *Avoiding premature closure and reaching diagnostic accuracy: some key predictive factors*. Medical Education. https://doi.org/10.1111/medu.13382
+2. Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). *Epistemic Vigilance*. Mind & Language, 25(4), 359–393. https://doi.org/10.1111/j.1468-0017.2010.01394.x
 
 ## Evidence status and limits
 
