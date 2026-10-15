@@ -377,6 +377,51 @@ This skill makes a deliberately modest claim.
 The skill is therefore a **biologically grounded engineering rule**, not
 a medical or neuroscientific prescription.
 
+
+------------------------------------------------------------------------
+
+## 13. Selective visual promotion: bold and italics as interface cues
+
+Making Vision uses **promotion** for a specific architectural function: a candidate that was previously treated cheaply or as background is allocated additional processing. The transition can be represented as:
+
+```text
+background → candidate → promoted candidate/event
+```
+
+Promotion does not require complete identification. A candidate can warrant investigation before its identity or meaning is settled. Promotion is also not identical to generic attention, and not every perturbation or novel item is promoted. A familiar object can become relevant because its state, movement, behaviour, or relation changes.
+
+This skill applies that idea to written information. In a text stream, bold and italics can act as **visual interface cues** that make selected parts easier to locate during scanning. They are implementation choices, not biological mechanisms and not scientifically established equivalents of visual object promotion.
+
+### A provisional convention
+
+- **Bold** can mark the primary object, state, event, action, decision, or takeaway that matters in the current context.
+- *Italics* can mark a secondary property, condition, contrast, relation, or qualifier that helps explain the promoted item.
+- The target need not be the object's name. It may be a changed state, unexpected behaviour, or consequential relationship.
+- Use emphasis selectively. If every noun, technical term, or sentence is marked, the distinction disappears.
+- Formatting must not substitute for explicit explanation or overstate the certainty, urgency, or importance of a claim.
+- Do not treat ALL-CAPS as a neutral equivalent. In online communication, capitalization can carry learned social meanings such as shouting, anger, insistence, or rudeness. Its function must be interpreted in context.
+- Bold and italics also carry learned conventions and can be ambiguous. Their usefulness is reader- and context-dependent.
+
+For example:
+
+> The traffic light is familiar, but its **state has changed to red**; approaching vehicles must *stop*.
+
+The emphasis promotes the relevant state and action rather than merely marking the familiar object name. Another context might call for a different target.
+
+### Evidence boundary
+
+Making Vision supplies the architectural inspiration: background → candidate → promotion; promotion can precede identification; and a familiar object can become relevant through a change in state or relation. The research does **not** establish that bold and italics reproduce this biological process or that a particular formatting scheme improves reading. Those are hypotheses for interface design.
+
+A useful test would compare equivalent passages with no emphasis, selective bold, and selective bold-plus-italics, then measure whether readers find the relevant object/state/relation more accurately or quickly without increasing confusion or perceived emotional tone.
+
+### Making Vision sources
+
+- [Making Vision — Memory Prism reading page](https://www.memoryprism.com/readings/making-vision)
+- [Making Vision — Zenodo record 22672458](https://zenodo.org/records/22672458)
+
+These links provide both a readable project page and a persistent archived research record.
+
+
 ------------------------------------------------------------------------
 
 ## References
