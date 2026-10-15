@@ -58,3 +58,16 @@ This history distinguishes three things:
 3. **The engineering proposal:** an AI skill designed to reduce unnecessary friction while preserving meaning.
 
 The first motivated the second; the second informs the third. That sequence does not establish that the proposed skill has already been tested experimentally or that it improves comprehension, reasoning, or neural efficiency. Those remain claims to evaluate rather than conclusions to announce.
+
+
+## 15 October 2026 — Applying object promotion to written communication
+
+The user identified a new application for the existing `automaticity` skill: use bold and italics selectively to help promote relevant objects and ideas in text. The source is Making Vision, especially its distinction between background, candidate, and promoted candidate/event.
+
+The update is not a blanket instruction to add emphasis. It asks what deserves further processing in context. The target may be an object, a changed state, an event, an action, a relationship, or a consequence; it need not be the noun naming an object. Promotion does not imply full identification, and novelty does not guarantee promotion.
+
+Bold and italics are treated as possible interface cues, not as biological mechanisms or proven equivalents of visual promotion. Their effect on scanning and comprehension remains an engineering hypothesis. ALL-CAPS is not treated as a neutral alternative because online capitalization can also signal shouting, anger, insistence, or rudeness. The update therefore calls for contextual interpretation and selective use rather than a universal typography rule.
+
+Source links:
+- Making Vision reading page: https://www.memoryprism.com/readings/making-vision
+- Zenodo record 22672458: https://zenodo.org/records/22672458
