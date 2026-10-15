@@ -34,6 +34,16 @@ A general-purpose capability for tracking task requirements, coverage, evidence 
 - [Rationale and evaluation criteria](task-integrity/README.md)
 - [Development history](task-integrity/HISTORY.md)
 
+### [Verification Integrity](verification-integrity/README.md)
+
+**Core rule: Minimise the human effort required to establish whether the requested work was completed correctly.**
+
+A general-purpose capability for delivering the requested artifacts, checking them at the intended destination, distinguishing delivery from verification, and avoiding documentation that substitutes for work or adds unnecessary review burden.
+
+- [Skill instructions](verification-integrity/SKILL.md)
+- [External research, independent work, rationale, and limits](verification-integrity/README.md)
+- [Development history](verification-integrity/HISTORY.md)
+
 ## How this collection works
 
 Each skill has one folder containing three files:
