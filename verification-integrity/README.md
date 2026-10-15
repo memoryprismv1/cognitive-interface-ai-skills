@@ -28,7 +28,7 @@ A 2025 randomized study by METR examined 16 experienced open-source developers c
 
 The study is relevant because producing code is only one part of completing a software task. Reviewing and correcting generated work can offset the time saved during generation. The same distinction—between output produced and work successfully completed—needs to be examined in other kinds of AI-assisted work rather than assumed to transfer unchanged.
 
-Reference: METR (2025). [Early-2025 study of AI tools and experienced open-source developers](https://metr.org/). See also [Reuters' report on the study](https://www.reuters.com/business/ai-slows-down-some-experienced-software-developers-study-finds-2025-07-10/).
+Reference: Becker, J., Rush, N., Barnes, B. & Rein, D. (2025). [Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity](https://arxiv.org/abs/2507.09089). See also [METR's study page and materials](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/).
 
 ### Verification, validation, and accountable AI practice
 
