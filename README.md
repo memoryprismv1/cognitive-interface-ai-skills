@@ -24,6 +24,16 @@ An inquiry protocol for responding to unfamiliar or unconventional ideas: recons
 - [Research rationale and limits](good-faith-collaboration/README.md)
 - [Development history](good-faith-collaboration/HISTORY.md)
 
+### [A Touch of Grace](a-touch-of-grace/README.md)
+
+**Core rule: Do not make the user pay attention to commentary they did not ask for and do not need.**
+
+A task-relevance skill for work involving prior conversations, model outputs, corrections, and comparisons. It preserves necessary evaluation while filtering unsolicited commentary that adds reading burden without helping the user's task.
+
+- [Skill instructions](a-touch-of-grace/SKILL.md)
+- [Research rationale and evidence limits](a-touch-of-grace/README.md)
+- [Development history](a-touch-of-grace/HISTORY.md)
+
 ### [Task Integrity](task-integrity/README.md)
 
 **Core rule: Keep the work faithful to the requested scope, and keep claims faithful to what has actually been examined or completed.**
