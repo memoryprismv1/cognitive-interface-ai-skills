@@ -588,9 +588,43 @@ The authors also separated evaporation from spore release: covering gills with p
 
 **Limit:** The initial prediction was specific and the observed mechanism matched it. The deeper decomposition emerged after reading related studies, which adds evidence but should not be retrospectively represented as the entire prior prediction. This remains a literature-guided test, not proof of independent discovery.
 
-## Latest assessment after tests 8–20
+## 21. Spider ballooning — wind, electric fields, and the difference between triggering and sustaining flight
 
-The added cases cover thirteen explanatory challenges:
+**Prediction recorded before literature search:** If electric fields affect ballooning independently of wind, spiders should show pre-ballooning behaviour under an electric field in still air; when the field is removed, the response or lift should change. A laboratory response would show that electric fields can influence the behaviour, but would not establish how often they matter outdoors. I also proposed checking what happens when the field is reversed; the studies reviewed here test field presence/strength and on/off changes, but do not directly establish a polarity-reversal prediction.
+
+**Primary study:** Morley & Robert (2018), “Electric Fields Elicit Ballooning in Spiders,” *Current Biology* 28(14):2324–2330.e2. https://doi.org/10.1016/j.cub.2018.05.057. In controlled laboratory experiments, the researchers exposed *Erigone* spiders to vertical electric fields at 0, 1.25 and 6.25 kV/m, with the chamber arranged to limit airflow. Higher field strengths elicited more pre-ballooning behaviours, including tiptoe stances and dragline drops. In some trials spiders became airborne; switching the field on and off after lift-off caused upward and downward movement. Laser vibrometry showed that spider trichobothria (mechanosensory hairs) respond mechanically to electric fields, with responses differing from those caused by airflow. This supports electric-field detection and shows a field can be sufficient to elicit ballooning-related behaviour and produce lift under the tested laboratory conditions.
+
+**Important caution about the measured outcome:** The key 2018 behavioural measures included tiptoe stances and dragline drops; actual take-off occurred in some cases, but was not the main quantified endpoint for the behavioural experiment. It would be overstatement to turn “field elicits pre-ballooning behaviour and can cause lift” into “electric fields are the dominant cause of spider flight.”
+
+**Additional physical evidence:** Morley & Gorham (2020), “Evidence for nanocoulomb charges on spider ballooning silk,” *Physical Review E* 102:012403. https://doi.org/10.1103/PhysRevE.102.012403. The authors analysed three ballooning launches by *Erigone* spiders in a small laboratory chamber designed to eliminate significant air motion. They concluded that Coulomb forces acting on charge on or carried by the silk accounted for the observed lift in those events. This is direct physical evidence that electrostatic flight is possible without aerodynamic lift under controlled conditions, but three selected laboratory launches do not establish the frequency or relative importance of this mode in nature.
+
+**Test separating electric fields from wind:** Narimanov, Bonte, Mason, Mestre & Entling (2021), “Disentangling the roles of electric fields and wind in spider dispersal experiments,” *Journal of Arachnology* 49(3):380–383. https://doi.org/10.1636/JoA-S-20-063. Across three linyphiid spider species, the researchers found that strong electric fields elicited pre-dispersal behaviour and that electric fields combined with light wind facilitated take-off. However, even the strong fields played a supplementary role, with wind remaining the more influential factor in their experimental conditions. The authors recommend controlling for electric-field strength while treating wind as the primary stimulus in aerial-dispersal experiments.
+
+A 2021 review by Cho, “Aerodynamics and the role of the earth's electric field in the spiders' ballooning flight,” *Journal of Comparative Physiology A* 207:219–236, https://doi.org/10.1007/s00359-021-01474-6, likewise describes the physical explanation as incompletely understood and reviews outstanding gaps. This is not a refutation of the laboratory evidence; it is a caution against promoting a demonstrated possible mechanism into a complete account of natural flight.
+
+**Prediction scorecard:**
+
+- **Electric field in still air alters pre-ballooning behaviour:** Supported by the 2018 laboratory experiment.
+- **Removing the field changes movement/lift after a spider is airborne:** Supported in observed laboratory trials, with the spider moving down when the field is switched off and up when it is switched on.
+- **Reversing field polarity changes behaviour or lift:** Not established by the sources reviewed. This subprediction remains untested here.
+- **Electric fields can independently generate lift on charged silk:** Supported by the 2020 analysis of three laboratory launches, within those specific conditions.
+- **Electric fields dominate real-world ballooning:** Not supported; the 2021 experimental comparison found wind to be the main influence, with electric fields playing a supplementary role.
+
+**Reconciliation:** Wind and electric fields are not necessarily exclusive explanations. Wind provides aerodynamic drag and can contribute lift and transport; electric fields can influence pre-dispersal behaviour and exert electrostatic force on charged silk. Depending on conditions, they may combine. The laboratory shows that electric effects can be sufficient in some controlled conditions; the comparative dispersal experiment shows that this does not make electricity the dominant factor across all tested contexts. The question is relative contribution across real atmospheric and biological conditions, not simply “electricity or wind?”
+
+**Candidate discriminating tests:**
+- Independently manipulate electric-field strength/polarity and wind speed/direction in a factorial design, measuring pre-ballooning stance, silk release, initial acceleration, take-off probability and sustained flight separately.
+- Test field-off and field-reversal conditions while measuring the charge and geometry of newly extruded silk. This directly addresses the prediction not resolved by the reviewed experiments.
+- Replicate across species, body sizes, developmental stages and humidity conditions; do not generalise from prolific ballooners to all spiders.
+- In field deployments, measure the local electric potential gradient, airflow at the spider's launch height, humidity and take-off events concurrently to estimate their relative predictive power.
+
+**Critical-thinking move:** Separate a mechanism's sufficiency from its ecological importance. Demonstrating that a factor can produce lift in a chamber does not establish that it usually dominates outdoor dispersal. Also score each part of the prediction separately; the field-reversal idea remains open rather than inheriting support from the on/off test.
+
+**Limit:** The prediction was specific enough to be useful and partly supported. The follow-up literature materially narrowed the interpretation: electricity can matter, but wind remains more influential in at least one comparative experiment. The case remains assistant-selected and literature-based; it does not demonstrate unprompted discovery.
+
+## Latest assessment after tests 8–21
+
+The added cases cover fourteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -603,17 +637,20 @@ The added cases cover thirteen explanatory challenges:
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
 - **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
 - **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when the prediction is too broad to discriminate models.
-- **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score each sub-prediction separately.
-- **Electric-eel predation:** Separate discharge-triggered motor activation, hidden-prey twitching, fatigue/immobilisation, electrolocation and strike guidance. A dramatic umbrella phrase is not one indivisible mechanism.
+- **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score sub-predictions separately.
+- **Electric-eel predation:** Separate discharge-triggered motor activation, prey twitch, fatigue/immobilisation, electrolocation and strike guidance.
+- **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight, and distinguish the sufficiency of an electric field in a chamber from its ecological weight relative to wind.
 
-The electric-eel case strongly supports the specified short-range motor effect: discharge can activate prey motor pathways and cause movement without physical contact. But “remote control” is metaphorical. The related papers identify different roles—brief pulses can provoke a twitch that reveals a hidden fish, sustained volleys can fatigue and immobilise prey, and high-voltage discharge can contribute to electrolocation while the eel tracks a fast-moving target. These claims rest on experiments with different setups, including artificial conductors and isolated/prepared prey; they should not all be treated as one direct observation of natural hunting in full.
+The spider case offers a particularly clean constraint on overgeneralisation. A controlled 2018 experiment showed that electric fields can elicit pre-ballooning behaviours and that an airborne spider can move up/down as the field is switched on/off. A 2020 analysis attributes three laboratory launches in a near-still-air chamber to charged silk and Coulomb force. Yet a 2021 comparative experiment across three species found electric fields' contribution to be supplementary, with wind the more influential factor in those tests. Those results can coexist: a mechanism may be sufficient under one condition without being the dominant driver across natural dispersal settings.
+
+The pre-search prediction also had a subpart about reversed polarity. The literature verified here tests field strength/presence and switching on/off, not the polarity-reversal prediction. That subpart remains open; support for field sensitivity must not be used to claim a test we did not find.
 
 The candidate procedure is now:
-1. State individual observable predictions before literature search, and score each separately.
-2. Make them discriminating by specifying what rival explanations predict.
-3. Separate physical effects, organism responses, functional outcomes and inferred intentions/evolution.
-4. Check whether success was measured in the natural target environment or in a laboratory proxy.
-5. Keep a striking umbrella phrase from collapsing several mechanisms with different evidence levels.
-6. Recheck later evidence and limitations; preserve uncertainty rather than fill gaps with a coherent story.
+1. State individual observable predictions before literature search, score each one separately, and mark untested predictions.
+2. Make predictions discriminate among rival mechanisms rather than merely fit a broad range of outcomes.
+3. Separate preconditions, triggering, initial mechanism, ongoing process and real-world outcome.
+4. Distinguish a mechanism that can work from one that dominates in a natural environment.
+5. Check what was measured directly, the sample and apparatus, and whether findings generalise beyond them.
+6. Recheck later evidence and preserve uncertainty rather than filling gaps with a coherent-sounding story.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to distinguish competing theories. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
