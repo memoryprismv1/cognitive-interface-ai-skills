@@ -174,3 +174,59 @@ These are working tests, not final skill instructions:
 **No finished critical-thinking skill has been written yet.** This file captures the developmental investigation and is meant to survive context loss. It should be updated as testing and research proceed.
 
 The Memory Prism skill remains a separate later investigation. For now, test critical thinking without quietly baking the Memory Prism-specific organising scheme into the definition. The user has explained that they personally use Memory Prism as shorthand for expectations under environmental conditions, constraints and editors, and what the ledger reports; that contribution should inform the later Memory Prism work rather than be lost or merged prematurely into this one.
+
+
+### 8. Wood frog freeze tolerance — apparent physical impossibility with conditional limits
+
+**Why selected:** An independent biological puzzle with a strong intuitive expectation: freezing damages cells, yet the wood frog can survive substantial freezing of its body water.
+
+**Initial model before literature:** Ice formation creates several linked hazards: extracellular ice draws water out of cells; ice can damage structures; freezing is associated with loss of circulation and anoxia; low temperatures affect metabolism. A plausible survival mechanism would need to address the location and consequences of ice formation, cell dehydration, oxygen deprivation, and metabolic demand. A vague claim that the frog has “antifreeze” would not explain the system.
+
+**Literature checked:** The 2017 review of vertebrate freeze tolerance describes extracellular ice formation, dehydration and anoxia as linked stresses, with glucose and urea among important protective metabolites (Storey & Storey, *Physiological Reviews*, https://doi.org/10.1152/physrev.00016.2016). Work on subarctic Alaskan populations describes unusually high cryoprotectant levels and long survival in natural hibernacula (https://pubmed.ncbi.nlm.nih.gov/30390099/). Research also finds that severe dehydration can become lethal, and suitable damp moss cover matters for water balance (https://pubmed.ncbi.nlm.nih.gov/8285273/).
+
+**What reconciled:** The frog is freeze-tolerant, not simply “frozen solid” in the everyday sense or invulnerable to cold. Extracellular ice, controlled cellular dehydration, cryoprotective chemistry and metabolic suppression help manage freezing stress. The result depends on species population, acclimation, temperature, duration, freeze-thaw history and water balance.
+
+**Useful mismatch:** The intuitive story “freezing kills animals; this frog freezes and survives” conceals distinctions about what freezes, how much freezes, where ice forms, and under which environmental and temporal conditions survival was measured. Natural hibernaculum temperatures are environmental readings, not proof that the entire frog stayed at the minimum recorded temperature throughout the winter.
+
+**Limit:** The assistant could derive plausible constraints and test them against literature, but this was still a selected puzzle with an established research trail. It does not demonstrate spontaneous self-error detection. Avoid making a single cryoprotectant into a complete explanation.
+
+### 9. Namib desert beetle fog collection — a plausible biological story overextended into a mechanism and an engineering claim
+
+**Why selected:** The popular account is specific, visual and easy to believe: a beetle's bumpy back has hydrophilic peaks and hydrophobic surroundings, so fog droplets collect and roll into the mouth. This allows a test of whether Chatty checks the links between observation, species identity, mechanism and biomimetic application.
+
+**Initial claims to separate:**
+1. Some Namib beetles actively obtain water from fog.
+2. A particular studied beetle has a bumpy surface with alternating hydrophilic and hydrophobic patches.
+3. That exact surface is the mechanism used by the beetles that actively fog-bask.
+4. Artificial surfaces that mimic the morphology/chemistry prove the natural-history mechanism and are therefore the appropriate biomimetic design.
+
+These claims are related but do not entail one another.
+
+**Literature checked:**
+- Parker & Lawrence (2001), “Water capture by a desert beetle,” *Nature*. Proposed that the studied bumpy surface has alternating hydrophobic and hydrophilic regions and suggested biomimetic applications. https://doi.org/10.1038/35102108
+- Nørgaard, Dacke and colleagues (2010), “Fog-basking behaviour and water collection efficiency in Namib Desert Darkling beetles,” *Frontiers in Zoology*. Compared four beetle species. In their fog chamber, only *Onymacris unguicularis* performed the characteristic fog-basking posture; it had a smooth/grooved surface. The tested wing cases were hydrophobic, and surface-structure differences produced only minor differences in collection efficiency. https://doi.org/10.1186/1742-9994-7-23
+- Nørgaard, Ebner & Dacke (2012), “Animal or Plant: Which Is the Better Fog Water Collector?”, *PLOS ONE*. Under their two-hour chamber conditions, dune grass collected more total water than the beetle specimens, while beetles showed steadier runoff; the authors note that dead specimens and controlled conditions limit ecological inference. https://doi.org/10.1371/journal.pone.0034603
+- Mitchell et al. (2020), “Fog and fauna of the Namib Desert: past and future,” *Ecosphere*. Reviews the history and argues that the famous biomimicry story rests on a species identification and natural-history error: the commonly mimicked bumpy carapace was not from a beetle known to actively fog-bask. https://doi.org/10.1002/ecs2.2996
+- Zhong et al. (2018), “Understanding how surface chemistry and topography enhance fog harvesting based on the superwetting surface with patterned hemispherical bulges,” *Journal of Colloid and Interface Science*. Engineered artificial surfaces with bulges and selected wetting properties performed differently under laboratory conditions. This demonstrates an engineering effect in those specimens, not the biological mechanism of the live beetle. https://doi.org/10.1016/j.jcis.2018.04.061
+
+**What reconciled:** The popular account bundles distinct claims and may transfer a mechanism from one beetle specimen/species onto a different species that actually performs the behaviour. Active fog-basking is real in some beetles, but the well-known bumpy, alternating-wettability surface is not established as the active biological collector in the way the popular story implies. Laboratory biomimetic surfaces can still work under specific conditions even if the natural-history story used to motivate them is flawed.
+
+**Important qualification:** Do not label every part of the original work “discredited.” The later literature challenges the identification, wettability interpretation and ecological attribution; it does not prove that no geometry or wetting pattern can ever enhance an engineered fog collector. Nor does one laboratory comparison fully determine field performance.
+
+**Useful critical-thinking move:** Trace the chain from observation to inference to application. Ask if each step has independent support and whether the evidence came from the same species, conditions and level of analysis. A successful artificial replica cannot by itself prove that the source organism uses the same mechanism.
+
+**Limit:** This example is based on a documented historical dispute and review of the literature, not an independent replication. It demonstrates the assistant can untangle a layered claim after choosing it as a test; it does not yet establish spontaneous detection.
+
+## Latest assessment after tests 8–9
+
+These two cases probe different errors. The wood frog case challenges an intuitive physical impossibility and shows why the claim needs conditions and limits. The Namib beetle case challenges a tidy mechanism that became overgeneralised across species and then transferred into biomimetic engineering.
+
+The second case is particularly useful for testing premise inspection: the problem wasn't only whether the proposed mechanism could capture fog, but whether that mechanism had actually been established as the explanation for the animal's observed behaviour. Evidence at one level (an engineered surface collects water) does not automatically settle evidence at another (a particular species evolved that feature to collect fog).
+
+A recurring candidate move is now clearer: **split a compelling explanation into claims that can be independently checked**—what was observed, in which system, under which conditions; what mechanism is proposed; what prediction follows; and what broader conclusion is being inferred.
+
+This is still a development hypothesis. The examples were deliberately selected by the assistant and investigated with tools. Both show guided reasoning and correction of scope, not robust proof that the AI independently notices its own errors before being prompted.
+
+## Current next test
+
+Choose a new unfamiliar case in which the popular explanation, measurement and real-world function may be conflated. Before looking up the answer, state the starting expectation and the specific observation that would distinguish competing mechanisms. Then investigate the primary evidence. Record whether the assistant detected a gap unaided, whether external information revealed it, or whether the user had to point it out.
