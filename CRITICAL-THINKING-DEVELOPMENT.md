@@ -749,9 +749,46 @@ A 2021 review by Cho, “Aerodynamics and the role of the earth's electric field
 
 **Limit:** The prediction that a single passive-air-conditioner account would be too simple was supported. The evidence also shows why the test must remain bounded: strong wind effects were measured in one species, thermal oscillations in another, and the 2025 review identifies unresolved links between pore structure and climate regulation. No cited study here establishes a universal system or proves active thermostat-like decisions by termites.
 
-## Latest assessment after tests 8–25
+## 26. The “wood wide web” — fungal connection, material transfer, warning signals, and tree personification
 
-The added cases cover eighteen explanatory challenges:
+**Prediction recorded before literature search:** Some substances may move between plants through roots and fungal connections, but the popular story that trees routinely send warnings or resources through a shared fungal network contains several distinct claims. A convincing experiment must distinguish network-mediated transfer from airborne chemicals, shared soil, and other routes. Even measured transfer plus a receiver response would not by itself prove that the donor was sending an evolved warning signal, that the transfer benefited the receiver, or that the system is widespread in mature forests.
+
+**Clarify what is being tested:** A common mycorrhizal network (CMN) is a network of fungal hyphae connecting the roots of multiple plants. “The wood wide web” is a metaphor for this physical arrangement; by itself it says nothing about how often roots are connected, which compounds pass through those connections, in which direction they move, or what effects they have. Claims about network structure, material flux, receiver response, adaptive signalling, and a “mother tree” deliberately helping its offspring require different evidence.
+
+**Critical review of the popular claims:** Karst, Jones & Hoeksema (2023), “Positive citation bias and overinterpreted results lead to misinformation on common mycorrhizal networks in forests,” *Nature Ecology & Evolution* 7:501–511. https://doi.org/10.1038/s41559-023-01986-1. The authors evaluated claims that CMNs are widespread in forests, that material transfer through them improves seedling performance, and that mature trees preferentially send resources or defence signals to offspring. They found the first two claims insufficiently supported for broad generalisation because field findings varied, had alternative explanations, or were limited; they reported no peer-reviewed published evidence for the third claim as formulated. They also documented positive-citation bias, where claims stronger than the underlying results become established through repeated citation.
+
+**A different review of the carbon-transfer evidence:** Henriksson et al. (2023), “Re-examining the evidence for the mother tree hypothesis—resource sharing among trees via ectomycorrhizal networks,” *New Phytologist*. https://doi.org/10.1111/nph.18935. This review re-examined isotope-tracer studies and emphasised that tiny isotope shifts can be difficult to interpret in complex mycorrhizal systems. To infer transfer through a CMN, it argued, one must establish that labelled carbon enters receiver-plant tissue, that it travels via the CMN, and that this route increases transfer beyond other routes such as litter decomposition, soil-water transport or other soil processes. The authors concluded that evidence for significant net carbon transfer via CMNs that benefits recipients was still lacking. They did not claim that all movement of carbon between plants is impossible.
+
+**A published counterpoint:** Klein et al. (2023), “Belowground carbon transfer across mycorrhizal networks among trees: Facts, not fantasy,” *Open Research Europe*. https://doi.org/10.12688/openreseurope.16594.1. The authors challenged the dismissive framing of the critical reviews and argued that carbon transfer through common mycorrhizal networks has been demonstrated in some laboratory and field studies. They described several cited observations as evidence of real transfer, while also noting that the ecological importance of such transfer remains unclear. This is a substantive disagreement over how strong the current evidence is and how its limits should be framed; it is not responsible to erase either position or pretend that the scientific debate is settled by the existence of one critical review.
+
+**The “mother tree” and personification claim:** Robinson et al. (2024 issue; published online 2023), “Mother trees, altruistic fungi, and the perils of plant personification,” *Trends in Plant Science* 29:20–31. https://doi.org/10.1016/j.tplants.2023.08.010. This opinion article also argues that evidence for substantial carbon transfer from mature trees to nearby seedlings through CMNs is inconclusive or absent, and says it remains unclear whether carbon compounds detected in mycorrhizae actually enter the receiver tree's root tissue. This article has a strong critical position, so its conclusions should be read as an argument in the debate rather than treated as an independent final experiment.
+
+**Prediction scorecard:**
+
+- **Material can move between plants in some circumstances:** Evidence reviewed by different groups supports some movement of carbon between plants, but its route, net direction, magnitude, and recipient benefit are contested. “Some movement happens” is much narrower than “trees feed their offspring through the fungal network.”
+- **Movement is specifically through a shared mycorrhizal network:** Needs controls that isolate that route from soil water, litter, hyphal turnover, root contact and other routes. An isotope detected near or inside a receiver does not by itself identify the path.
+- **The flow is meaningful net resource sharing that benefits the recipient:** Not established as a broad general conclusion by the critical reviews; a counter-review argues evidence for transfer exists but also acknowledges uncertainty about its ecological importance.
+- **Trees send warning/defence signals to one another via CMNs:** The reviewed literature does not provide robust peer-reviewed evidence for the popular claim that mature trees preferentially send defence warnings to offspring through these networks. This conclusion is specific to that claim; it does not rule out plant responses to airborne volatile compounds, root exudates, pathogens or other signalling routes.
+- **The donor deliberately helps offspring, as a human “mother tree” would:** Not established by the transfer evidence. A molecule moving between plants does not itself demonstrate preference, intention, altruism, evolved signalling or a net benefit.
+
+**What reconciled:** The physical possibility of a fungal connection and the possibility of some transfer do not establish the more elaborate narrative that a forest is a coordinated communication network in which mature trees selectively warn and feed their offspring. At the same time, a critique of the “mother tree” narrative does not prove that no interplant transfer occurs. The evidence is layered: physical connections; a pathway for movement; source identity and destination; net amount and direction; receiver physiological response; fitness benefit; and any claim that the transfer is a selected communication signal. Each link requires its own support.
+
+**Candidate discriminating tests:**
+- For transfer, use labelled donors and receivers with controls that sever or exclude hyphal connections while preserving comparable root proximity, soil, water movement and microclimate. Quantify isotope flux into identified receiver tissues rather than report detection in an ambiguous sample.
+- Compare intact-network and network-excluded conditions over time, and use fungal identity/genotyping or direct imaging to verify the supposed connection instead of inferring it from proximity.
+- For a defence-warning claim, expose a donor to a controlled stress and compare receiver responses when the CMN is intact, severed, or absent, while separately blocking airborne volatiles and other plausible routes.
+- Include controls for receiver response to the stress itself and to background soil or microbial changes. Then test whether the transferred cue improves a biologically relevant outcome, not just whether a defence-related marker changes.
+- To establish a preferential “offspring support” claim, compare related seedlings and unrelated neighbours under comparable conditions, measure net resource movement and fitness consequences, and avoid treating donor identity or a labelled isotope alone as proof of preference or altruism.
+- Replicate in field conditions and across tree/fungal species, since a greenhouse connection does not establish prevalence or ecological magnitude in a forest.
+
+**Critical-thinking move:** Separate a metaphor from the underlying measurable system; distinguish the presence of a connection from the route, amount, recipient effect, fitness benefit and evolutionary function of what passes through it. A detected signal or isotope is not a complete causal story. Also do not let a persuasive critique turn a narrow evidence gap into a universal denial.
+
+**Limit:** The literature is actively contested. The up-front prediction that the popular narrative contained multiple separable claims was supported. I did not find decisive evidence in the reviewed sources for the specific popular claim of mature trees preferentially sending defence warnings to offspring via CMNs. This is not equivalent to proving no signals can ever move through fungal networks, nor does it settle all evidence about carbon transfer. Strong claims about generality and ecological importance remain unresolved.
+
+
+## Latest assessment after tests 8–26
+
+The added cases cover nineteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -759,7 +796,7 @@ The added cases cover eighteen explanatory challenges:
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
 - **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
-- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
+- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal rather than accepting either side by default.
 - **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; account for follow-up status and limitations.
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
 - **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
@@ -770,16 +807,19 @@ The added cases cover eighteen explanatory challenges:
 - **Pistol shrimp snapping:** Separate claw closure, jet, cavitation, acoustic impulse, light flash, inferred bubble temperature and biological function.
 - **Mantis shrimp striking:** Separate direct impact, later cavitation collapse, prey damage and wear on the striking appendage.
 - **Owl silent flight:** Separate aerodynamic noise from structural friction noise and distinguish quietness from its proposed function.
-- **Termite mound climate regulation:** Separate gas exchange, temperature buffering, environmental energy source and the role of mound architecture; distinguish passive physical response from demonstrated active regulation.
+- **Termite mound climate regulation:** Separate gas exchange, temperature buffering, external energy source and mound architecture; distinguish passive physical response from demonstrated active regulation.
+- **Common mycorrhizal networks (“wood wide web”):** Separate physical fungal connections, material transfer route, net flow, receiver benefit, defence signalling, prevalence and claims of intentional or preferential support.
 
-The termite case reinforces a recurring lesson about broad functional labels. A mound can contribute to gas exchange and microclimate, but no universal passive “air conditioner” mechanism accounts for all cited examples. Direct measurements of *Odontotermes obesus* support cyclic ventilation driven by daily temperature gradients. Tracer measurements from *Macrotermes michaelseni* support substantial wind-driven ventilation. Work on *Macrotermes bellicosus* shows that mound geometry and location can change whether the expected convection pattern occurs. These results can coexist in different architectural/environmental systems, and a 2025 review identifies continuing gaps in relating pore-scale structure to the airflow and climate outcomes. None of these studies alone shows termites actively operating a thermostat.
+The common-mycorrhizal-network case is an evidence-dispute test, not a simple debunk. A 2023 critical review finds the broad “mother trees preferentially send resources and defence signals to offspring” claim unsupported in peer-reviewed literature and argues that many transfer/seedling-benefit generalisations exceed the field evidence. Another 2023 review argues that there is evidence of belowground carbon movement through mycorrhizal networks in some studies, even as the ecological importance remains unclear. A separate detailed review concludes that significant net carbon transfer benefiting receivers is not established. These positions make different claims and standards of proof; they should not be flattened into either “the wood wide web is proven” or “all fungal transfer is a myth.”
+
+The strongest bounded conclusion from the reviewed literature is that the physical existence of mycorrhizal connections does not establish that mature trees preferentially feed offspring or send them defence warnings. Transfer, if observed, must be distinguished from its route and magnitude, and neither alone establishes a recipient benefit or evolved signalling function. The absence of evidence for the popular warning claim does not prove that all plant-plant communication or all belowground transfer is impossible.
 
 The candidate procedure is now:
 1. State individual observable predictions before literature search, and score each separately.
 2. Make predictions discriminate among rival mechanisms rather than merely fit a range of outcomes.
-3. Separate outcome labels from mechanisms; separately measure the different things grouped under “function.”
-4. Distinguish external energy sources, structure, and active behaviour.
-5. Test across species and environments before promoting a local mechanism to a universal rule.
-6. Recheck critical reviews and unresolved links; preserve uncertainty rather than fill gaps with a coherent-sounding story.
+3. Separate the phenomenon, physical pathway, measured transfer, receiver response, ecological benefit and inferred evolutionary function.
+4. Distinguish measurements from model-based or tracer-based inferences, preserving the route and control requirements.
+5. Check whether a review critiques a specific claim or justifies a universal denial; represent serious published disagreement accurately.
+6. Recheck later evidence and preserve uncertainty rather than fill gaps with a coherent-sounding story.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; the singing-sand prediction was too broad to distinguish competing theories; and the owl test's original mechanism-level prediction leaned too heavily on a single aerodynamic account. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
