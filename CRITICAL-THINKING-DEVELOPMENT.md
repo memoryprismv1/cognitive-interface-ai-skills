@@ -508,9 +508,32 @@ The authors also separated evaporation from spore release: covering gills with p
 
 **Limit:** This is a well-supported experimental mechanism, and the up-front prediction aligned with the finding. The case was a published research problem selected by the assistant, so it tests mechanism-to-evidence reasoning rather than spontaneous independent discovery.
 
-## Latest assessment after tests 8–17
+## 18. Singing sand and booming dunes — collective motion versus dune-scale resonance
 
-The added cases cover ten explanatory challenges:
+**Prediction recorded before literature search:** A loud, stable low-frequency tone is unlikely to be the sum of unrelated individual grains scraping randomly; some coherent collective motion or resonance should be involved, and measured sound properties should vary systematically with grain or surface properties. **Process limitation:** This prediction was too permissive to discriminate properly, because “collective motion or resonance” leaves both leading models in the running. A more useful prediction would have specified which independent variables (grain shear rate, grain-size distribution, dry surface-layer depth, or elastic properties below the surface) each model predicts will set the tone.
+
+**One family of mechanism: grain synchronisation.** Andreotti (2004), “The song of dunes as a wave-particle mode locking,” *Physical Review Letters* 93:238001, https://doi.org/10.1103/PhysRevLett.93.238001, proposed a mechanism in which avalanching grains couple to elastic surface waves and become partly synchronised, producing a coherent tone rather than broadband friction noise. The predicted/measured frequencies are on the order of 100 Hz, with strong sound levels. Douady et al. (2006), “The Song of the Dunes as a Self-Synchronized Instrument,” *Physical Review Letters* 97:018002, https://doi.org/10.1103/PhysRevLett.97.018002, reported laboratory singing sand and argued that a full dune is not necessary for a tone: collective grain motion and synchronisation can generate the sound. This supports a grain-level sound-generating mechanism, but should not automatically be treated as a complete explanation of why natural booming dunes have their particular frequency or acoustic persistence.
+
+**A second family: a surface-layer waveguide/resonator.** Vriend et al. (2007), “Solving the mystery of booming sand dunes,” *Geophysical Research Letters* 34:L16306, https://doi.org/10.1029/2007GL030276, used field measurements to propose that the dune's loose, dry surface layer is bounded by material with different seismic properties and can guide/resonate elastic waves. In this account, the layer's depth and elastic structure constrain the fundamental frequency (reported field booms roughly 70–105 Hz), helping explain why only particular sites and conditions boom and why sound can persist after the visible avalanche stops. Hunt & Vriend's 2010 review, “Booming Sand Dunes,” *Annual Review of Earth and Planetary Sciences* 38:281–301, https://doi.org/10.1146/annurev-earth-040809-152336, summarised evidence and arguments supporting the layer-resonance interpretation for natural booming dunes.
+
+**Published disagreement and scope distinction.** Andreotti's 2012 review, “Sonic sands,” *Reports on Progress in Physics* 75:026602, https://doi.org/10.1088/0034-4885/75/2/026602, argued that the proposed surface-layer waveguide explanation had been tested and should be rejected in its simple form, while noting that amplification of guided elastic waves through friction still needed confirmation. Dagois-Bohy et al. (2012), “Singing-sand avalanches without dunes,” *Geophysical Research Letters* 39:LXXXXX, https://doi.org/10.1029/2012GL052540, also examined singing sand without a complete dune, reinforcing that a dune-scale structure is not necessary for every instance of singing sand. Thus “singing sand” and “booming dune” overlap acoustically but are not guaranteed to be one identical physical configuration. The literature reviewed here does not settle every element of the natural-dune mechanism into a single consensus account.
+
+**What the evidence supports:** My prediction that an organised collective mechanism is involved was broadly consistent with the literature. Grain synchronisation provides a plausible and experimentally explored account of how a narrow tone can be generated without unrelated random impacts. Field studies propose that natural dunes' surface structure can influence the characteristic frequency and the persistence of sound. The relative roles of granular synchronisation, elastic wave coupling, and a dune-scale waveguide/resonance remain disputed across the reviewed sources; do not report one simple mechanism as universally established.
+
+**Candidate discriminating tests:**
+- Hold grain type and grain-size distribution constant while independently varying shear rate, the depth of the dry surface layer, and the stiffness/elastic properties beneath it.
+- Measure grain motion, surface vibration, and acoustic frequency simultaneously. A model that predicts grain collision/shear rate should be tested against one that predicts layer resonance, rather than relying on sound frequency alone.
+- Compare the same sand under controlled avalanche conditions in a shallow laboratory bed and in a natural dune, while measuring the layer's seismic profile.
+- Track whether the sound persists once grain motion/avalanche stops, and whether that persistence tracks surface-layer properties or continuing synchronized motion.
+- Vary moisture and grain cleanliness separately; changes to inter-grain friction can alter synchronisation without necessarily matching predictions based on resonance depth.
+
+**Critical-thinking move:** Separate *how a tone is generated* from *what selects its frequency* and *why it can persist*. A mechanism that explains the existence of a tone in a laboratory is not automatically a complete explanation of the tone from a natural dune. Distinguish variants of a phenomenon by their measured conditions before demanding one universal account.
+
+**Limit:** The initial prediction was phrased so broadly that either major theory could confirm it. This is a test-design weakness. A stronger experiment needs a prediction that would distinguish grain-scale synchronisation from dune-layer resonance, and should measure the variables each theory says are causal.
+
+## Latest assessment after tests 8–18
+
+The added cases now cover eleven different explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -518,19 +541,19 @@ The added cases cover ten explanatory challenges:
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
 - **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
-- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal rather than accepting either side by default.
+- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
 - **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a follow-up's status.
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet, including length and segmentation.
-- **Mushroom spore dispersal:** Separate the initial launch from subsequent transport, and test whether organisms can modify the physical environment that was presumed to be passive.
+- **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment that might otherwise be treated as passive.
+- **Singing sand:** Separate grain-level sound generation from the selection and persistence of the tone in a natural dune, and distinguish lab singing sand from natural booming dunes.
 
-The mushroom case supports a concrete mechanism: evaporative cooling beneath some caps can create slow convective flows that lift and transport spores even in still external air. The paper directly visualised the flow and separated evaporation from spore shedding. But its results do not imply every mushroom creates self-generated wind in every setting or that ambient wind is irrelevant to overall dispersal.
+The singing-sand case exposed a weakness in the prediction itself. Saying “collective motion or resonance” was not sufficiently discriminating: either of two leading accounts could match it. Grain-synchronisation experiments indicate that singing tones can be generated without a full dune, while field researchers have proposed that a natural dune's loose surface layer guides or selects the characteristic pitch and helps explain sound persistence. Other researchers have challenged the simple waveguide account. The safe conclusion is that coherent grain motion and elastic coupling are central to serious models, but the relative contributions and the boundary between “singing sand” and natural “booming dunes” remain contested.
 
 The candidate procedure is now:
-1. State an observable prediction and the observation that would distinguish alternatives before literature search.
-2. Split a compound outcome into stages and mechanisms.
-3. Ask whether evidence for one stage is being silently generalised to the whole outcome.
-4. Check where the effect was measured and whether the tested conditions match the larger claim.
-5. Recheck later evidence, critiques and publication status.
-6. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a plausible mechanism does not prove every linked claim.
+1. State a concrete prediction and what result would distinguish competing explanations before literature search. A statement broad enough to fit both models is not a useful discriminating prediction.
+2. Split compound outcomes into separately tested phases or levels: generation, propagation, measured output, function and evolutionary explanation.
+3. Ask whether evidence for one system or phase is being silently generalised to another.
+4. Recheck later evidence, methodological critiques and publication status.
+5. Preserve uncertainty rather than fill gaps with a coherent-sounding story.
 
-The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to discriminate the leading models. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
