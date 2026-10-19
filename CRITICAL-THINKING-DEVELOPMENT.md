@@ -531,9 +531,36 @@ The authors also separated evaporation from spore release: covering gills with p
 
 **Limit:** The initial prediction was phrased so broadly that either major theory could confirm it. This is a test-design weakness. A stronger experiment needs a prediction that would distinguish grain-scale synchronisation from dune-layer resonance, and should measure the variables each theory says are causal.
 
-## Latest assessment after tests 8–18
+## 19. Squirrels caching food in front of competitors — response, deception and inferred intention
 
-The added cases now cover eleven different explanatory challenges:
+**Prediction recorded before literature search:** If squirrels adjust caching to reduce theft, they should alter cache placement or concealment when a likely pilferer is nearby, and might later move a cache. However, audience-dependent behaviour alone shows sensitivity to social context, not automatically a human-like plan to deceive. Distinguishing evidence should include which specific actions change, whether those actions reduce pilferage under real conditions, and whether post-observation relocation is directly observed.
+
+**Study 1 — audience effects:** Leaver, Hopewell, Caldwell & Mallarky (2007), “Audience effects on food caching in grey squirrels (Sciurus carolinensis): evidence for pilferage avoidance strategies,” *Animal Cognition* 10:23–27. https://doi.org/10.1007/s10071-006-0026-7. Observations of free-living eastern grey squirrels found that when conspecific squirrels were present, cachers spaced caches farther apart and preferentially cached with their backs oriented toward the other squirrels. The same pattern was not found with corvid birds present. The authors interpreted this as flexible behaviour consistent with reducing pilferage risk. Their paper notes low statistical power for some comparisons and that the study did not time caching events; cache moving in the presence of observers was proposed as a possibility, not established by that study.
+
+**Study 2 — apparently deceptive empty sites:** Steele et al. (2008), “Cache protection strategies of a scatter-hoarding rodent: do tree squirrels engage in behavioural deception?” *Animal Behaviour* 75(2):705–714. https://doi.org/10.1016/j.anbehav.2007.07.026. The authors reported that free-living eastern grey squirrels sometimes covered additional empty excavated sites (or open ground adjacent to real caches), and that this happened more often when conspecifics were nearby. It was observed in two populations; the behaviour was infrequent, around 13% of caching events in each. The authors also found lower pilferage by surrogate *human* cache pilferers in trials involving these empty-site coverings. An additional experiment eliciting responses to pilfering suggested deceptive covering was one of several cache-protection tactics.
+
+**What the evidence supports:** Squirrels change caching behaviour in the presence of competitors, and there is evidence that they sometimes create or cover empty sites in a way that can misdirect a searcher and reduce pilferage by human surrogates. These results support an operational claim of audience-sensitive cache protection and behaviour with a deceptive *effect*. They do not, on their own, establish that squirrels represent another animal's beliefs in a human-like way or consciously plan to deceive.
+
+**Prediction scorecard:** The part predicting audience-sensitive changes to caching and concealment was supported. The prediction that squirrels may return later to move a cache was **not established by the sources reviewed**; the 2007 study explicitly did not measure time spent caching and raised cache movement only as a possibility. This is a useful partial failure: do not count the nearest related result as confirmation of every part of the original prediction.
+
+**Relevant supporting context, not direct proof of deception:** Schmidt & Ostfeld (2008), “Eavesdropping squirrels reduce their future value of food under the perceived presence of cache robbers,” *The American Naturalist* 171(3):386–393. https://doi.org/10.1086/527497. In playback experiments, grey squirrels reduced the value placed on cacheable hazelnuts near blue-jay calls but not at more distant foraging stations. This supports spatially specific adjustment to perceived pilferage risk. It is evidence of risk-sensitive behaviour, not evidence of purposeful misleading.
+
+**Alternative explanations that need to remain live:** The actions could be learned responses to the presence and orientation of competitors; spreading caches may reduce the chance one competitor finds many; turning away may conceal movements from line of sight; covering empty holes may misdirect a competitor because of a simple association between digging/covering and the presence of food. These mechanisms can produce a deceptive effect without requiring the squirrel to represent what another individual knows. That does not mean a richer cognitive interpretation is impossible; it means the observed behaviour alone underdetermines it.
+
+**Candidate discriminating tests:**
+- Video-record individual cachers and identifiable competitors from before caching through later cache recovery, marking every real and empty site. Directly record whether a squirrel relocates food after the competitor's access or attention changes.
+- Compare attentive versus inattentive conspecifics, birds, and no audience, while controlling distance, visibility, disturbance, and hunger. Do not treat mere presence as equivalent to being watched.
+- Give potential pilferers access to caches and empty sites, recording actual theft, rather than relying exclusively on human surrogate searchers. Test whether empty-site covering changes the real competitors' choices.
+- Test whether deceptive covering depends on the observer having had a view of the actual caching event. If the behaviour is selectively deployed after observation and improves outcomes against informed competitors, that would be more diagnostic of information-sensitive protection than a general covering habit.
+- Define “deception” operationally. Distinguish a behaviour that causes a competitor to be misled, a flexible strategy sensitive to the competitor's access to information, and a claim about a mental state or intention.
+
+**Critical-thinking move:** Functional effect is not the same as cognitive intent. A behaviour can protect a cache or misdirect another animal without demonstrating a human-like theory of mind. Also score individual predictions separately: audience effects and fake-site covering were found; later cache relocation was not demonstrated by the papers reviewed.
+
+**Limit:** The results concern specific grey-squirrel populations and experimental designs; not every squirrel species or situation. The studies were observational and experimental field work but some outcome evidence used human surrogate pilferers. Stronger claims about mental representation would need experiments that separate simple audience-cue learning from information-sensitive strategy.
+
+## Latest assessment after tests 8–19
+
+The added cases cover twelve explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -542,18 +569,19 @@ The added cases now cover eleven different explanatory challenges:
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
 - **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
 - **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
-- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a follow-up's status.
-- **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet, including length and segmentation.
-- **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment that might otherwise be treated as passive.
-- **Singing sand:** Separate grain-level sound generation from the selection and persistence of the tone in a natural dune, and distinguish lab singing sand from natural booming dunes.
+- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; account for the status and limitations of a follow-up.
+- **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
+- **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
+- **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when the prediction is too broad to discriminate models.
+- **Squirrel caching:** Separate audience-sensitive action, real-world protective outcome, deceptive effect and the stronger inference that the animal intentionally represents another's knowledge.
 
-The singing-sand case exposed a weakness in the prediction itself. Saying “collective motion or resonance” was not sufficiently discriminating: either of two leading accounts could match it. Grain-synchronisation experiments indicate that singing tones can be generated without a full dune, while field researchers have proposed that a natural dune's loose surface layer guides or selects the characteristic pitch and helps explain sound persistence. Other researchers have challenged the simple waveguide account. The safe conclusion is that coherent grain motion and elastic coupling are central to serious models, but the relative contributions and the boundary between “singing sand” and natural “booming dunes” remain contested.
+The squirrel case shows both the value and limit of behavioural evidence. Grey squirrels alter cache spacing and orientation with conspecifics present, and some sometimes cover empty sites in ways that can misdirect searchers. The empty-site behaviour was associated with reduced pilferage by surrogate human searchers. These data support flexible cache-protection behaviour and deceptive effects, but they do not alone establish a human-like intent to deceive. A sub-prediction—that squirrels might relocate caches after being watched—was not shown by the papers reviewed, and is explicitly treated as unmeasured in one study. The log records this as a partial prediction failure, rather than overclaiming success from adjacent findings.
 
 The candidate procedure is now:
-1. State a concrete prediction and what result would distinguish competing explanations before literature search. A statement broad enough to fit both models is not a useful discriminating prediction.
-2. Split compound outcomes into separately tested phases or levels: generation, propagation, measured output, function and evolutionary explanation.
-3. Ask whether evidence for one system or phase is being silently generalised to another.
-4. Recheck later evidence, methodological critiques and publication status.
-5. Preserve uncertainty rather than fill gaps with a coherent-sounding story.
+1. State individual observable predictions before literature search, and score each part separately.
+2. Make the predictions discriminating: specify what rival explanations expect to observe.
+3. Separate action, functional outcome, and inference about internal representation or intention.
+4. Check whether success was measured in the real target environment or only with a surrogate.
+5. Recheck later evidence and limitations; preserve uncertainty rather than fill gaps with a coherent story.
 
-The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to discriminate the leading models. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to distinguish competing theories. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
