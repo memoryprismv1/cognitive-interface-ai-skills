@@ -2,6 +2,10 @@
 
 A collection of practical AI skills grounded in human cognition and biology. Each skill translates an observation or research finding into an AI behavior, while keeping evidence separate from engineering hypotheses.
 
+## Work in progress
+
+[Critical Thinking — Development Record](CRITICAL-THINKING-DEVELOPMENT.md) documents the research, independent practice tests, observed failures, open questions, and current working hypothesis for a critical-thinking skill. **This is development work, not a finished skill.** Critical thinking is being investigated separately from the later Memory Prism organising skill.
+
 ## Skills
 
 ### [Automaticity](automaticity/README.md)
