@@ -558,9 +558,39 @@ The authors also separated evaporation from spore release: covering gills with p
 
 **Limit:** The results concern specific grey-squirrel populations and experimental designs; not every squirrel species or situation. The studies were observational and experimental field work but some outcome evidence used human surrogate pilferers. Stronger claims about mental representation would need experiments that separate simple audience-cue learning from information-sensitive strategy.
 
-## Latest assessment after tests 8–19
+## 20. Electric eels remotely activate prey muscles — effect, sensory feedback, and predatory strategy
 
-The added cases cover twelve explanatory challenges:
+**Prediction recorded before literature search:** “Remote control” may refer to a specific measurable effect—electric discharge causing involuntary muscle contraction in nearby prey—rather than general steering. If so, prey muscle responses should occur in time with the eel's discharge without physical contact. This would establish a short-range motor effect but would not alone explain the entire hunting sequence or its evolutionary history.
+
+**Primary study — motor effect:** Catania (2014), “The shocking predatory strike of the electric eel,” *Science* 346(6214):1231–1234. https://doi.org/10.1126/science.1260807. The paper reports experiments showing that high-voltage electric discharges activate prey motor-neuron outputs and muscles, allowing an eel to cause involuntary movement remotely. The study also found that brief, closely spaced discharges could induce a twitch in hidden prey, making the prey's location detectable through water movement; a sustained high-voltage volley can cause strong, involuntary contractions and temporarily immobilise prey. The “remote control” phrase is a metaphor for manipulation of the prey's motor output through its own nervous system, not a claim that the eel controls the animal with fine-grained, flexible commands as though operating a machine.
+
+**Follow-up — field concentration and fatigue:** Catania (2015), “Electric Eels Concentrate Their Electric Field to Induce Involuntary Fatigue in Struggling Prey,” *Current Biology* 25(22):2889–2898. https://doi.org/10.1016/j.cub.2015.09.036. The study reported that when struggling prey were held between the eel's head and tail, the eel curled its body so the two poles of its electric organ were on opposite sides of the prey. Electrode measurements indicated that this posture at least doubled the electrical field strength within the prey compared with the non-curled configuration. Repeated high-frequency volleys can fatigue prey muscles, temporarily reducing movement. This is evidence for a specific attack configuration and measured field effect, not proof that eels always curl around every prey item.
+
+**A separate sensory function:** Catania (2015), “Electric eels use high-voltage to track fast-moving prey,” *Nature Communications* 6:8638. https://doi.org/10.1038/ncomms9638. This study found that the high-voltage volleys accompanying strike movements are also used for rapid electrolocation of prey or conductors. Eels tracked and struck conductive targets in controlled experiments, including under conditions where visual cues and direct mechanosensory contact were excluded; they did not complete suction strikes toward non-conductive plastic control objects. The study further describes a sequence in which prey twitching produced by a hunting “doublet” supplies a mechanosensory cue, while the high-voltage output helps guide the final strike toward the conductor. Thus a discharge can help immobilise prey while also supplying sensory feedback to guide the attack.
+
+**Prediction scorecard:** The central prediction was supported: there is experimental evidence of discharge-triggered muscle effects without direct eel–prey contact. But the full hunting process is not one single “remote-control” operation. At least three separable roles appear in these studies: triggering hidden prey to twitch, producing strong contractions/fatigue that limit escape, and electrolocating/ tracking conductive prey during the strike.
+
+**What is established versus what needs care:**
+
+- **Established in the studied conditions:** Electric discharges can activate prey motor pathways and muscles; brief pulses can provoke twitching; repeated volleys can immobilise/fatigue prey; the eel's high-voltage output also contributes to tracking conductive targets during a strike.
+- **More specific than the headline:** “Remote control” does not mean the eel intentionally directs individual muscle groups with fine precision. The experimental result concerns involuntary motor activation and behavioural consequences.
+- **Scope limitation:** The experiments include carefully controlled captive-animal studies, small numbers of eels in some tracking paradigms, artificial conductors, anaesthetised or pithed fish preparations for specific mechanism controls, and simulated pulse trains. These isolate mechanism but are not interchangeable with a complete survey of hunting in the wild.
+- **Separate adaptation question:** Demonstrating that the mechanism works now does not, by itself, establish the whole evolutionary sequence by which electric organs and hunting behaviours developed.
+
+**Candidate discriminating tests:**
+- Record eel discharge timing, prey muscle activity/EMG, prey motion and subsequent strike direction simultaneously. This separates motor activation from mechanical/sensory feedback.
+- Vary discharge pattern (brief doublet versus sustained high-frequency volley) while controlling distance and orientation; quantify twitch probability, contraction duration and recovery, rather than use a single category of “shock.”
+- Compare prey and inert conductive objects while also varying whether the target can move; measure electrolocation accuracy separately from immobilisation efficacy.
+- Test the field-concentration hypothesis with measured prey-internal voltage/current across postures and body sizes, separating the electrical effect from the prey's physical constraint by the eel.
+- To generalise beyond captivity, compare the same measurable behaviours in ecologically realistic conditions while retaining appropriate safety and animal-welfare controls.
+
+**Critical-thinking move:** A vivid label can collapse several linked but different mechanisms. Here the phrase “remote control” compresses sensory provocation, involuntary contraction, fatigue/immobilisation and strike tracking. The research separates these into experiments with different dependent variables, allowing each claim to carry its own strength and limits.
+
+**Limit:** The initial prediction was specific and the observed mechanism matched it. The deeper decomposition emerged after reading related studies, which adds evidence but should not be retrospectively represented as the entire prior prediction. This remains a literature-guided test, not proof of independent discovery.
+
+## Latest assessment after tests 8–20
+
+The added cases cover thirteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -573,15 +603,17 @@ The added cases cover twelve explanatory challenges:
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
 - **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
 - **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when the prediction is too broad to discriminate models.
-- **Squirrel caching:** Separate audience-sensitive action, real-world protective outcome, deceptive effect and the stronger inference that the animal intentionally represents another's knowledge.
+- **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score each sub-prediction separately.
+- **Electric-eel predation:** Separate discharge-triggered motor activation, hidden-prey twitching, fatigue/immobilisation, electrolocation and strike guidance. A dramatic umbrella phrase is not one indivisible mechanism.
 
-The squirrel case shows both the value and limit of behavioural evidence. Grey squirrels alter cache spacing and orientation with conspecifics present, and some sometimes cover empty sites in ways that can misdirect searchers. The empty-site behaviour was associated with reduced pilferage by surrogate human searchers. These data support flexible cache-protection behaviour and deceptive effects, but they do not alone establish a human-like intent to deceive. A sub-prediction—that squirrels might relocate caches after being watched—was not shown by the papers reviewed, and is explicitly treated as unmeasured in one study. The log records this as a partial prediction failure, rather than overclaiming success from adjacent findings.
+The electric-eel case strongly supports the specified short-range motor effect: discharge can activate prey motor pathways and cause movement without physical contact. But “remote control” is metaphorical. The related papers identify different roles—brief pulses can provoke a twitch that reveals a hidden fish, sustained volleys can fatigue and immobilise prey, and high-voltage discharge can contribute to electrolocation while the eel tracks a fast-moving target. These claims rest on experiments with different setups, including artificial conductors and isolated/prepared prey; they should not all be treated as one direct observation of natural hunting in full.
 
 The candidate procedure is now:
-1. State individual observable predictions before literature search, and score each part separately.
-2. Make the predictions discriminating: specify what rival explanations expect to observe.
-3. Separate action, functional outcome, and inference about internal representation or intention.
-4. Check whether success was measured in the real target environment or only with a surrogate.
-5. Recheck later evidence and limitations; preserve uncertainty rather than fill gaps with a coherent story.
+1. State individual observable predictions before literature search, and score each separately.
+2. Make them discriminating by specifying what rival explanations predict.
+3. Separate physical effects, organism responses, functional outcomes and inferred intentions/evolution.
+4. Check whether success was measured in the natural target environment or in a laboratory proxy.
+5. Keep a striking umbrella phrase from collapsing several mechanisms with different evidence levels.
+6. Recheck later evidence and limitations; preserve uncertainty rather than fill gaps with a coherent story.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to distinguish competing theories. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
