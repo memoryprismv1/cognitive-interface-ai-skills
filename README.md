@@ -51,7 +51,8 @@ A general-purpose capability for tracking task requirements, coverage, evidence 
 A general-purpose capability for delivering the requested artifacts, checking them at the intended destination, distinguishing delivery from verification, and avoiding documentation that substitutes for work or adds unnecessary review burden.
 
 - [Skill instructions](verification-integrity/SKILL.md)
-- [External research, independent work, rationale, and limits](verification-integrity/HISTORY.md)
+- [External research, independent work, rationale, and limits](verification-integrity/README.md)
+- [Development history](verification-integrity/HISTORY.md)
 
 ## How this collection works
 
