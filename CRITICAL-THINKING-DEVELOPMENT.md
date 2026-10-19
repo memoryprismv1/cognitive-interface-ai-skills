@@ -958,3 +958,18 @@ The point is not to replace “always be correct” with “always agree with th
 This cross-reference is also a reminder that biological solutions may offer useful ways to think about error-handling, recovery, constraints or adaptation, but no specific biological mechanism should be imported as an analogy without examining where the correspondence holds and where it fails. The user’s emphasis is on biological solutions, not on treating biology as decorative metaphor.
 
 **Implication for future tests:** when a user says an answer makes no sense, do not only re-check facts within the current frame. First identify the disputed claim, then check whether the framing/category has been assumed rather than established. Record whether the assistant detected that problem independently or needed the user to drag it out of the tunnel. This is a concrete behaviour to test, not yet proof that the skill is reliable.
+
+## 29. Elephant cancer resistance — prediction record (written before literature search)
+
+**Question:** Why do elephants appear to have lower-than-expected cancer rates for their body size and longevity?
+
+**Selection rationale:** This is a biological problem where a simple explanation can be tempting: more cells and more time should create more opportunities for cancer, yet large, long-lived animals do not show the straightforward increase that a naive cell-count model predicts. The investigation can test whether the apparent paradox is real, which mechanisms are supported, and whether one famous mechanism gets mistaken for the whole explanation.
+
+**Predictions made before searching:**
+1. If the naive model “more cells + more years = proportionally more cancer” were sufficient, elephants should have extremely high cancer rates relative to smaller mammals. Observed rates should therefore challenge that simple model, although cross-species cancer estimates may have measurement and sampling limits.
+2. Elephants are likely to have evolved multiple layers of cancer suppression rather than one magic defence; candidate layers could include damage sensing, cell-cycle arrest, cell death, DNA repair or tissue-level processes. This is a broad prediction and will need narrowing against the literature.
+3. If TP53-related mechanisms are important, evidence should go beyond merely finding extra gene copies: it should connect those copies to a functional cellular response and, separately, to whole-animal cancer outcomes.
+4. A cellular mechanism that works in lab assays will not by itself prove it explains the population-level cancer pattern. The levels need to be linked with appropriate evidence.
+5. The phrase “elephants rarely get cancer” may be too absolute. I expect the careful claim to be lower-than-expected risk, not immunity.
+
+**Pre-search limitation:** These are predictions from general biological reasoning, not a blinded test. The topic and initial framing were selected by the assistant. The literature search and scorecard will follow in the next section; predictions will not be rewritten after the fact.
