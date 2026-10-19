@@ -716,9 +716,42 @@ A 2021 review by Cho, “Aerodynamics and the role of the earth's electric field
 
 **Limit:** The pre-search prediction correctly anticipated multiple mechanisms but bundled the fringes and velvet into a single aerodynamic account. The literature search revealed a stronger alternative for those features. This is a substantive correction to the initial model—not a confirmation of its whole explanation.
 
-## Latest assessment after tests 8–24
+## 25. Termite mound climate control — one architecture, several possible engines
 
-The added cases cover seventeen explanatory challenges:
+**Prediction recorded before literature search:** The familiar picture of a mound as a simple passive air conditioner is likely too tidy. Gas exchange and temperature regulation may depend on different mechanisms: mound geometry and porosity, external wind, daily temperature changes, and termite-built structure. Stable internal temperature by itself cannot identify the cause. The discriminating evidence would be direct airflow and CO₂ measurements through a day, compared with wind and internal/external temperature gradients, across different mound types.
+
+**Direct measurements in one species:** King, Ocko & Mahadevan (2015), “Termite mounds harness diurnal temperature oscillations for ventilation,” *Proceedings of the National Academy of Sciences* 112(37):11589–11593. https://doi.org/10.1073/pnas.1423242112. In *Odontotermes obesus* mounds, the authors measured flow in mound conduits and CO₂ exchange over a daily cycle. Temperature differences between thin outer conduits and deeper central chimneys change across the day, generating a circulating airflow pattern; the flow reverses at night. CO₂ measurements support the role of those oscillations in gas exchange. A similar pattern in an abandoned mound, although with lower flow speeds, argues that termite metabolic heat is not required to generate this particular cyclic circulation. The result establishes a mechanism in the sampled mound architecture and species; it is not a universal mechanism for all termite mounds.
+
+**A different species and a different source of ventilation:** Turner (2001), “On the Mound of *Macrotermes michaelseni* as an Organ of Respiratory Gas Exchange,” *Physiological and Biochemical Zoology* 74(6). https://doi.org/10.1086/323990. Using tracer methods, Turner argued that ventilation in *Macrotermes michaelseni* nests was strongly driven by changes in wind speed and direction, producing tidal airflow. He argued that density gradients large enough to drive bulk natural convection would be rare in those mounds, while metabolic buoyancy might interact with wind. That differs from the daily thermal-oscillation mechanism measured in *O. obesus*, but the difference does not automatically make one study wrong: the studies concern different species and mound structures.
+
+**An earlier challenge to the textbook story:** Korb (2000), “Ventilation of termite mounds: new results require a new model,” *Behavioral Ecology* 11(5):486–494. https://doi.org/10.1093/beheco/11.5.486, measured temperature, CO₂ and currents in two types of *Macrotermes bellicosus* mounds. In sun-heated savanna mounds, peripheral ridge channels could drive rising air during the day; at night, and in forest mounds, that simple upward-convection pattern was not generally observed. The results did not support the widely accepted Lüscher ventilation model as a universal explanation. The paper highlights that shape and the surrounding environment can change the airflow pattern.
+
+**Current evidence and gaps:** A 2025 review, Karibi-Botoye et al., “Termite mound architecture and climate control: a review of X-ray tomography and flow field simulation approaches,” *Journal of the Royal Society Interface* 22:20250263. https://doi.org/10.1098/rsif.2025.0263, reviews pore networks, wall permeability, insulation, gas diffusion, drainage, wind and diurnal temperature changes. It emphasises that mound ventilation and climate regulation remain incompletely understood and proposes combining X-ray tomography with flow simulations to link internal architecture to measured airflow. The review itself is evidence that the architectural details and their control cannot be reduced to a single settled mechanism.
+
+**Prediction scorecard:**
+
+- **One simple “passive air conditioner” story would be too broad:** Supported. Direct measurements differ across species, architecture, sites and environmental conditions.
+- **Daily temperature changes can drive ventilation:** Supported for the measured *O. obesus* mounds; thermal oscillations generated cyclic flow and helped exchange CO₂.
+- **Wind can drive ventilation:** Supported by tracer measurements and interpretation for *M. michaelseni*.
+- **A single mechanism covers all mounds:** Not supported by the species- and architecture-specific evidence.
+- **Termites actively regulate ventilation in response to conditions:** Not established by the cited airflow studies alone. A mound's dynamic passive response to environmental gradients does not prove that termites are actively turning particular flow pathways on and off.
+
+**What reconciled:** Wind-driven and temperature-gradient-driven flows are both physically plausible and observed in different systems. Mound geometry constrains the pathways through which either can act; the environment supplies changing forces, and the structure turns those forces into air movement. That is not necessarily “thermostat-like” regulation. A stable microclimate can emerge from a combination of insulation, controlled gas exchange, and cyclic flow without maintaining an invariant internal temperature.
+
+**Candidate discriminating tests:**
+- Record wind speed/direction, temperature at multiple points, airflow direction/speed and CO₂ at fine intervals across full day–night cycles in the same mound.
+- Repeat across species, mound forms, habitats and both inhabited and abandoned mounds; do not infer the same mechanism from a similar silhouette.
+- Use tracer gases to quantify exchange and X-ray tomography to reconstruct pores/channels; compare measured flow with simulations for alternative drivers (wind vs thermal gradients).
+- Separate the outcomes: gas exchange, nest temperature buffering, humidity, and fungal-garden conditions are not interchangeable measurements.
+- If testing active termite regulation, independently observe or manipulate termite access/behaviour while preserving mound geometry as much as possible; direct evidence of behaviour is needed before assigning active control.
+
+**Critical-thinking move:** “Climate control” is an outcome-label that can conceal several mechanisms. Separate gas exchange from temperature stability, distinguish environmental energy sources from the architecture that channels them, and compare across species. Competing physical processes may both work, but evidence from one mound does not justify declaring one universal ventilation engine.
+
+**Limit:** The prediction that a single passive-air-conditioner account would be too simple was supported. The evidence also shows why the test must remain bounded: strong wind effects were measured in one species, thermal oscillations in another, and the 2025 review identifies unresolved links between pore structure and climate regulation. No cited study here establishes a universal system or proves active thermostat-like decisions by termites.
+
+## Latest assessment after tests 8–25
+
+The added cases cover eighteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -734,18 +767,19 @@ The added cases cover seventeen explanatory challenges:
 - **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score sub-predictions separately.
 - **Electric-eel predation:** Separate discharge-triggered motor activation, prey twitch, fatigue/immobilisation, electrolocation and strike guidance.
 - **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight; a sufficient laboratory mechanism need not be the dominant ecological driver.
-- **Pistol shrimp snapping:** Separate claw closure, jet, cavitation, sound impulse, light flash, inferred bubble temperature and biological function.
+- **Pistol shrimp snapping:** Separate claw closure, jet, cavitation, acoustic impulse, light flash, inferred bubble temperature and biological function.
 - **Mantis shrimp striking:** Separate direct impact, later cavitation collapse, prey damage and wear on the striking appendage.
-- **Owl silent flight:** Separate features that affect airflow noise from those that may reduce feather-on-feather structural noise, and distinguish quiet flight from its proposed function.
+- **Owl silent flight:** Separate aerodynamic noise from structural friction noise and distinguish quietness from its proposed function.
+- **Termite mound climate regulation:** Separate gas exchange, temperature buffering, environmental energy source and the role of mound architecture; distinguish passive physical response from demonstrated active regulation.
 
-The owl case corrected a plausible but over-bundled mechanism. Experimental wing models support an aerodynamic effect of leading-edge serrations under particular conditions. A 2020 review argues that trailing-edge vane fringes and dorsal velvet are better explained as reducing structural noises from feathers rubbing together, while also stating that this view needs further testing. Another 2020 review emphasises that the aerodynamic explanation is not fully settled and that silent-flight mechanisms vary among owl species. The same review literature says self-masking (hearing prey better by reducing the owl's own flight noise) is slightly favoured over stealth against prey, but remains unresolved.
+The termite case reinforces a recurring lesson about broad functional labels. A mound can contribute to gas exchange and microclimate, but no universal passive “air conditioner” mechanism accounts for all cited examples. Direct measurements of *Odontotermes obesus* support cyclic ventilation driven by daily temperature gradients. Tracer measurements from *Macrotermes michaelseni* support substantial wind-driven ventilation. Work on *Macrotermes bellicosus* shows that mound geometry and location can change whether the expected convection pattern occurs. These results can coexist in different architectural/environmental systems, and a 2025 review identifies continuing gaps in relating pore-scale structure to the airflow and climate outcomes. None of these studies alone shows termites actively operating a thermostat.
 
 The candidate procedure is now:
 1. State individual observable predictions before literature search, and score each separately.
 2. Make predictions discriminate among rival mechanisms rather than merely fit a range of outcomes.
-3. Separate the phenomenon's measured output from the physical source of that output and from inferred function.
-4. Test each structural feature's predicted role; morphology alone is not proof of a causal mechanism.
-5. Distinguish laboratory/model results from whole-animal performance and ecology.
-6. Recheck critical reviews, dissenting interpretations and open questions; preserve uncertainty rather than fill gaps with a coherent-sounding story.
+3. Separate outcome labels from mechanisms; separately measure the different things grouped under “function.”
+4. Distinguish external energy sources, structure, and active behaviour.
+5. Test across species and environments before promoting a local mechanism to a universal rule.
+6. Recheck critical reviews and unresolved links; preserve uncertainty rather than fill gaps with a coherent-sounding story.
 
-The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; the singing-sand prediction was too broad to distinguish competing theories; and the owl test's original mechanism-level prediction was too aerodynamic-heavy. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; the singing-sand prediction was too broad to distinguish competing theories; and the owl test's original mechanism-level prediction leaned too heavily on a single aerodynamic account. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
