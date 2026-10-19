@@ -942,3 +942,19 @@ Accordingly:
 The user's shorthand is: **does the ledger reconcile for that board under the specific constraints and editors?** This remains a compact lens supplied to the bots, not an instruction to import the full Memory Prism skillset into this critical-thinking project. In this AEL connection, “ledger” also has a literal runtime meaning: the append-only history differs from the active projection sent to the model. That implementation distinction can inform experiments, but it should not silently redefine the user's shorthand or collapse AEL, Memory Prism and critical thinking into one framework.
 
 **Current implication:** continue the critical-thinking cases and preserve the known limits of the experiment. Separately, use AEL's documented boundaries as a possible way to investigate context/provenance-related failure causes in a system where the relevant runtime records are available. Do not count the existence of the prototype as evidence of independent error detection or transfer.
+
+## Good-Faith Collaboration cross-reference — biological solutions and ordinary human error
+
+**Related history:** https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/good-faith-collaboration/HISTORY.md
+
+The user clarified that they pursue biological solutions, and that people get things wrong too. The objective is not to demand a perfectly correct agent or to treat error as proof that inquiry has failed. It is to develop a way of noticing, investigating and correcting errors without suppressing exploration.
+
+The cuttlefish incident documented in the Good-Faith Collaboration history is a concrete failure relevant to this record. The assistant leaned too heavily on the human-derived label “colour blindness” when discussing cuttlefish vision, treated a familiar category as if it adequately characterised a different sensory system, and initially resisted the user's objection instead of first checking the transferred premise. The user had to pull the inquiry back toward what the experiments actually established.
+
+This is an instance of a tunnel: once the explanation's framing takes hold, further reasoning can remain trapped inside that framing. More detailed reasoning inside the tunnel is not necessarily progress. A useful corrective move is to step back from the conclusion and inspect whether the category or premise itself is appropriate for the system under examination.
+
+The point is not to replace “always be correct” with “always agree with the user.” The user may be wrong, and the assistant may be wrong. Good-faith exploration means neither party's confidence or persistence decides the result. The assistant should investigate the specific objection, consider alternative frames, do independent research and change its account as the evidence warrants. A valid observation should survive even when the proposed explanation does not. If evidence cannot decide the mismatch, preserve it as unresolved rather than manufacturing reconciliation.
+
+This cross-reference is also a reminder that biological solutions may offer useful ways to think about error-handling, recovery, constraints or adaptation, but no specific biological mechanism should be imported as an analogy without examining where the correspondence holds and where it fails. The user’s emphasis is on biological solutions, not on treating biology as decorative metaphor.
+
+**Implication for future tests:** when a user says an answer makes no sense, do not only re-check facts within the current frame. First identify the disputed claim, then check whether the framing/category has been assumed rather than established. Record whether the assistant detected that problem independently or needed the user to drag it out of the tunnel. This is a concrete behaviour to test, not yet proof that the skill is reliable.
