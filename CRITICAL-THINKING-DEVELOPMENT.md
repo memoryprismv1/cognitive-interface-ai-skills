@@ -332,7 +332,35 @@ The next challenge remains spontaneous detection and independent transfer. Selec
 
 **Limit:** The assistant selected a known puzzle and stated predictions before literature search, then investigated the papers. This is a useful test of hypothesis generation, separation of outcome from mechanism, and preserving unresolved questions. It is not evidence that Chatty independently detects its own errors reliably without a prompt.
 
-## 12. Reindeer seasonal eye reflection — colour, retinal sensitivity, physical mechanism, and adaptive function
+## 12. Gecko toe adhesion — attachment, release, contamination and wetness
+
+**Why selected:** A coupled physical system must attach firmly, release easily, survive repeated use and keep functioning as its contact surface changes.
+
+**Starting model:** “Stickiness” is not a single performance measure. Strong attachment can create a detachment problem; repeated contacts can foul a contact surface; moisture can affect the interaction. The test should ask how each requirement is met and under which conditions.
+
+**Literature checked:**
+
+1. Autumn et al. (2000), “Adhesive force of a single gecko foot-hair,” *Nature* 405:681–685. https://doi.org/10.1038/35015073. Single-seta measurements showed that orientation, preload and shear strongly affect attachment, while directed peeling can detach setae. Strong attachment and easy release can coexist because the interaction is directional and loading geometry changes.
+2. Autumn et al. (2002), “Evidence for van der Waals adhesion in gecko setae,” *PNAS* 99(19):12252–12256. https://doi.org/10.1073/pnas.192252799. Experiments supported van der Waals forces as a principal mechanism of dry adhesion under the conditions tested.
+3. Hansen & Autumn (2005), “Evidence for self-cleaning in gecko setae,” *PNAS* 102(2):385–389. https://doi.org/10.1073/pnas.0408304102. Contaminated feet recovered attachment capacity after steps on clean surfaces, and self-cleaning occurred in isolated setal arrays. The proposed account is that dirt adheres more strongly to the substrate than to setal tips under the tested conditions.
+4. Stark et al. (2014), “Self-Drying: A Gecko's Innate Ability to Remove Water from Wet Toe Pads,” *PLOS ONE* 9(7):e101885. https://doi.org/10.1371/journal.pone.0101885. Wet toe pads lost adhesive effectiveness in the tested conditions; geckos walking on dry surfaces recovered adhesion faster than animals that did not walk.
+5. Stark & Mitchell (2019), “Stick or Slip: Adhesive Performance of Geckos and Gecko-Inspired Synthetics in Wet Environments,” *Integrative and Comparative Biology* 59(1):214–226. https://doi.org/10.1093/icb/icz008. The review reports that water effects depend on the substrate and wetting condition. Wet toe pads or water films can reduce adhesion, particularly on wet hydrophilic glass, while adhesion can be maintained or improved on some wet hydrophobic surfaces and at high humidity. Multiple mechanisms remain unresolved.
+
+**What reconciled:**
+
+- **Attachment and release:** Microstructured setae produce attachment whose strength depends on orientation and loading; a peeling motion permits release. “Strong” and “easy to detach” are not contradictions when they describe different load geometries.
+- **Contamination:** The setal array shows self-cleaning behaviour under tested conditions, so repeated contact need not produce permanent fouling.
+- **Water:** “Wet” is not one experimental condition. Wet pads, thin moisture layers, water films, high humidity and substrate wettability need separate treatment. Neither “geckos cannot stick when wet” nor “gecko feet work in water” is a sufficiently precise universal rule.
+
+**What remains unresolved:** How different components contribute across species and real habitats; how water-film geometry, setal material changes and live foot placement interact; and which performance properties synthetic adhesives can reproduce without animal locomotion or self-drying.
+
+**Candidate discriminating tests:** Vary humidity, surface wetness, water-film thickness, substrate wettability, roughness, preload, shear and peel angle independently. Compare isolated setae, shed toe pads and live animals. After contamination or wetting, test recovery over repeated cycles instead of reporting only initial pull-off force.
+
+**Critical-thinking move:** Decompose a broad trait into operational requirements and conditions. Evidence about dry attachment does not automatically explain release, self-cleaning, water behaviour or durability.
+
+**Process failure:** I announced a prediction-first procedure but did not record a sufficiently specific prediction and discriminating test before browsing. I also sent a progress update mentioning the wrong animal (flamingos) during this gecko test. These are process failures, not successes, and remain in the record.
+
+## 13. Reindeer seasonal eye reflection — colour, retinal sensitivity, physical mechanism, and adaptive function
 
 **Prediction recorded before literature search:** The reported seasonal colour shift should be a change in the optical reflector behind the retina; the colour change alone would not establish better night vision. To distinguish a visible optical change from a functional visual effect, seek measurements of seasonal retinal sensitivity and whether the reflector's spectrum corresponds to the available winter light. To investigate mechanism, seek direct evidence linking pupil dilation or intraocular pressure to structural reorganisation.
 
@@ -348,12 +376,14 @@ The next challenge remains spontaneous detection and independent transfer. Selec
 
    The paper does **not** close the causal gap: it says the seasonal trigger and biochemical pathways remain unknown. A change in intraocular pressure might alter fluid balance in the tapetum, but that mechanism was not tested directly in the 2022 study. The authors also explain that their reflectance values are relative rather than absolute and that they could not measure the same tapetum in both seasons.
 
+3. Tyler, Fosbury, Hazlerigg & Hogg (2025; first published online 18 October 2024), “Vision at high latitudes: High sensitivity without specific boreal adaptations in photoreception in reindeer,” *Functional Ecology* 39:2573–2587. https://doi.org/10.1111/1365-2435.14669. This review argues that there is **no conclusive evidence for a seasonal shift in absolute retinal sensitivity**. In particular, the summer ERG threshold data followed only about 45 minutes of dark adaptation, whereas the natural winter state may reflect multiple adjustments accumulated over weeks; the authors judge the apparent seasonal difference may therefore be spurious. They distinguish the well-supported spectral shift in the tapetum from a stronger, still-unresolved claim about absolute sensitivity. They also caution that a passive pressure-related response does not itself establish a unique evolutionary adaptation to Arctic light.
+
 **What the evidence supports:**
 
 - **Observation:** Seasonal tapetum reflectance changes from golden/turquoise in summer to deep blue in winter. This is measured in samples collected in the relevant seasons.
 - **Structure:** The colour change is associated with tighter collagen-fibril spacing, and optical modelling indicates how altered fluid volume and fibril organisation could produce the spectral shift.
-- **Physiological performance:** The 2013 study measured increased winter retinal sensitivity with ERG. This is stronger evidence than colour alone and supports a functional effect at the retina.
-- **Environmental correspondence:** The 2022 paper shows that the winter reflector's spectrum is well matched to the blue-rich Arctic twilight environment, supporting an adaptive interpretation.
+- **Physiological performance — contested interpretation:** The 2013 paper reports increased winter ERG responses, which initially seemed to support increased retinal sensitivity beyond the colour shift alone. However, the 2025 review argues that the claimed seasonal difference in absolute sensitivity is not conclusive: summer and winter measurements may not be comparable because of differences between short experimental dark adaptation and the much longer natural winter state. The correct result is therefore not “increased sensitivity proven,” but “a plausible physiological effect that remains unresolved.”
+- **Environmental correspondence:** The 2022 paper shows that the winter reflector's spectrum matches the blue-rich Arctic twilight environment, supporting a potential benefit for short-wavelength illumination and contrast. That spectral match supports a functional hypothesis but does not alone prove actual detection performance or the evolutionary origin of the response.
 - **Unproven links:** The full causal chain from season and prolonged pupil dilation, through pressure/fluid changes and collagen restructuring, to the sensitivity shift has not been conclusively established. The reviewed evidence also does not directly demonstrate improved real-world predator detection or survival through controlled behavioural tests.
 
 **What reconciled:**
@@ -364,31 +394,34 @@ The mechanism and function can coexist: seasonal environmental conditions may al
 
 **Candidate discriminating tests:**
 
-- Obtain repeat non-invasive spectral measurements and retinal-response measurements in the same individuals across seasons where feasible, rather than infer within-animal change entirely from seasonal samples.
+- Use comparable dark-adaptation protocols when comparing seasonal ERGs, and distinguish the standard short laboratory protocol from the prolonged seasonal light history of the animal. Repeat measurements across seasons in the same individuals where feasible.
 - Measure seasonal pupil size and intraocular pressure alongside tapetum reflectance, then test whether those variables predict the structural change. Correlation alone would not establish that pressure is the cause.
-- Under ethically appropriate and calibrated conditions, separate retinal sensitivity from actual visually guided performance: compare detection thresholds for relevant targets across lighting spectra and test whether increased sensitivity comes with reduced acuity or other costs.
+- Under ethically appropriate and calibrated conditions, measure visually guided detection/contrast performance separately from ERG responses, and test whether any increased sensitivity comes with reduced acuity or other costs.
 - Compare the spectrum of available twilight with reflector and retinal sensitivity spectra across locations or seasonal light environments, while avoiding the assumption that spectral matching by itself proves evolutionary selection.
 
 **Critical-thinking move:** Distinguish visible colour, structural mechanism, physiological output, ecological performance and evolutionary function. Evidence for one link raises confidence in related links but does not automatically establish all of them.
 
-**Limit:** I wrote an up-front prediction this time and then researched it, but the hypotheses were not initially separated at matching causal levels. The papers also concern a well-known published phenomenon selected by the assistant, so this remains a constrained test of prediction and evidence calibration—not proof of independent discovery.
+**Limit:** I wrote an up-front prediction this time and then researched it, but the hypotheses were not initially separated at matching causal levels. The 2025 review changes the headline conclusion, so this remains a constrained test of prediction and evidence calibration—not proof of independent discovery. The key lesson is to keep the physical observation separate from a disputed physiological interpretation, and to revisit initial summaries when newer critical synthesis exists.
 
-## Latest assessment after tests 8–12
 
-The added tests cover five different explanatory challenges:
+## Latest assessment after tests 8–13
 
-- **Wood frog:** A seeming physical impossibility turns on distinctions about what freezes, where, and under what environmental conditions.
-- **Namib fog beetle:** A popular narrative conflated species identity, measured surface properties, animal behaviour, and biomimetic application.
-- **Plant acoustic emissions:** A headline conflated measured emissions, information, receiver response, and evolved communication; newer research changed the evidence status of one link while leaving others unresolved.
-- **Flamingo stance:** Two explanations that initially looked competitive turned out to address different questions and could operate together.
-- **Reindeer seasonal eye reflection:** A prediction that colour change alone would not establish improved vision held up as a useful evidential distinction. The literature includes direct measurements of seasonal retinal sensitivity, but the physical trigger and the full causal chain remain less secure than simplified popular accounts suggest.
+The added cases cover six distinct challenges:
 
-The reindeer test added a more disciplined up-front prediction, but also exposed a weakness in how I framed the alternatives: “physical mechanism” and “adaptive benefit” are different levels of explanation, not competing hypotheses. A physical change can be the mechanism by which an adaptation works. The proper split is among what changes, how it changes, what effect it has on retinal performance, and whether that performance difference improves ecologically relevant behaviour.
+- **Wood frog:** Separate what freezes, where, and under which environmental conditions.
+- **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
+- **Plant acoustic emissions:** Separate measured sound, information, receiver response and evolved communication.
+- **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
+- **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
+- **Reindeer seasonal eye reflection:** Keep observation, optical structure, physiological response, ecological function and evolutionary interpretation distinct; revise the strength of the conclusion when a newer review challenges the absolute-sensitivity claim.
 
-The recurring candidate procedure now includes these moves:
-1. **Split a causal story into separately testable claims**, including observation, mechanism, function, and evolutionary explanation.
-2. **Write an observable prediction and a discriminating test before searching**, and preserve it so it can be compared with the evidence.
-3. **Do not force explanations into a winner-takes-all contest** before establishing that they are actually mutually exclusive.
-4. **Track the strength of each link in a causal chain.** A measured association, a plausible physical model, a physiological response, and an ecological advantage are related but not interchangeable.
+The reindeer test produced a useful update rather than a tidy confirmation. The seasonal spectral colour change is well documented, and its optical structure and correspondence with Arctic twilight support a plausible functional explanation. But a 2025 review argues that the evidence for a seasonal increase in absolute retinal sensitivity is not conclusive, in part because experimental dark-adaptation conditions may not represent the prolonged natural winter state. The stronger popular claim should therefore be withheld pending better-comparable measurements.
 
-This remains development work. The assistant has improved at stating predictions, seeking source papers, and identifying the scope of evidence. But most cases are still selected by the assistant as tractable research puzzles. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The candidate procedure is now:
+1. State a prediction and the observation that would distinguish alternatives before literature search.
+2. Split a causal story into separately testable claims: observation, mechanism, physiological output, ecological performance and evolutionary explanation.
+3. Do not force competing explanations into a single winner until confirming they actually conflict.
+4. Recheck whether newer evidence changes the initial interpretation; a paper's result and a later critique of its inference must both be represented.
+5. Preserve unresolved links rather than fill them in with a coherent-sounding story.
+
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; reindeer mechanism/function were initially set up as false alternatives. These are evidence of the current limits, not minor details to hide. The test set remains assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
