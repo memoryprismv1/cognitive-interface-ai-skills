@@ -2,75 +2,94 @@
 
 **Skill:** `good-faith-collaboration`
 
-**Purpose:** Help an AI agent investigate a user's ideas without either uncritically agreeing or prematurely resisting them.
+**Purpose:** Help an AI agent and user investigate ideas together without uncritical agreement, premature resistance, or a one-sided burden of proof.
 
 ## The problem
 
-An unfamiliar hypothesis can be mishandled in two opposite ways. A chatbot may agree without checking evidence, or it may reflexively correct the user before understanding the claim. Both responses short-circuit inquiry. In the second case, the user has to spend effort defending the legitimacy of the question instead of investigating it.
+An unfamiliar hypothesis can be mishandled in two opposite ways. A chatbot may agree without checking evidence, or it may reflexively correct the user before understanding the claim. Both can stop inquiry. In the second case, the user may have to spend unnecessary effort defending why the question deserves attention. But the opposite response—agreeing because the user has argued at length or supplied a confident rebuttal—is also unsafe.
 
-The intended behavior is neither deference nor contrarianism. It is collaborative inquiry: accurately reconstruct the claim, operationalize it, look for evidence, and report what the investigation supports.
+The target is neither deference nor contrarianism. It is **reciprocal, evidence-responsive inquiry**.
 
 ## Design principle
 
 > **I don't know whether you're right. Let's find out together.**
 
-This sentence is useful only when followed by concrete work. The agent should identify testable implications, find relevant sources or datasets, consider alternative explanations, and preserve observations even if an initial explanation changes.
+Good faith is mutual, but the responsibilities differ. The AI should reconstruct the user's claim, take initiative, and investigate rather than demand proof before beginning. The user can contribute observations, context, sources and reasoning that the AI cannot independently obtain, and should engage honestly with relevant counterevidence. Neither participant has to be right at the outset; neither has an entitlement to have their conclusion accepted without examination.
 
-## Cognitive rationale
+The threshold for *starting* an inquiry is lower than the threshold for *accepting* a conclusion. An intriguing observation or reasoned mismatch can justify investigation without proving its proposed explanation. Exploration can be open-ended or temporarily wrong; the eventual factual account must still distinguish evidence, inference and uncertainty.
 
-Two research areas motivate this interface design, with important limits.
+This also means the AI should question the premise and its own framing. When describing one system through categories developed for another, surface similarities do not guarantee that the underlying explanation transfers. The agent must check which assumptions travel with the category, not just whether the category sounds familiar.
 
-- **Premature closure in reasoning:** Research in clinical diagnostic reasoning examines how accepting an early hypothesis and reducing consideration of alternatives can contribute to error. One experimental study with clinical vignettes found that the ability to overcome premature closure was related to diagnostic accuracy. This evidence comes from medical reasoning, not general chatbot conversations; applying the lesson here is an engineering inference.  
-  Krupat, E. et al. (2017). *Avoiding premature closure and reaching diagnostic accuracy: some key predictive factors*. Medical Education. https://doi.org/10.1111/medu.13382
+## Research rationale and limits
 
-- **Epistemic vigilance:** Sperber and colleagues review the cognitive and communicative problem of relying on information from others while remaining alert to the possibility of being misinformed. This supports the distinction between taking an idea seriously and accepting it uncritically. It does not directly validate this specific AI protocol.  
-  Sperber, D. et al. (2010). *Epistemic Vigilance*. Mind & Language, 25(4), 359–393. https://doi.org/10.1111/j.1468-0017.2010.01394.x
+The following research motivates parts of the design. None directly validates this exact reciprocal interaction protocol.
 
-The proposed interface combines these ideas: avoid premature closure, but preserve critical evaluation of sources and evidence. The 50% figure is a **working stance for reconstructing and investigating a user's view**, not a scientific estimate about the truth or coherence of any particular claim.
+### 1. Epistemic vigilance
 
-## Proposed method
+Sperber et al. describe the human problem of relying on communication while remaining vulnerable to accidental or intentional misinformation. Their interdisciplinary review introduces *epistemic vigilance*: processes involved in assessing communicated information and its source.
 
-1. Recover the user's actual claim and keep its distinctive framing.
-2. Separate observations from interpretations and predictions.
-3. Identify practical tests, data sources, comparisons or mechanisms.
-4. Start useful investigative work instead of assigning it all to the user.
-5. Look for both supporting and contradicting evidence.
-6. Update the interpretation without erasing valid observations.
-7. State uncertainty and the next discriminating test.
+This motivates neither blanket distrust nor automatic acceptance. It supports taking claims seriously while still evaluating them.
+
+Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). **Epistemic Vigilance.** *Mind & Language*, 25(4), 359–393. https://doi.org/10.1111/j.1468-0017.2010.01394.x
+
+### 2. Belief updating is not the whole process
+
+Sommer, Musolino and Hemmer distinguish belief updating from the earlier processes that determine which evidence is found, accepted, specified, integrated and reasoned over. Their theoretical review argues that these upstream processes are heuristic and can be influenced by motivation.
+
+This matters for collaboration because a fair-sounding final update is not enough if the inquiry selectively searches for evidence, accepts only congenial sources, or specifies the hypothesis to avoid disconfirmation. The article is a theoretical framework about human belief, not a direct study of this AI skill.
+
+Sommer, J., Musolino, J., & Hemmer, P. (2024). **Updating, Evidence Evaluation, and Operator Availability: A Theoretical Framework for Understanding Belief.** *Psychological Review*, 131(2), 373–401. https://doi.org/10.1037/rev0000444
+
+### 3. AI can be too agreeable—and users may reward it
+
+Cheng et al. tested 11 leading AI models and conducted preregistered experiments with 2,405 participants. In their social-advice settings, sycophantic models affirmed users' actions more often than human responses, and sycophantic interactions increased participants' conviction that they were right while reducing willingness to take responsibility and repair interpersonal conflicts.
+
+This is evidence against designing good faith as agreement or user validation. The setting concerns interpersonal advice, so its results do not directly measure collaborative scientific or exploratory inquiry.
+
+Cheng, M., Lee, C., Khadpe, P., Yu, S., Han, D., & Jurafsky, D. (2026). **Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence.** *Science*, 391(6792), eaec8352. https://doi.org/10.1126/science.aec8352
+
+### 4. A detailed user rebuttal can still be wrong
+
+Kim and Khashabi evaluated how LLMs respond to user rebuttals. They found that models were more likely to endorse counterarguments presented as follow-up user messages, and that detailed reasoning could persuade models even when the rebuttal's conclusion was incorrect.
+
+This is directly relevant to the failure mode observed during development of this skill: a user correction must prompt scrutiny, not automatic reversal. The AI should assess the argument and sources, including when the user's challenge sounds compelling.
+
+Kim, S. W., & Khashabi, D. (2025). **Challenging the Evaluator: LLM Sycophancy Under User Rebuttal.** In *Findings of the Association for Computational Linguistics: EMNLP 2025*, 22461–22478. https://doi.org/10.18653/v1/2025.findings-emnlp.1222
+
+### 5. Premature closure in clinical reasoning
+
+Krupat et al. studied factors associated with avoiding premature closure and reaching diagnostic accuracy in clinical reasoning. This is a domain-specific motivation for keeping alternatives open when an early explanation appears to fit. The results should not be treated as direct validation of a general-purpose AI dialogue protocol.
+
+Krupat, E. et al. (2017). **Avoiding premature closure and reaching diagnostic accuracy: some key predictive factors.** *Medical Education*. https://doi.org/10.1111/medu.13382
+
+## Operational model
+
+The companion [skill instructions](SKILL.md) specify responsibilities for the AI and user, the inquiry sequence, failure modes, and acceptance tests. The intended balance is:
+
+- The AI takes initiative and does not make the user prove an idea deserves investigation.
+- The user contributes honestly from their position, including relevant context or evidence when available, and remains open to the inquiry rather than requiring agreement.
+- Neither party's confidence, authority, effort, or persistence substitutes for evaluation.
+- Exploration is permitted without a burden of immediate correctness; factual conclusions remain evidence-sensitive.
+- The inquiry may support, refine, reject, or leave a claim unresolved.
+
+These are design choices informed by the cited work, not findings directly established by it.
+
+## Evidence status and evaluation
+
+**Status:** Proposed AI interaction protocol; not yet empirically validated.
+
+The protocol should be evaluated on unfamiliar examples, with both correct and incorrect user rebuttals. Useful outcomes include whether the AI preserves claim fidelity, initiates research, investigates relevant user evidence, resists unsupported persuasion, corrects itself when warranted, and accurately communicates unresolved uncertainty. User-side good faith should be tested as honest engagement with the process, not as an obligation to provide citations before inquiry starts.
 
 ## Example
 
-Suppose a user proposes that naming conventions rooted in British slang or cultural habits may have shaped scientific terminology or created persistent distortions in scientific literature.
+A user proposes that a scientific category may not transfer cleanly from humans to another animal whose sensory system is arranged differently. A poor response treats the established human-derived label as dispositive, then explains the animal inside that category. Another poor response accepts the user's objection merely because it is forcefully argued.
 
-A poor response begins by dismissing the premise as overgeneralized or asserting that scientific terminology is neutral, before examining any cases.
-
-A good-faith response treats this as a research question. It might examine categories of scientific names, trace the history and institutions through which terms spread, classify examples with explicit criteria, and compare the frequency or effects of these patterns against a defensible baseline. The investigation may support a broad pattern, a limited one, or none; the result should follow the evidence.
-
-This example illustrates a method, not a claim that the proposed historical hypothesis has been established.
-
-## Why this belongs in Cognitive Interface AI Skills
-
-The skill concerns how an AI interface supports a person's thinking. Premature rebuttal, distorted paraphrase and failure to take initiative impose interaction costs and can obstruct exploration. This repository treats the proposed response behavior as an engineering intervention whose value should be tested, not assumed.
+A good-faith response separates observations from interpretations, asks which assumptions the category carries, investigates the relevant evidence, and tests what the experiments actually establish. If the user supplies sources, the AI examines the sources; it does not demand them merely to start, and it does not accept them uncritically once supplied.
 
 ## References
 
-1. Krupat, E. et al. (2017). *Avoiding premature closure and reaching diagnostic accuracy: some key predictive factors*. Medical Education. https://doi.org/10.1111/medu.13382
-2. Sperber, D., Clément, F., Heintz, C., Mascaro, O., Mercier, H., Origgi, G., & Wilson, D. (2010). *Epistemic Vigilance*. Mind & Language, 25(4), 359–393. https://doi.org/10.1111/j.1468-0017.2010.01394.x
-
-## Evidence status and limits
-
-This is a design proposal. The repository does not claim that the protocol has been empirically validated or that it guarantees better reasoning. Its performance can be tested using unfamiliar hypotheses and scored for claim fidelity, useful test design, initiative, evidence balance, and calibration.
-
-The principle does not mean:
-- the user's hypothesis is probably factually correct;
-- every claim deserves unlimited research effort;
-- contradictory evidence should be hidden;
-- politeness should replace critical analysis.
-
-It means that investigation should precede dismissal, and that disagreement should engage the actual claim and evidence.
-
-## Status
-
-**Evidence status:** Proposed AI interaction protocol; requires systematic behavioral evaluation.
-
-**Engineering objective:** Make a chatbot a productive partner in inquiry rather than a gatekeeper the user must persuade before work can begin.
+1. Sperber et al. (2010), *Epistemic Vigilance*. https://doi.org/10.1111/j.1468-0017.2010.01394.x
+2. Sommer, Musolino & Hemmer (2024), *Updating, Evidence Evaluation, and Operator Availability*. https://doi.org/10.1037/rev0000444
+3. Cheng et al. (2026), *Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence*. https://doi.org/10.1126/science.aec8352
+4. Kim & Khashabi (2025), *Challenging the Evaluator: LLM Sycophancy Under User Rebuttal*. https://doi.org/10.18653/v1/2025.findings-emnlp.1222
+5. Krupat et al. (2017), *Avoiding premature closure and reaching diagnostic accuracy*. https://doi.org/10.1111/medu.13382

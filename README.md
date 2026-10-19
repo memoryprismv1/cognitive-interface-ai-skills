@@ -18,11 +18,11 @@ Automaticity explores how an AI can present information with less unnecessary la
 
 **Core rule: I don't know whether you're right. Let's find out together.**
 
-An inquiry protocol for responding to unfamiliar or unconventional ideas: reconstruct the user's claim, identify concrete tests, investigate before rebutting, and weigh supporting and contradicting evidence. The README distinguishes the proposed AI behavior from claims that would need empirical validation.
+A reciprocal inquiry protocol for unfamiliar or unconventional ideas. The AI takes initiative and investigates before dismissing; the user contributes honestly from their position and engages with relevant counterevidence. Neither must be right at the outset, and neither gets automatic acceptance. The README distinguishes research that motivates the design from evidence that would validate the protocol itself.
 
 - [Skill instructions](good-faith-collaboration/SKILL.md)
 - [Research rationale and limits](good-faith-collaboration/README.md)
-- [Development history](good-faith-collaboration/HISTORY.md)
+- [Development history, including the cuttlefish translator-bias incident](good-faith-collaboration/HISTORY.md)
 
 ### [A Touch of Grace](a-touch-of-grace/README.md)
 
@@ -51,8 +51,7 @@ A general-purpose capability for tracking task requirements, coverage, evidence 
 A general-purpose capability for delivering the requested artifacts, checking them at the intended destination, distinguishing delivery from verification, and avoiding documentation that substitutes for work or adds unnecessary review burden.
 
 - [Skill instructions](verification-integrity/SKILL.md)
-- [External research, independent work, rationale, and limits](verification-integrity/README.md)
-- [Development history](verification-integrity/HISTORY.md)
+- [External research, independent work, rationale, and limits](verification-integrity/HISTORY.md)
 
 ## How this collection works
 
