@@ -654,9 +654,40 @@ A 2021 review by Cho, “Aerodynamics and the role of the earth's electric field
 
 **Limit:** The prediction about the sound source was specific and directly confirmed by time-aligned imaging and hydrophone measurements. The follow-up deliberately separates that strong result from stronger claims about temperature and adaptive function that require additional inference.
 
-## Latest assessment after tests 8–22
+## 23. Mantis shrimp's strike — direct impact, cavitation, and the cost to the weapon
 
-The added cases cover fifteen explanatory challenges:
+**Prediction recorded before literature search:** Mantis shrimp use a rapidly accelerating club to strike shells. Cavitation may occur as a side effect of very fast underwater motion, but if bubble collapse contributes a second damaging event, force recordings should show a separate pulse after direct impact. The club may also suffer wear from the forces it generates. The discriminating evidence is the timing and size of both force peaks, plus material evidence of damage to the striking surface—not a video showing bubbles alone.
+
+**Primary observations:** Patek, Korff & Caldwell (2004), “Deadly strike mechanism of a mantis shrimp,” *Nature* 428:819–820. https://doi.org/10.1038/428819a. High-speed imaging revealed an extremely fast strike, driven by a saddle-shaped spring mechanism, and vapour bubbles forming and collapsing next to the prey. The authors proposed that destructive cavitation forces may help damage prey, but the short paper's wording was appropriately cautious (“may”).
+
+**Force-resolving follow-up:** Patek & Caldwell (2005), “Extreme impact and cavitation forces of a biological hammer: strike forces of the peacock mantis shrimp *Odontodactylus scyllarus*,” *Journal of Experimental Biology* 208:3655–3664. https://doi.org/10.1242/jeb.01831. Synchronized high-speed images, force measurements and acoustic recordings showed two short high-force peaks separated by approximately 390–480 microseconds. The first was the limb's direct impact; the second was caused by collapse of cavitation bubbles. Peak limb-impact forces ranged from 400 to 1,501 N, while peak cavitation forces reached 504 N. The study found that cavitation made a substantial contribution to the force delivered during the strike and could, in some measurements, exceed the direct impact force. This supports more than the mere presence of bubbles: collapse produces an additional mechanical event.
+
+**Why not simply call it a second pistol shrimp?** The broad physics overlaps, but the sequence and function differ. The pistol shrimp creates a high-speed jet from its claw without mechanically striking the prey with the claw, and the bubble collapse is central to the snapping sound and weapon effect. The mantis shrimp's initial club impact is itself extremely forceful; the subsequent bubble collapse adds a second event during a strike whose primary mechanism is direct impact. That makes it more accurate to describe mantis shrimp as coupling impact and cavitation, rather than treating their club as just another cavitation launcher.
+
+**Cost to the striking tool:** The 2017 modelling paper on pistol shrimp cavitation, which reviewed the broader cavitation literature, notes reports of cavitation damage and pitting on mantis shrimp appendages as well as prey, and suggests the damaged surface is replaced through moulting. This is evidence that an animal can obtain a forceful attack while also exposing its own appendage to wear. Separately, Amini et al. (2019), “A diecast mineralization process forms the tough mantis shrimp dactyl club,” *PNAS* 116(18):8685–8692. https://doi.org/10.1073/pnas.1816835116, documented a multilayered, graded club structure that resists extreme impact stresses without macroscopic fracture. That shows robust material architecture; it should not be overinterpreted as proof that every aspect of cavitation damage is prevented.
+
+**Prediction scorecard:**
+
+- **A separate force pulse should follow the impact if cavitation matters mechanically:** Supported. The studies measured two distinct peaks and associated the later one with bubble collapse.
+- **Cavitation is just an irrelevant by-product:** Too strong. The second peak is substantial, so cavitation contributes force whether or not the biological system evolved a separate specialised use for it.
+- **The club pays a wear cost:** There are reports of surface pitting/damage associated with cavitation, and the club has a highly structured impact-resistant architecture. The available sources do not quantify the fitness cost or how much normal wear is specifically attributable to cavitation versus repeated direct impact.
+- **Cavitation alone explains shell breakage:** Not established. Direct impact is also powerful, and the studies measure both contributions rather than isolating the total prey-damage fraction attributable to each under all shell types.
+
+**What reconciled:** The initial prediction that cavitation may begin as a physical consequence of fast impact was compatible with it having a substantial second impact-like effect. A mechanism can be an inevitable by-product of an extreme movement and still contribute to the animal's performance. Evolution need not have selected the bubble independently for the bubble to be mechanically useful. Conversely, a useful consequence does not by itself prove that the trait evolved specifically for that consequence.
+
+**Candidate discriminating tests:**
+- Across prey/surface types, measure the first and second force peaks alongside shell fracture, and model the fracture outcome with and without the estimated cavitation contribution.
+- Compare strike geometry and rebound to determine which aspects of movement generate the bubble and whether the animal adjusts behaviour when bubbles form less strongly.
+- Longitudinally image club surfaces before and after repeated strikes and across moults, to separate cavitation-associated pitting from ordinary contact wear.
+- Compare club composition, structure and wear across species that use different strike modes, while avoiding the assumption that a shared-looking bubble implies the same ecological role.
+
+**Critical-thinking move:** A by-product can become consequential without being the primary mechanism. Separate origin, force contribution, adaptive function and wear cost. The measured second force peak strengthens the cavitation account beyond visual correlation, while uncertainty about evolutionary origin remains.
+
+**Limit:** The original prediction was specific and the force measurements directly tested it. The distinction between a mechanically useful effect and an adaptation selected specifically for that effect remains inferential. This case is especially useful because it contrasts with the pistol shrimp without forcing both animals' use of cavitation into an identical story.
+
+## Latest assessment after tests 8–23
+
+The added cases cover sixteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -665,23 +696,26 @@ The added cases cover fifteen explanatory challenges:
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
 - **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
 - **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
-- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; account for the status and limitations of a follow-up.
+- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; account for follow-up status and limitations.
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
 - **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
 - **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when a prediction is too broad to discriminate models.
 - **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score sub-predictions separately.
 - **Electric-eel predation:** Separate discharge-triggered motor activation, prey twitch, fatigue/immobilisation, electrolocation and strike guidance.
-- **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight; a sufficient lab mechanism need not be the dominant ecological driver.
+- **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight; a sufficient laboratory mechanism need not be the dominant ecological driver.
 - **Pistol shrimp snapping:** Separate claw closure, jet, cavitation, acoustic impulse, light flash, inferred bubble temperature and biological function.
+- **Mantis shrimp striking:** Separate direct impact, later cavitation collapse, shell damage and wear on the striking appendage. A bubble can contribute a substantial second force peak without making this the same hunting mechanism as pistol shrimp snapping.
 
-The pistol-shrimp case is a strong example of prediction meeting a discriminating measurement: synchronized high-speed imaging and hydrophone recordings showed that the loud snap occurs at bubble collapse rather than at the initial claw closure. That mechanism is much better supported than a simple claw-collision explanation. But the often-repeated “5,000 K” claim is a transient bubble-interior estimate inferred from light and related physics, not a direct thermometer measurement of surrounding water; the light and thermal spike also need not be independent adaptations.
+The mantis-shrimp case supports the prediction that cavitation creates a separate force event after impact: high-speed imaging, force measurements and acoustic recordings show a first peak from direct limb impact followed about 390–480 microseconds later by a second peak from bubble collapse. Cavitation contributes substantially to the overall strike. The initial 2004 paper was cautious about whether it assists prey damage; the 2005 force study supplies stronger evidence about its mechanical contribution. Reports of club pitting raise a possible cost, while the club's graded composite architecture resists the very high contact stresses.
+
+This case clarifies a subtle point: a mechanism can originate as a physical consequence of extreme movement and still improve the resulting performance. Its current contribution does not prove that the animal evolved the movement specifically in order to create cavitation. The source literature also does not fully quantify the share of all shell damage caused by each force peak or the fitness cost of surface wear.
 
 The candidate procedure is now:
 1. State individual observable predictions before literature search, and score each separately.
-2. Make them discriminate among rival mechanisms rather than merely fit a range of outcomes.
-3. Separate generation, propagation, physiological response, whole-system outcome and inferred function.
-4. Distinguish measurements from values inferred through models; preserve the assumptions behind those inferences.
-5. Check apparatus, samples, controls and whether laboratory sufficiency translates into ecological importance.
+2. Make predictions discriminate among rival mechanisms rather than merely fit a range of outcomes.
+3. Separate origin, mechanism, force contribution, biological function and evolutionary explanation.
+4. Distinguish measurements from model-based inferences, and keep laboratory mechanisms within the conditions tested.
+5. Compare similar phenomena without assuming they have identical roles in different animals.
 6. Recheck later evidence and preserve uncertainty rather than fill gaps with a coherent-sounding story.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to distinguish competing theories. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
