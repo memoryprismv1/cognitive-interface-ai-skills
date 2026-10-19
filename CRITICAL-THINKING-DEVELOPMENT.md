@@ -428,25 +428,56 @@ Howard et al. replied in 2020, “Reply to comment on Howard et al. (2019): ‘N
 
 **Limit:** I wrote the prediction before literature search. The primary experiment and the published exchange gave the test a real, contestable evidential structure. It remains a selected published puzzle, not a demonstration that I independently generated the question or can always detect weak reasoning without prompting.
 
-## Latest assessment after tests 8–14
+## 15. Crocodilians and stick lures — correlation, causal intent, and experimental limits
 
-The added cases cover seven explanatory challenges:
+**Prediction recorded before literature search:** If crocodilians deliberately display sticks to lure nesting birds, displays should be more common during nesting-material collection season and near bird rookeries. But this spatial/seasonal association alone cannot distinguish deliberate baiting from coincidence or an environmental condition that simultaneously brings sticks and birds together. Stronger evidence would include filmed acquisition/placement, birds approaching because of the stick, and repeatable strikes or capture rates compared with appropriate controls.
+
+**Original report:** Dinets, Brueggen & Brueggen, “Crocodilians use tools for hunting,” *Ethology Ecology & Evolution* 27(1):74–78 (published online 2013; print issue 2015). https://doi.org/10.1080/03949370.2013.858276. The authors reported American alligators and mugger crocodiles with sticks balanced across their snouts while near bird rookeries during nest-building season. In the detailed mugger observation, an egret approached the stick and the crocodile lunged but missed. The authors also reported anecdotal alligator captures, but those were not documented in the systematic observation component. Their systematic observations found sticks more often near rookeries and around nesting season. This is consistent with the lure hypothesis, but the behavioural evidence for deliberate placement and a causal effect on bird approach was limited.
+
+**Competing account:** A crocodilian could surface beneath or accidentally acquire a floating stick; the combination of sticks, nesting birds and crocodilian ambushes could then create a misleading association. Another possibility is purposeful camouflage or stillness with debris, rather than using a stick specifically as a lure. The original authors argued that ordinary floating sticks were rare in the study pools, particularly when nesting birds quickly removed them, but the reported observations did not directly capture stick acquisition/placement as an intentional act.
+
+**Later challenge to the hypothesis:**
+
+1. Rosenblatt & Johnson, “An experimental test of crocodilian stick-displaying behavior,” *Ethology Ecology & Evolution* 32(3):218–226 (2020). https://doi.org/10.1080/03949370.2019.1691057. The study added sticks to four captive American-alligator pond populations, two near bird rookeries and two away from rookeries. The results did not generally show more stick-displaying near rookeries; one no-rookery site showed more than its paired rookery site. The authors said their findings did not generally support tailoring stick displays to context, while noting that captive density and food provisioning may make this a poor way to study natural behaviour.
+
+   **Status caveat:** The University of North Florida repository page says “This paper has been withdrawn,” while the journal's publisher page continues to list the article with ordinary publication metadata and its abstract; the pages reviewed did not explain the discrepancy. I cannot establish from the available evidence whether the repository flag refers to a withdrawn repository copy or the publication itself. Do not call the journal article retracted, and do not treat its result as unqualified negative evidence without resolving that status.
+
+2. The review chapter “Crocodylia Cognition” (2023; available text surfaced through ResearchGate) argues that the evidence for deliberate tool use remains weak: the systematic observations did not document a capture resulting from stick display, and the reports did not show crocodilians actively acquiring and positioning sticks. It explicitly treats the lure interpretation as a hypothesis rather than proven purposeful tool use.
+
+3. A field-observation paper on mugger crocodiles in Maharashtra, “Observations on cooperative fishing, use of bait for hunting, propensity for marigold flowers and sentient behaviour in Mugger Crocodiles…” (*Journal of Threatened Taxa*, 2023), https://www.threatenedtaxa.org/index.php/JoTT/article/view/8551, reports repeated stick-associated observations and one successful bird ambush. This is additional field evidence that such events occur, but a capture made while a stick is present does not alone show the stick was deliberately placed or caused the bird to approach.
+
+**What the evidence currently supports:** Crocodilians have been observed with sticks on their snouts in settings where nesting birds seek sticks, and bird approaches and attacks have been reported, including a field report of a successful ambush. Season/site correlations are consistent with purposeful luring. However, the critical behaviour that would distinguish tool use from coincidence—deliberate acquisition or positioning of the stick for the purpose of changing prey behaviour—has not been securely documented in the sources reviewed. The captive test's reported null result would matter, but its status ambiguity and ecological limitations prevent treating it as a clean final verdict.
+
+**Candidate discriminating tests:**
+- Use continuous, time-stamped video on wild animals to capture how a stick reaches the snout, whether the animal adjusts or repositions it, whether it remains presented as birds approach, and what happens after the bird takes or ignores it.
+- Compare prey approach, attack and capture rates with: naturally stick-bearing crocodilians; stick-free individuals; sticks floating nearby but not on the snout; and sham/context controls. Track available sticks, bird species and nest-building stage.
+- Repeat the same sampling across nesting and non-nesting seasons, near and away from rookeries, with effort and local animal abundance held comparable.
+- Separate three propositions in reporting: sticks are present; the behaviour is associated with prey context; the animal intentionally uses the stick to affect prey. Evidence for one does not automatically establish the next.
+
+**Critical-thinking move:** A matching correlation is evidence, not confirmation. A stronger test must isolate the causal pathway. Absence of a demonstrated intention is not proof the behaviour never occurs, but suggestive observations are not enough to establish a general tool-use strategy. Also verify the status and limitations of a purported replication before letting it dominate the conclusion.
+
+**Limit:** The prediction was recorded before search and the sources gave a genuine contest between a functional interpretation and an incidental account. However, the case remains based on sparse naturalistic observations plus a contested/ambiguous follow-up, and does not prove either intentional luring or its absence.
+
+## Latest assessment after tests 8–15
+
+The added cases cover eight explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
 - **Plant acoustic emissions:** Separate measured sound, information, receiver response and evolved communication.
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
-- **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise the result when a 2025 review challenges the absolute-sensitivity claim.
-- **Honeybee zero ordering:** Separate demonstrated task performance from a claim about internal concepts; examine a published critique and the original authors' rebuttal rather than accepting a headline or choosing sides reflexively.
+- **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions the absolute-sensitivity claim.
+- **Honeybee zero ordering:** Separate demonstrated task performance from a claim about internal concepts; examine a published critique and its rebuttal rather than accepting either side by default.
+- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a contested follow-up's status.
 
-The bee case is particularly useful because the result is neither best described as “bees do maths like humans” nor dismissed merely because a critic proposed a simpler strategy. A 2018 study reports transfer of a learned ordering rule to empty displays, including a control where bees trained on quantities 2–6 were tested on 0 versus 1. A 2020 comment argues that reward contingencies leave an alternative interpretation; the authors' reply argues the transfer controls address that concern. The proper answer is a bounded behavioural claim plus a live debate about the interpretation and adequacy of the controls.
+The crocodilian case is a useful falsifiability exercise. The reported seasonal and rookery associations match the initial prediction, but they are not diagnostic: incidental stick contact or other ecological factors could produce some of the same pattern. Later critiques identify the missing causal step—direct evidence that crocodilians acquire or position sticks to manipulate bird behaviour. Another field report describes a successful ambush with a stick present, but the outcome alone does not establish that the stick caused the prey's approach. A captive experiment reports mostly null context effects, yet the publication-status discrepancy between the university repository and publisher page is unresolved, so it cannot responsibly be treated as a clean definitive replication or as an established retraction.
 
 The candidate procedure is now:
-1. State a prediction and the observation that would distinguish alternatives before literature search.
-2. Split a causal story into separately testable claims: observation, mechanism, physiological output, ecological performance and evolutionary explanation; for cognitive research, also separate task behaviour from proposed internal representation.
-3. Do not force explanations into a single winner until confirming they actually conflict.
-4. Recheck whether newer evidence changes the initial interpretation; include disputes and replies when they directly address the claim.
-5. Preserve unresolved links rather than fill them in with a coherent-sounding story.
+1. State an observable prediction and what alternative it distinguishes before literature search.
+2. Split a causal story into separate claims: observation, mechanism, functional effect, and deliberate use or evolutionary explanation.
+3. Ask whether the predicted observation is diagnostic or whether a plausible alternative predicts the same thing.
+4. Recheck later evidence and the provenance/status of studies, including methodological critiques and responses.
+5. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a suggestive correlation does not prove the strongest interpretation.
 
-The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of the current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
