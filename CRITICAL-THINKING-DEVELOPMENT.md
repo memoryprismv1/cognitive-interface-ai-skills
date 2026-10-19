@@ -458,26 +458,54 @@ Howard et al. replied in 2020, “Reply to comment on Howard et al. (2019): ‘N
 
 **Limit:** The prediction was recorded before search and the sources gave a genuine contest between a functional interpretation and an incidental account. However, the case remains based on sparse naturalistic observations plus a contested/ambiguous follow-up, and does not prove either intentional luring or its absence.
 
-## Latest assessment after tests 8–15
+## 16. Wombat cube-shaped feces — cross-sectional corners versus the full pellet
 
-The added cases cover eight explanatory challenges:
+**Prediction recorded before literature search:** The geometry may arise within the intestine because of non-uniform mechanical properties in the gut wall, rather than being stamped out by a square anus or created mainly by drying after deposition. The discriminating evidence would identify where the square cross-section emerges and which physical properties correlate with it. But evidence about the cross-section would not, by itself, explain every aspect of the final three-dimensional pellet.
+
+**Primary study:** Yang et al. (2021), “Intestines of non-uniform stiffness mold the corners of wombat feces,” *Soft Matter* 17:475–488. https://doi.org/10.1039/D0SM01230K. Dissections showed cube-like feces within the last 17% of the intestine. Histology and tensile testing found regions of the intestinal cross-section with about twice the thickness and four times the stiffness of adjacent regions. A simplified mathematical model of an elastic ring with alternating stiff and soft regions produced more square-like cross-sections during contraction; in the model, corners emerge from faster contraction in the stiffer regions and relatively slower movement in the softer regions.
+
+**What this establishes:** My main prediction was supported: the square-like cross-section and corners are formed before exit and are consistent with non-uniform intestinal wall mechanics. The popular “square anus” explanation is incompatible with the observed location of formation. However, the paper's title accurately narrows its claim to the corners; the model is simplified and does not fully reproduce three-dimensional biology. Real contraction timing and intensity were not directly measured in a living wombat.
+
+**Follow-up study:** Magondu et al. (2023), “Drying dynamics of pellet feces,” *Soft Matter* 19:723–732. https://doi.org/10.1039/D2SM00359G. The study examined whether drying-driven cracking, analogous to crack patterns in cooling lava, could help determine the length of pellet feces. Across 22 mammal species, pellet-form feces were associated with water content below 0.65. The authors modelled water absorption and used drying corn-starch cakes in an open trough as an analogue. Their predicted scaling exponent (-2.08) and experimental exponent (-0.46) differed substantially from each other and from the proposed -1 relation. The authors explicitly concluded that the data did not establish that drying-induced cracking explains pellet formation.
+
+**Reconciliation:** Two questions were conflated by the broad phrase “how wombats make cubes”:
+
+- **How do corners and a square-ish cross-section form?** The intestinal stiffness study supplies an evidence-backed physical mechanism.
+- **How do individual pellets get their length and separation?** Drying-induced cracking is a proposed mechanism, but the 2023 study did not confirm it. The exact mechanism of segmentation therefore remains unresolved in this record.
+
+The stool's low moisture content and prolonged passage through the colon plausibly give the gut time to sculpt the cross-section, but that does not make the proposed cracking account of length proven. Likewise, the suggested behavioural advantage of cubes not rolling away from prominent scent-marking sites is a separate functional explanation; it should not be used as evidence for the biomechanical mechanism.
+
+**Candidate discriminating tests:**
+- Track shape at multiple positions along the distal intestine, where ethically and practically possible, to establish when the cross-section changes.
+- Measure time-varying contraction in the relevant gut region, rather than infer all dynamic behaviour from passive tissue tests and a simplified model.
+- Separate cross-section formation from pellet-length formation in experimental designs; manipulate moisture and drying flux while tracking both dimensions.
+- For the drying hypothesis, measure crack spacing under realistic fecal material properties and compare its scaling with observed pellet length. A cornstarch analogue is useful but not interchangeable with living intestine and real feces.
+
+**Critical-thinking move:** A proposed mechanism may explain one feature of an outcome without explaining the whole outcome. Here, the square cross-section/corners and the longitudinal segmentation into separate pellets are related but separate subproblems. A good title and a striking image must not cause the remaining geometry to be silently counted as explained.
+
+**Limit:** The prediction was recorded before search and was substantially supported for corner formation. The literature itself explicitly leaves parts of the three-dimensional pellet-forming process unresolved, which is a stronger calibration point than a tidy “mystery solved” conclusion.
+
+## Latest assessment after tests 8–16
+
+The added cases cover nine explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
 - **Plant acoustic emissions:** Separate measured sound, information, receiver response and evolved communication.
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
-- **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions the absolute-sensitivity claim.
-- **Honeybee zero ordering:** Separate demonstrated task performance from a claim about internal concepts; examine a published critique and its rebuttal rather than accepting either side by default.
-- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a contested follow-up's status.
+- **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
+- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
+- **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a follow-up's status.
+- **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet, including length and segmentation.
 
-The crocodilian case is a useful falsifiability exercise. The reported seasonal and rookery associations match the initial prediction, but they are not diagnostic: incidental stick contact or other ecological factors could produce some of the same pattern. Later critiques identify the missing causal step—direct evidence that crocodilians acquire or position sticks to manipulate bird behaviour. Another field report describes a successful ambush with a stick present, but the outcome alone does not establish that the stick caused the prey's approach. A captive experiment reports mostly null context effects, yet the publication-status discrepancy between the university repository and publisher page is unresolved, so it cannot responsibly be treated as a clean definitive replication or as an established retraction.
+The wombat case is a useful scope-control test. The initial prediction that the intestines' uneven stiffness matters was supported: geometry is present before exit, and the 2021 experiment/model gives a plausible mechanism for corners. But the related 2023 drying study did not confirm that drying-induced cracks explain pellet length. Therefore “the intestine forms the corners” is supportable; “the whole 3-D cube mystery is solved by one mechanism” is not.
 
 The candidate procedure is now:
-1. State an observable prediction and what alternative it distinguishes before literature search.
-2. Split a causal story into separate claims: observation, mechanism, functional effect, and deliberate use or evolutionary explanation.
-3. Ask whether the predicted observation is diagnostic or whether a plausible alternative predicts the same thing.
-4. Recheck later evidence and the provenance/status of studies, including methodological critiques and responses.
-5. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a suggestive correlation does not prove the strongest interpretation.
+1. State an observable prediction and the observation that would distinguish alternatives before literature search.
+2. Break compound claims into subproblems, including geometry, mechanism, outcome and function.
+3. Ask whether evidence for one subproblem is being silently generalised to the whole phenomenon.
+4. Recheck later evidence, methodological critiques and publication status.
+5. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a plausible mechanism does not prove every linked claim.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
