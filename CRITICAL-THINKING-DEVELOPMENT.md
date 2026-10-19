@@ -485,9 +485,32 @@ The stool's low moisture content and prolonged passage through the colon plausib
 
 **Limit:** The prediction was recorded before search and was substantially supported for corner formation. The literature itself explicitly leaves parts of the three-dimensional pellet-forming process unresolved, which is a stronger calibration point than a tidy “mystery solved” conclusion.
 
-## Latest assessment after tests 8–16
+## 17. Mushrooms generating airflow — control beyond the initial launch
 
-The added cases cover nine explanatory challenges:
+**Prediction recorded before literature search:** If mushroom caps generate local airflow through evaporation, then airflow should be measurable under still-air conditions, and evaporation/cooling should be distinguishable from the initial launch of the spores. If instead dispersal depends almost entirely on external winds or the momentum of expelled spores, those measurements should not show the same local circulation when external air is still.
+
+**Primary study:** Dressaire, Yamada, Song & Roper (2016), “Mushrooms use convectively created airflows to disperse their spores,” *PNAS* 113(11):2833–2838. https://doi.org/10.1073/pnas.1509612113. The study used laser-light-sheet visualisation and high-speed video to observe spores moving from beneath mushroom caps through gaps even without external winds. Evaporation from the cap cooled air underneath by several degrees. The resulting denser air spreads outward as a gravity current, while convective cells carry spores through small gaps and lift them to heights of 10 cm or more. The reported airflow speeds were on the order of centimetres per second.
+
+The authors also separated evaporation from spore release: covering gills with petroleum jelly to prevent shedding did not significantly change measured mass loss. This supports evaporation as the driver of cooling rather than spore shedding itself. Mushrooms associated with intact mycelia lost water faster than cut mushrooms, and the study compared those rates with plant leaves and agar hydrogel.
+
+**Result against prediction:** The prediction was supported in the system and conditions tested. Mushrooms are not limited to ejecting spores into an otherwise passive environment: evaporative cooling creates local airflows that can assist the transport phase under the cap. This is a physical mechanism, not merely a story inferred from the need to disperse spores.
+
+**Scope and limitations:**
+
+- The result does not imply that mushrooms create strong wind, control all stages of dispersal, or never depend on ambient wind. The measured self-generated flow is slow but can be consequential for spores because they are tiny and can be lifted by upward velocities around 1 cm/s.
+- The study focuses on certain mushroom species and configurations, particularly crowded or low-wind spaces under caps. The authors say the prevalence of these microenvironments in nature is unknown.
+- The spore-launch phase and the transport phase are distinct. Surface-tension catapults first lift spores clear of gills; the locally generated airflow can then transport them away. Conflating the two would hide the actual mechanism tested.
+- The authors present this as a way mushrooms influence and may benefit from crowding, not as proof that every mushroom produces identical dispersal flows in all environments.
+
+**Candidate discriminating tests:** Vary external airflow, humidity/evaporation rate, gap height, pileus geometry and distance to boundaries independently. Compare intact and cut caps, and block evaporation while retaining comparable spore-release conditions if possible. Measure airflow and spore trajectories separately, then test dispersal distance and deposition rather than assume local flow automatically produces landscape-scale dispersal success.
+
+**Critical-thinking move:** Separate an organism's action on its immediate physical environment from the later outcome. Here, launching spores and transporting them are different phases. The organism affects the supposedly “passive” second phase through evaporative cooling, but that doesn't mean ambient wind is irrelevant in every habitat.
+
+**Limit:** This is a well-supported experimental mechanism, and the up-front prediction aligned with the finding. The case was a published research problem selected by the assistant, so it tests mechanism-to-evidence reasoning rather than spontaneous independent discovery.
+
+## Latest assessment after tests 8–17
+
+The added cases cover ten explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -495,17 +518,19 @@ The added cases cover nine explanatory challenges:
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
 - **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise conclusions when a later review questions an absolute-sensitivity claim.
-- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal instead of accepting either side by default.
+- **Honeybee zero ordering:** Separate task performance from a claim about internal concepts; examine a published critique and its rebuttal rather than accepting either side by default.
 - **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; inspect whether the decisive action was actually observed and account for a follow-up's status.
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet, including length and segmentation.
+- **Mushroom spore dispersal:** Separate the initial launch from subsequent transport, and test whether organisms can modify the physical environment that was presumed to be passive.
 
-The wombat case is a useful scope-control test. The initial prediction that the intestines' uneven stiffness matters was supported: geometry is present before exit, and the 2021 experiment/model gives a plausible mechanism for corners. But the related 2023 drying study did not confirm that drying-induced cracks explain pellet length. Therefore “the intestine forms the corners” is supportable; “the whole 3-D cube mystery is solved by one mechanism” is not.
+The mushroom case supports a concrete mechanism: evaporative cooling beneath some caps can create slow convective flows that lift and transport spores even in still external air. The paper directly visualised the flow and separated evaporation from spore shedding. But its results do not imply every mushroom creates self-generated wind in every setting or that ambient wind is irrelevant to overall dispersal.
 
 The candidate procedure is now:
 1. State an observable prediction and the observation that would distinguish alternatives before literature search.
-2. Break compound claims into subproblems, including geometry, mechanism, outcome and function.
-3. Ask whether evidence for one subproblem is being silently generalised to the whole phenomenon.
-4. Recheck later evidence, methodological critiques and publication status.
-5. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a plausible mechanism does not prove every linked claim.
+2. Split a compound outcome into stages and mechanisms.
+3. Ask whether evidence for one stage is being silently generalised to the whole outcome.
+4. Check where the effect was measured and whether the tested conditions match the larger claim.
+5. Recheck later evidence, critiques and publication status.
+6. Preserve uncertainty in both directions: lack of decisive evidence does not prove impossibility, and a plausible mechanism does not prove every linked claim.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
