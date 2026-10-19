@@ -622,9 +622,41 @@ A 2021 review by Cho, “Aerodynamics and the role of the earth's electric field
 
 **Limit:** The prediction was specific enough to be useful and partly supported. The follow-up literature materially narrowed the interpretation: electricity can matter, but wind remains more influential in at least one comparative experiment. The case remains assistant-selected and literature-based; it does not demonstrate unprompted discovery.
 
-## Latest assessment after tests 8–21
+## 22. Pistol shrimp's snap — claw collision, cavitation, sound, light, and temperature
 
-The added cases cover fourteen explanatory challenges:
+**Prediction recorded before literature search:** The loud underwater crack is probably not simply the two surfaces of the claw striking each other; it should be associated with a cavitation bubble created by the water jet as the claw rapidly closes. If so, high-speed imaging and hydrophone recordings should place the main sound pulse at bubble collapse rather than at the instant of claw closure. Temperature and light emission are separate claims: confirming cavitation and sound does not by itself establish the precise temperature or biological significance of the flash.
+
+**Primary study — sound source:** Versluis, Schmitz, von der Heydt & Lohse (2000), “How snapping shrimp snap: through cavitating bubbles,” *Science* 289(5487):2114–2117. https://doi.org/10.1126/science.289.5487.2114. High-speed video synchronized with hydrophone recordings showed that the shrimp's rapid claw closure expels a high-speed water jet. The jet produces cavitation; the major snap is emitted at the collapse of the bubble, not at initial claw closure. A bubble-dynamics model was used to account for the time course of bubble radius and emitted sound. The central prediction was supported by timing evidence.
+
+**The mechanism's mechanics remain an active research subject:** Koukouvinis et al. (2017), “Unveiling the physical mechanism behind pistol shrimp cavitation,” *Scientific Reports* 7:139撱. https://doi.org/10.1038/s41598-017-14312-0. The paper combined a simplified claw model with numerical fluid simulations to analyse how claw closure produces a fast jet, vortex roll-up and a toroidal cavitation structure. The authors note that earlier models simplified the bubble geometry and that actual flow-field and pressure measurements near the closing claw were limited by experimental constraints. So the major bubble-collapse mechanism is supported, while fine details of flow, pressure and bubble formation require careful treatment; a simplified physical model is not the same thing as directly measuring every local variable in the live animal.
+
+**The light flash and “5,000 K” figure:** Lohse, Schmitz & Versluis (2001), “Snapping shrimp make flashing bubbles,” *Nature* 413:477–478. https://doi.org/10.1038/35097152. The researchers detected a very brief flash emitted at collapse, a phenomenon they called “shrimpoluminescence.” They argued from the emitted light that the bubble's interior reaches extreme conditions, giving a temperature of at least 5,000 K by reference to sonoluminescence research. That number is an inference from the light and physical model, not a direct thermometer measurement of a spatially uniform bubble. It describes a tiny, rapidly collapsing bubble for an extremely short interval, not water around the shrimp becoming thousands of degrees hot.
+
+**What the evidence supports:**
+
+- **Claw and jet:** The rapid closure produces a fast water jet.
+- **Cavitation:** The jet generates a cavitation bubble.
+- **Sound timing:** Hydrophone and high-speed imaging evidence places the major sound pulse at bubble collapse, not direct claw collision. This strongly supports the predicted mechanism.
+- **Light:** A very brief flash at collapse has been experimentally detected.
+- **Temperature estimate:** The 2001 paper inferred at least 5,000 K in the collapsing bubble from the light emission and related physics. It should be stated as an inferred transient bubble-interior estimate, not a direct measurement or a large-scale temperature.
+- **Biological purpose:** The loud acoustic/shock event is discussed in relation to prey stunning and killing, but the bubble's light and thermal spike are not shown to be the specific biological target. Those may be physical by-products of a violent collapse rather than adaptations in their own right.
+
+**What remains unresolved:** Fine-grained pressure and flow fields during closure; details of the bubble's non-spherical geometry and vortex ring; how the mechanism varies with claw morphology, size and environment; and the magnitude and ecological role of the light emission. The presence of an intense localised physical effect does not automatically mean each side-effect is independently useful to the animal.
+
+**Candidate discriminating tests:**
+- Synchronise high-speed imaging, hydrophone recording and spatial bubble tracking at microsecond-scale resolution to independently measure claw closure, jet formation, bubble growth/collapse and the acoustic pulse.
+- Compare live shrimp under different water conditions and claw kinematics rather than rely solely on scaled-up claw models or simulations.
+- Estimate bubble temperature through calibrated spectroscopy and compare multiple physical models; distinguish a measured light signal from an inferred interior temperature.
+- Quantify prey effects under controlled exposure and compare them with the acoustic pressure field, rather than infer biological impact from sound intensity alone.
+- Test whether the light flash affects prey, predators or communication in a way that improves fitness before treating shrimpoluminescence as an adaptation rather than a by-product.
+
+**Critical-thinking move:** A dramatic observation tends to fuse several claims into one story. Here, the timing of sound, existence of cavitation, measured flash, inferred temperature and biological function are distinct claims supported by different evidence. Confirmation of one does not make all the other claims equally certain.
+
+**Limit:** The prediction about the sound source was specific and directly confirmed by time-aligned imaging and hydrophone measurements. The follow-up deliberately separates that strong result from stronger claims about temperature and adaptive function that require additional inference.
+
+## Latest assessment after tests 8–22
+
+The added cases cover fifteen explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
@@ -636,21 +668,20 @@ The added cases cover fourteen explanatory challenges:
 - **Crocodilian stick displays:** Separate object presence, prey-context correlation, successful attack and purposeful tool use; account for the status and limitations of a follow-up.
 - **Wombat feces geometry:** Separate formation of corners/square cross-section from formation of the whole three-dimensional pellet.
 - **Mushroom spore dispersal:** Separate initial launch from subsequent transport and test whether organisms modify the physical environment.
-- **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when the prediction is too broad to discriminate models.
+- **Singing sand:** Separate grain-level sound generation from selection and persistence of the tone in natural dunes; recognise when a prediction is too broad to discriminate models.
 - **Squirrel caching:** Separate audience-sensitive action, functional protection, deceptive effect and the stronger inference of conscious intent; score sub-predictions separately.
 - **Electric-eel predation:** Separate discharge-triggered motor activation, prey twitch, fatigue/immobilisation, electrolocation and strike guidance.
-- **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight, and distinguish the sufficiency of an electric field in a chamber from its ecological weight relative to wind.
+- **Spider ballooning:** Separate pre-flight behaviour, initial lift and sustained outdoor flight; a sufficient lab mechanism need not be the dominant ecological driver.
+- **Pistol shrimp snapping:** Separate claw closure, jet, cavitation, acoustic impulse, light flash, inferred bubble temperature and biological function.
 
-The spider case offers a particularly clean constraint on overgeneralisation. A controlled 2018 experiment showed that electric fields can elicit pre-ballooning behaviours and that an airborne spider can move up/down as the field is switched on/off. A 2020 analysis attributes three laboratory launches in a near-still-air chamber to charged silk and Coulomb force. Yet a 2021 comparative experiment across three species found electric fields' contribution to be supplementary, with wind the more influential factor in those tests. Those results can coexist: a mechanism may be sufficient under one condition without being the dominant driver across natural dispersal settings.
-
-The pre-search prediction also had a subpart about reversed polarity. The literature verified here tests field strength/presence and switching on/off, not the polarity-reversal prediction. That subpart remains open; support for field sensitivity must not be used to claim a test we did not find.
+The pistol-shrimp case is a strong example of prediction meeting a discriminating measurement: synchronized high-speed imaging and hydrophone recordings showed that the loud snap occurs at bubble collapse rather than at the initial claw closure. That mechanism is much better supported than a simple claw-collision explanation. But the often-repeated “5,000 K” claim is a transient bubble-interior estimate inferred from light and related physics, not a direct thermometer measurement of surrounding water; the light and thermal spike also need not be independent adaptations.
 
 The candidate procedure is now:
-1. State individual observable predictions before literature search, score each one separately, and mark untested predictions.
-2. Make predictions discriminate among rival mechanisms rather than merely fit a broad range of outcomes.
-3. Separate preconditions, triggering, initial mechanism, ongoing process and real-world outcome.
-4. Distinguish a mechanism that can work from one that dominates in a natural environment.
-5. Check what was measured directly, the sample and apparatus, and whether findings generalise beyond them.
-6. Recheck later evidence and preserve uncertainty rather than filling gaps with a coherent-sounding story.
+1. State individual observable predictions before literature search, and score each separately.
+2. Make them discriminate among rival mechanisms rather than merely fit a range of outcomes.
+3. Separate generation, propagation, physiological response, whole-system outcome and inferred function.
+4. Distinguish measurements from values inferred through models; preserve the assumptions behind those inferences.
+5. Check apparatus, samples, controls and whether laboratory sufficiency translates into ecological importance.
+6. Recheck later evidence and preserve uncertainty rather than fill gaps with a coherent-sounding story.
 
 The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives; and the singing-sand prediction was too broad to distinguish competing theories. These are process failures to retain, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
