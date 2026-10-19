@@ -230,3 +230,58 @@ This is still a development hypothesis. The examples were deliberately selected 
 ## Current next test
 
 Choose a new unfamiliar case in which the popular explanation, measurement and real-world function may be conflated. Before looking up the answer, state the starting expectation and the specific observation that would distinguish competing mechanisms. Then investigate the primary evidence. Record whether the assistant detected a gap unaided, whether external information revealed it, or whether the user had to point it out.
+
+
+### 10. Plant ultrasonic emissions and moth oviposition — production, information, cue use, and communication are different claims
+
+**Why selected:** A topical, changing research area with an appealing headline (“plants scream”) that encourages anthropomorphic interpretation. It lets the assistant test whether it can separate a measured phenomenon from the mechanism that produces it, what information it contains, whether a receiver responds to it, and whether it qualifies as an evolved communication signal.
+
+**Starting expectation and questions:**
+- A plant is not assumed to produce sound intentionally merely because microphones detect sound during stress.
+- If sounds correlate with plant condition, they might be incidental physical effects that carry information.
+- If an animal can detect those sounds, it might use them as cues even if the plant did not evolve to send a message.
+- A claim of evolved biological signalling would require more evidence than a sound measurement, classifier performance, or receiver response.
+- A strong explanation must also account for context: the same acoustic playback may not produce the same behaviour when a real plant is or is not present.
+
+**Literature checked:**
+
+1. Khait et al. (2023), “Sounds emitted by plants under stress are airborne and informative,” *Cell* 186(7):1328–1336.e10. https://doi.org/10.1016/j.cell.2023.03.009. The study recorded ultrasonic airborne emissions from tomato and tobacco plants under drought or cutting conditions, including greenhouse recordings, and trained models that classified plant type/condition from the sounds. It establishes emissions and some predictive information; the classifier's performance does not by itself establish that plants intentionally signal, that receivers use the sounds, or that all plants produce comparable emissions.
+
+2. Ryu et al. (2024), “Is plant acoustic communication fact or fiction?”, *New Phytologist*. https://doi.org/10.1111/nph.19648. This review/opinion argued that plant sounds under stress were real but that evidence for plants communicating with one another acoustically was not established at that time. It also highlighted that many previous claims about plant responses to sound were actually about substrate-borne vibrations rather than airborne acoustics.
+
+3. Seltzer et al. (2026 version of record; reviewed preprint revised in 2025), “Female moths incorporate plant acoustic emissions into their oviposition decision-making process,” *eLife* 13:RP104700. https://doi.org/10.7554/eLife.104700.3. The study tested female *Spodoptera littoralis* moths using sounds recorded from dehydrated tomato plants. In arenas without a real plant, moths laid more egg clusters near the playback than the silent side. In arenas with plants, they preferred the silent/hydrated plant over the plant associated with dehydrated-plant playback. Deafening the moths eliminated the playback preference. The authors added experiments using a lower click rate (30 clicks/min) and a sound-gradient arena. This is evidence that acoustic playback can affect a receiver's oviposition behaviour under the tested conditions, not evidence that all insects respond, that the effect necessarily occurs in the field, or that plants evolved the emissions for communication. The contextual reversal (sound-side preference without plants, silent healthy plant preference when plants are present) is a real result that should be explained rather than ignored. Public peer review noted limitations in generalising from one moth species and plant system, requested raw data, and highlighted that the initial response pattern was not entirely what the original hypothesis predicted; the revised paper added further experiments and plots. Review record: https://elifesciences.org/articles/104700/peer-reviews
+
+4. Font Bordera et al. (published 17 August 2026), “Plant bioacoustics: decoding ultrasonic emissions,” *Journal of Experimental Botany*. https://doi.org/10.1093/jxb/erag398. This review highlights xylem cavitation as a primary proposed mechanism and distinguishes the possible use of emissions as physiological indicators from the still-debated question of whether they function as evolved inter-organismal signals.
+
+5. Robert (2023), “Plant bioacoustics: The sound expression of stress,” *Cell*. https://doi.org/10.1016/j.cell.2023.03.004. This commentary notes that the emissions may be detectable by insects, while treating ecological implications as a question for further study.
+
+**Claim ladder and reconciliation:**
+
+- **Observed emission:** Plants in the tested conditions emit airborne ultrasonic sounds. Supported.
+- **Information in the emission:** Statistical models can classify some plant conditions from acoustic recordings. Supported within those experimental datasets; predictive information does not prove signalling.
+- **Physical mechanism:** Xylem cavitation is an established mechanism for some plant acoustic emissions and a leading explanation for drought-associated emissions, but it should not be silently claimed as the proven cause of every recorded click in the 2023 experiment.
+- **Receiver capability and behavioural response:** The 2026 eLife study supports that female Egyptian cotton leaf moths can use playback of dehydrated-tomato acoustic emissions as a cue affecting oviposition decisions under laboratory conditions. Supported for the tested system, with context-dependent outcomes.
+- **Plant-to-plant acoustic communication:** Not established by these findings.
+- **Evolutionary signal or intentional “cry”:** Not established. A receiver can exploit an incidental cue; receiver response alone does not show that the emitting organism evolved the emission to communicate.
+
+The newer moth study changes how to state the older 2024 assessment: it is no longer correct to repeat the blanket claim that there is no empirical evidence of an insect using plant acoustic emissions as a cue. But the newer evidence does not automatically prove that plants evolved to communicate acoustically, and it does not establish plant-to-plant acoustic communication. The apparent change in the literature is reconciled by distinguishing different claims and noting publication dates, rather than declaring one article simply right and the other wrong.
+
+**Candidate discriminating tests:**
+- Determine the physical origin of recorded emissions under controlled hydraulic conditions, using acoustic measurements alongside measures of xylem cavitation/embolism.
+- Replicate the moth response with naturalistic emission rates, more plant and insect taxa, larger sample sizes, independent labs, and semi-natural/field settings.
+- Test the acoustic cue in factorial designs separating sound, visual/olfactory plant cues, and actual plant presence. Explain the context-dependent preference reversal.
+- To argue that the emission is an evolved signal rather than an incidental cue, seek evidence beyond receiver response: demonstrate a sender-side evolutionary function/adaptation, not just that a receiver can exploit a correlated sound.
+
+**What this test demonstrates:** The assistant can build a question and update it with new, relevant evidence; it can also catch that “plants emit informative sound” and “plants communicate” are not equivalent. The key critical-thinking move is to decompose the headline into claims with different evidence requirements, then update the status of each claim as the research changes.
+
+**Limit:** The assistant selected this question and investigated a known research path. This still does not show reliable spontaneous self-error detection before a user or prompt points to a problem. The plant–moth paper is new as of 2025/2026 and should not be described as universal proof; its claims should remain limited to its tested system and results.
+
+## Latest assessment after tests 8–10
+
+The wood frog case tested a counterintuitive physical-survival mechanism and its conditional limits. The Namib beetle case tested a multi-step story in which a natural-history claim was transferred from one species to another and then into biomimetic engineering. The plant acoustic case tested a headline moving from a physical emission, through statistical information, to biological reception and finally to “communication.”
+
+These cases suggest a useful investigative habit: **split an attractive explanation into claims that require different evidence**, then ask what each experiment actually establishes. This is different from being generically sceptical. It allows a claim to be strongly supported at one level and still unproven at the next.
+
+The plant case also shows why reassessment over time matters: a 2024 review's account of absent evidence for acoustic communication must be reconsidered in light of a 2025/2026 moth-behaviour study, while preserving the remaining boundary around evolutionary signalling and plant-to-plant communication.
+
+The next challenge remains spontaneous detection and independent transfer. Select a further unfamiliar case, state a prediction and discriminating observation before consulting the literature, then audit whether the assistant generated a real test or merely explained a known answer.
