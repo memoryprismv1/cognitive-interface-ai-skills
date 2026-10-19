@@ -404,24 +404,49 @@ The mechanism and function can coexist: seasonal environmental conditions may al
 **Limit:** I wrote an up-front prediction this time and then researched it, but the hypotheses were not initially separated at matching causal levels. The 2025 review changes the headline conclusion, so this remains a constrained test of prediction and evidence calibration—not proof of independent discovery. The key lesson is to keep the physical observation separate from a disputed physiological interpretation, and to revisit initial summaries when newer critical synthesis exists.
 
 
-## Latest assessment after tests 8–13
+## 14. Honeybees and zero — task competence versus a claim about concepts
 
-The added cases cover six distinct challenges:
+**Prediction recorded before literature search:** If a bee generalises an abstract ordering rule rather than simply choosing the familiar or visually emptier option, it should extend a learned “less than” relation to an empty set it has not been trained on. Transfer is the relevant evidence. However, success in this one kind of task would not establish a human-like symbolic meaning of zero, an understanding of “nothing” in every context, or arithmetic.
+
+**Primary study:** Howard, Avarguès-Weber, Garcia, Greentree & Dyer (2018), “Numerical ordering of zero in honey bees,” *Science* 360(6393):1124–1126. https://doi.org/10.1126/science.aar4975. Bees were trained on a greater-than or less-than relation using displays containing one to six elements. They were then tested on whether they could extend the relation to an empty display. The authors reported that bees could place zero numerosity at the low end of the ordered set. The paper's supplementary experiments include transfer controls: for example, bees trained with numerosities 2–6 were tested on zero-versus-one even though those test quantities had not been reinforced during training; the authors say bees still chose the empty set, which argues against simply preferring the lowest familiar training quantity.
+
+**Methodological dispute:** Shaki & Fischer's 2020 comment, “Nothing to dance about: unclear evidence for symbolic representations and numerical competence in honeybees,” https://pmc.ncbi.nlm.nih.gov/articles/PMC7211436/, criticised several honeybee numerical-cognition claims based on reward structures and insufficiently discriminating transfer tests. For the zero study, they argued that the training scheme punished selection of the highest quantities while not punishing the lowest quantity, so selecting an empty set might reflect the learned reward/minimisation structure rather than acquisition of an abstract zero concept.
+
+Howard et al. replied in 2020, “Reply to comment on Howard et al. (2019): ‘Nothing to dance about…’,” https://pmc.ncbi.nlm.nih.gov/articles/PMC7211442/. They argued that the critique's description was incorrect or incomplete because their zero paper included additional experiments designed to test the interpretation, particularly transfer to zero-versus-one after training on 2–6. In their view, the transfer portfolio supported nonsymbolic numerical ordering of zero. This is a published methodological disagreement; the existence of the critique does not itself invalidate the primary result, and the author reply is part of the evidence that needs to be considered.
+
+**What the evidence supports:** The experiments provide evidence that trained honeybees can generalise an ordinal “less than” relation to an empty visual set in controlled laboratory tasks, beyond simply matching exact visual patterns. The transfer results are the central support for the authors' interpretation. The studies do not demonstrate symbolic use of the digit 0, a language-like notion of nothingness, or human-style mathematical understanding.
+
+**What remains unresolved:** How strong and diagnostic the task is for distinguishing an abstract numerical representation from lower-level magnitude, visual, or reinforcement strategies; which transfer controls most decisively discriminate those accounts; how broadly the result generalises to other contexts; and what cognitive representation best explains it. “The bee places an empty set below one in this test” is an operational behavioural statement. “The bee understands zero” is a theoretical interpretation whose meaning must be specified.
+
+**Candidate discriminating tests:**
+- Pre-register a set of transfer trials in which empty-versus-one choices cannot be solved by simply choosing the least familiar, least rewarded, or visually emptiest option; counterbalance reward histories.
+- Test blank displays against one-element displays with novel shapes, colours, positions, backgrounds, scales, and sensory modalities where feasible. Keep visual area, contour, contrast and other incidental cues from mapping systematically onto the correct choice.
+- Train different groups on different numerical ranges and reward histories, then test the same critical relation (0 vs 1). A robust abstract-ordering account should generalise across those histories.
+- Distinguish levels of claim in every report: empty-set discrimination, transfer of numerical ordering, representation of zero as a quantity, and symbolic zero are not synonyms.
+
+**Critical-thinking move:** A headline about an animal “understanding zero” combines a measurable behaviour with an interpretation of an internal representation. Keep the observation and the cognitive claim separate; look for transfer controls that discriminate the strongest alternative, then include both a methodological critique and its response rather than treating either as decisive by default.
+
+**Limit:** I wrote the prediction before literature search. The primary experiment and the published exchange gave the test a real, contestable evidential structure. It remains a selected published puzzle, not a demonstration that I independently generated the question or can always detect weak reasoning without prompting.
+
+## Latest assessment after tests 8–14
+
+The added cases cover seven explanatory challenges:
 
 - **Wood frog:** Separate what freezes, where, and under which environmental conditions.
 - **Namib fog beetle:** Separate species identity, surface properties, behaviour and biomimetic application.
 - **Plant acoustic emissions:** Separate measured sound, information, receiver response and evolved communication.
 - **Flamingo stance:** Avoid forcing potentially compatible mechanisms into a winner-takes-all contest.
 - **Gecko adhesion:** Decompose one apparent property into attachment, release, self-cleaning and performance under changing wetness.
-- **Reindeer seasonal eye reflection:** Keep observation, optical structure, physiological response, ecological function and evolutionary interpretation distinct; revise the strength of the conclusion when a newer review challenges the absolute-sensitivity claim.
+- **Reindeer seasonal eye reflection:** Keep optical colour/structure, physiological sensitivity, ecological function and evolutionary interpretation distinct; revise the result when a 2025 review challenges the absolute-sensitivity claim.
+- **Honeybee zero ordering:** Separate demonstrated task performance from a claim about internal concepts; examine a published critique and the original authors' rebuttal rather than accepting a headline or choosing sides reflexively.
 
-The reindeer test produced a useful update rather than a tidy confirmation. The seasonal spectral colour change is well documented, and its optical structure and correspondence with Arctic twilight support a plausible functional explanation. But a 2025 review argues that the evidence for a seasonal increase in absolute retinal sensitivity is not conclusive, in part because experimental dark-adaptation conditions may not represent the prolonged natural winter state. The stronger popular claim should therefore be withheld pending better-comparable measurements.
+The bee case is particularly useful because the result is neither best described as “bees do maths like humans” nor dismissed merely because a critic proposed a simpler strategy. A 2018 study reports transfer of a learned ordering rule to empty displays, including a control where bees trained on quantities 2–6 were tested on 0 versus 1. A 2020 comment argues that reward contingencies leave an alternative interpretation; the authors' reply argues the transfer controls address that concern. The proper answer is a bounded behavioural claim plus a live debate about the interpretation and adequacy of the controls.
 
 The candidate procedure is now:
 1. State a prediction and the observation that would distinguish alternatives before literature search.
-2. Split a causal story into separately testable claims: observation, mechanism, physiological output, ecological performance and evolutionary explanation.
-3. Do not force competing explanations into a single winner until confirming they actually conflict.
-4. Recheck whether newer evidence changes the initial interpretation; a paper's result and a later critique of its inference must both be represented.
+2. Split a causal story into separately testable claims: observation, mechanism, physiological output, ecological performance and evolutionary explanation; for cognitive research, also separate task behaviour from proposed internal representation.
+3. Do not force explanations into a single winner until confirming they actually conflict.
+4. Recheck whether newer evidence changes the initial interpretation; include disputes and replies when they directly address the claim.
 5. Preserve unresolved links rather than fill them in with a coherent-sounding story.
 
-The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; reindeer mechanism/function were initially set up as false alternatives. These are evidence of the current limits, not minor details to hide. The test set remains assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
+The assistant's process still fails some of its own requirements: one case lacked a sufficiently specific preregistered prediction and had a wrong-topic progress message; the reindeer mechanism/function were initially set up as false alternatives. These are evidence of the current limits, not details to hide. Most cases remain assistant-selected and literature-aided. Reliable spontaneous self-error detection and transfer to genuinely unfamiliar cases remain unproven.
