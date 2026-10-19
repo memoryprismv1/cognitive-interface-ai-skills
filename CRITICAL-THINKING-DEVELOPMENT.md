@@ -897,3 +897,48 @@ The assistant's process still fails some of its own requirements: one case lacke
 
 **Limit:** This was a known, contested research problem selected by the assistant and investigated with web research. The predictions were written after browsing, so this case does not demonstrate prediction-before-literature discipline. The reviewed material supports plant-water dynamics as an important part of the observed pattern, but does not fully resolve every causal contribution or justify a universal single-cause conclusion.
 
+## AEL Runtime Accountability connection — 19 October 2026
+
+**Related implementation:** https://github.com/memoryprismv1/ael-runtime-accountability
+
+This repository provides a concrete runtime-accountability prototype relevant to the critical-thinking experiment. It does not replace the critical-thinking work or turn it into a finished skill. The connection is narrower: when investigating a mismatch, can we distinguish what was retained in history, what was actually made active for the model, and what kind of claim each item represented?
+
+### Relevant implementation correspondence
+
+The AEL Runtime repository describes itself as a local implementation prototype, not a complete runtime or production specification. Its README and design-alignment record describe these implemented or tested boundaries:
+
+- **Canonical ledger vs active context:** history is append-only; the current model-facing context is a disposable projection rather than the entire history.
+- **Model-input boundary:** the local adapter receives only allowlisted working context and the current user message. Audit metadata, omitted-event details, rejected generated artifacts and memory diagnostics stay outside the model request.
+- **Claim distinctions:** provenance (who supplied a claim), decision authority (who selected or ratified it), truth status (whether it has been externally verified), and inference kind (statement, observation, hypothesis, inference or generated artifact) are separate dimensions.
+- **Rejected output and reset:** rejected generated content remains in history but is excluded from active context; reset is implemented as structural context reconstruction rather than merely instructing a model to ignore something.
+- **Retention vs use:** information may be retained without being applicable or permitted to influence the current context. Applicability depends on explicit caller-provided tags; the prototype does not claim to infer semantic relevance automatically.
+- **Revision verification boundary:** its Delta-First mechanism can check textual scope against a pinned base and approved changed-section declaration, but explicitly cannot establish semantic correctness.
+
+See the AEL repo's README.md, DESIGN_ALIGNMENT.md, CONTEXT_BUDGET_POLICY.md, MODEL_INPUT_BOUNDARY.md, EVIDENCE_RECONCILIATION.md, and DELTA_FIRST_DELIVERY.md for its own implementation claims and limits.
+
+### What this adds to the critical-thinking investigation
+
+A failed reconciliation may originate in more than the visible reasoning. Possible sources include:
+1. a bad or ambiguous premise in the user's query;
+2. a claim whose status was silently upgraded (for example, a hypothesis treated as verified);
+3. relevant user constraints or corrections absent from active context;
+4. older rejected content still influencing the response despite being meant to be excluded;
+5. a retrieval or context-budget omission;
+6. a genuinely faulty inference from the material that was present.
+
+These are candidate failure classes, not claims that every one has been observed in the experiments. The point is to avoid treating every bad answer as one undifferentiated “reasoning error.” If runtime provenance and context records are available, they may help identify which layer failed. If they are not available—as in ordinary hosted ChatGPT/Claude chats—we must not pretend to know the exact hidden input or internal cause.
+
+### Keep the verification levels separate
+
+The AEL repository states that its V2.8.1 prototype implements selected mechanisms and reports 57 passing unit tests, including a mocked local Ollama bridge. It also states that Ollama and a real local model were not installed during its development checks, so actual model inference/performance was not tested. Its textual revision verifier is not a semantic verifier, the token count is approximate without a model-specific tokenizer, and the prototype does not integrate directly with ChatGPT or Claude web chats or change model weights.
+
+Accordingly:
+- **Established by the repository's own documented scope:** it has implemented/tested particular local data-handling and conformance primitives, with explicitly bounded claims.
+- **Not established:** that the full AEL architecture is validated; that runtime accountability guarantees correct answers; that the critical-thinking method is solved; or that using this prototype would improve an online model's reasoning.
+- **Research opportunity:** where runtime logs can be inspected, compare a visible reasoning mismatch with the actual active projection and its provenance/status fields. Record whether the discrepancy is a context/claim-status problem, an inference problem, or still undetermined.
+
+### Boundary with the user's Memory Prism shorthand
+
+The user's shorthand is: **does the ledger reconcile for that board under the specific constraints and editors?** This remains a compact lens supplied to the bots, not an instruction to import the full Memory Prism skillset into this critical-thinking project. In this AEL connection, “ledger” also has a literal runtime meaning: the append-only history differs from the active projection sent to the model. That implementation distinction can inform experiments, but it should not silently redefine the user's shorthand or collapse AEL, Memory Prism and critical thinking into one framework.
+
+**Current implication:** continue the critical-thinking cases and preserve the known limits of the experiment. Separately, use AEL's documented boundaries as a possible way to investigate context/provenance-related failure causes in a system where the relevant runtime records are available. Do not count the existence of the prototype as evidence of independent error detection or transfer.
