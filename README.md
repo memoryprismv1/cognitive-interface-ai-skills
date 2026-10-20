@@ -4,7 +4,7 @@ A collection of practical AI skills grounded in human cognition and biology. Eac
 
 ## Work in progress
 
-[Critical Thinking — Development Record](CRITICAL-THINKING-DEVELOPMENT.md) documents the research, independent practice tests, observed failures, open questions, and current working hypothesis for a critical-thinking skill. **This is development work, not a finished skill.** Critical thinking is being investigated separately from the later Memory Prism organising skill.
+[Critical Thinking](critical-thinking/README.md) documents the work-in-progress skill boundary, while [ChatGPT's development log](critical-thinking/dev-logs/CRITICAL-THINKING-DEVELOPMENT-CHATGPT.md) records research, practice tests, observed failures and open questions. **This is development work, not a finished skill.** Critical thinking and Memory Prism are separate skill sets. A tiny, fixed, optional Memory Prism checklist sits alongside critical thinking; its use is not required and the checklist is not to be modified.
 
 ## Skills
 
