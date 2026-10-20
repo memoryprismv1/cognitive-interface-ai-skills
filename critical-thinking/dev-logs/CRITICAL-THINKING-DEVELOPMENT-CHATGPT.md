@@ -1049,3 +1049,15 @@ This cross-reference is also a reminder that biological solutions may offer usef
 **What did not reconcile / remains open:** The available sources do not score the anticipated costs involving precision, structural stress or mechanical reliability. The general engineering literature establishes that LaMSA is being modelled and physically explored, but the search did not establish a mature, deployed product directly copied from trap-jaw ants. Those are evidence gaps, not licence to fill them with plausible engineering stories.
 
 **Process assessment:** I wrote and committed the predictions before the literature review. Several broad predictions were supported; one prediction cluster was only partly supported; some anticipated trade-offs remain untested. I selected the case myself, however, and conducted the search and scorecard myself, so this is not blinded evaluation or proof of spontaneous error detection. A further test should probe whether I can identify a less obvious failure or ask a discriminating next question rather than simply map findings onto the template.
+
+
+## Architecture decision — critical thinking and Memory Prism remain separate
+
+**Decision recorded 20 October 2026, as specified by the user.**
+
+- Critical thinking and Memory Prism are different skill sets. Do not collapse them into one skill or make Memory Prism the mandatory organising framework for critical-thinking work.
+- Critical thinking may carry a **tiny, fixed Memory Prism checklist** as an optional adjunct: [MEMORY-PRISM-CHECKLIST.md](../MEMORY-PRISM-CHECKLIST.md).
+- The checklist is not to be modified or expanded. Its use is not forced; an inquiry can proceed without invoking it.
+- The checklist's presence does not establish that the critical-thinking process has adopted the Memory Prism framework, and it does not replace or redefine either skill set.
+
+This is an architecture boundary, not a claim that a finished critical-thinking skill exists. Earlier experiments may mention or test Memory Prism-related shorthand; retain that historical record rather than rewriting it as if this boundary had always been explicit.
