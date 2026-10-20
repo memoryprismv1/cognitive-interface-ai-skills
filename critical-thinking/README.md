@@ -10,6 +10,7 @@ Critical thinking and Memory Prism are separate skill sets. The [basic Critical 
 - [Findings across development logs](FINDINGS-ACROSS-DEV-LOGS.md) — recurring patterns, differences and implications
 - [Author's note](AUTHOR-NOTE.md) — reserved for the project author to explain the participating assistants and the absence of a Claude/Claudey development log
 - [Memory Prism checklist](MEMORY-PRISM-CHECKLIST.md) — fixed, tiny, optional and not to be modified
+- [Memory Prism reference card](MEMORY-PRISM-REFERENCE.md) — base definitions and optional links to the official website and source repository
 - [ChatGPT development log](dev-logs/CRITICAL-THINKING-DEVELOPMENT-CHATGPT.md)
 - [Meta AI development log](dev-logs/CRITICAL-THINKING-DEVELOPMENT-META.md)
 - [Gemini development log](dev-logs/CRITICAL-THINKING-DEVELOPMENT-GEMINI.md)

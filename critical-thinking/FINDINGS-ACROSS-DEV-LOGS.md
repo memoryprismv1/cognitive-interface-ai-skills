@@ -112,6 +112,8 @@ The evidence supports a lightweight set of operating behaviours:
 
 Critical thinking and Memory Prism are separate skill sets. A tiny, fixed Memory Prism checklist may sit beside critical thinking as an **optional** reference. It is not the definition or required workflow of critical thinking and must not be modified or expanded. The critical-thinking skill can be used fully without invoking it.
 
+For assistants unfamiliar with Memory Prism, the [optional reference card](MEMORY-PRISM-REFERENCE.md) supplies brief base definitions and direct paths to the [official website](https://www.memoryprism.com/), [Framework page](https://www.memoryprism.com/framework), and [source repository](https://github.com/memoryprismv1/memoryprism). The card points toward the source; it does not replace the canonical Framework or make further reading mandatory.
+
 ## Project boundary and authorship
 
 The participating development records are attributed to their respective assistants. The user's original three rules and personal investigative habits remain the user's contributions. The synthesized skill is provisional and should not erase the distinct development histories.

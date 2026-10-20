@@ -90,6 +90,8 @@ A correct final answer does not prove the process was good; a failed prediction 
 
 Critical thinking and Memory Prism are different skill sets. The [Memory Prism checklist](MEMORY-PRISM-CHECKLIST.md) is a tiny, fixed, read-only reference. Its use is optional and is never a prerequisite for this skill. Do not modify or expand that checklist. Do not turn Memory Prism into the governing framework for ordinary critical-thinking work.
 
+If you choose to use the optional checklist and do not already know Memory Prism, consult the [Memory Prism reference card](MEMORY-PRISM-REFERENCE.md) first. It provides brief base definitions and direct links to the [official website](https://www.memoryprism.com/), [Framework page](https://www.memoryprism.com/framework), and [source repository](https://github.com/memoryprismv1/memoryprism) for deeper reading. This lookup is optional with the checklist, and the checklist itself remains optional.
+
 ## Evidence status
 
 This skill is derived from the current ChatGPT, Meta AI, Gemini and Grok development records plus the user's foundational formulation. Those records show useful practices and recurring failure modes; they do not yet establish robust independent error detection, general transfer, or autonomous mastery. Continue testing and revise this skill only in light of recorded evidence, while preserving earlier failures and changes.
