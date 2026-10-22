@@ -58,6 +58,16 @@ A general-purpose capability for delivering the requested artifacts, checking th
 - [External research, independent work, rationale, and limits](verification-integrity/README.md)
 - [Development history](verification-integrity/HISTORY.md)
 
+### [Peer Review](peer-review/README.md)
+
+**Core rule: Review the work, not its author. Test the claims against the purpose and evidence; report what was actually checked.**
+
+A reusable capability for independently examining work produced by another person, AI, or process. It complements Critical Thinking, Task Integrity, and Verification Integrity rather than duplicating them. Q-Batch of Evidence remains responsible for independent batch setup, anonymisation, and offline comparison.
+
+- [Skill instructions](peer-review/SKILL.md)
+- [Research rationale, design choices, and limits](peer-review/README.md)
+- [Development history and pilot evidence boundary](peer-review/HISTORY.md)
+
 ## How this collection works
 
 Each skill has one folder containing three files:
