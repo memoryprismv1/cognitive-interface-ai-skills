@@ -67,3 +67,16 @@ Source material:
 ## Check before sending
 
 Read it once as an average reader in a hurry. If any sentence makes you slow down or re-read, rewrite it. Then scan the emphasis: does it selectively promote the information that matters, or is it merely decoration?
+
+## Research-informed caution: compression is not clarity
+
+Research on AI-generated language reports that models can overuse constructions associated with processing difficulty. A controlled experiment also suggests that penalising response length can shift grammatical choices. See Clark, Martin, & Mahowald (2026), [Why Is AI-Generated Language So Hard to Understand?](https://arxiv.org/abs/2610.29162).
+
+Apply the skill accordingly:
+- Do not optimise for the fewest possible words.
+- Keep connecting words when they help readers recover relationships.
+- Make dependencies explicit when omission would force the reader to infer them.
+- Preserve necessary detail and technical precision.
+- Prefer the clearest accurate form, not automatically the shortest form.
+
+This paper does not test this skill directly. It supports the rationale for the problem being addressed; it does not prove that Automaticity works.
