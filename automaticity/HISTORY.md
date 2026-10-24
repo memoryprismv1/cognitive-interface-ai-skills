@@ -71,3 +71,16 @@ Bold and italics are treated as possible interface cues, not as biological mecha
 Source links:
 - Making Vision reading page: https://www.memoryprism.com/readings/making-vision
 - Zenodo record 22672458: https://zenodo.org/records/22672458
+
+## 24 October 2026 — Connecting Automaticity to research on AI-generated language
+
+The user brought a recent preprint, *Why Is AI-Generated Language So Hard to Understand?* by Clark, Martin, and Mahowald (2026), into the project. The paper examines linguistic patterns in outputs from nine AI models and reports a controlled experiment in which a response-length penalty shifted grammatical choices in a small model.
+
+The connection is not that the paper validates Automaticity. Rather, it offers a plausible mechanism for the problem the skill targets: optimisation for task performance or token economy can favour forms that are less comfortable for human readers. The project therefore distinguishes **compression** from **communicative efficiency**.
+
+The research rationale and evidence limits were added to `README.md`; a short operational caution was added to `SKILL.md`; and this history records the change. The proposed next evaluation is a meaning-matched comparison of ordinary model prose and Automaticity-style prose, measuring comprehension, reading time, recall, and preservation of substantive information.
+
+Reference:
+- Clark, T. H., Martin, M. B., & Mahowald, K. (2026). *Why Is AI-Generated Language So Hard to Understand?* https://arxiv.org/abs/2610.29162
+
+Evidence boundary: the preprint does not test this skill directly. The application remains an engineering hypothesis.
