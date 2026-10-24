@@ -463,18 +463,41 @@ These links provide both a readable project page and a persistent archived resea
     probable Alzheimer dementia* (2004).\
     https://pubmed.ncbi.nlm.nih.gov/15178171/
 
+
+------------------------------------------------------------------------
+
+## 9. Research on AI-generated language and processing friction
+
+Clark, T. H., Martin, M. B., & Mahowald, K. (2026). *Why Is AI-Generated Language So Hard to Understand?* https://arxiv.org/abs/2610.29162
+
+This preprint compares language from nine AI models with human writing and examines features associated with processing difficulty, including noun pileups, omitted complementisers such as “that,” long-distance dependencies, and unusual combinations of inanimate subjects with action verbs. The authors report that these patterns occur more often in model outputs than in human writing, with variation across models.
+
+The paper also reports a controlled proof-of-concept experiment using Qwen2.5-1.5B-Instruct. During reinforcement-learning fine-tuning on a structured-to-English task, a penalty for longer responses encouraged shorter constructions, including more frequent omission of optional “that.” The authors interpret this as evidence that optimisation for compression can influence grammatical choices even when the task does not require those choices.
+
+### Relevance to Automaticity
+
+The paper offers a plausible mechanism for the problem this skill addresses: a model can be rewarded for task success or token economy without being rewarded for making meaning easy for a person to recover. **Concision and communicative efficiency are not the same objective.**
+
+Automaticity's rule remains:
+
+> **Simplify the form. Never simplify the idea.**
+
+The aim is to reduce avoidable processing friction while preserving the relationships and information needed to understand the idea. It does not mean making every sentence short or removing necessary technical content.
+
+### Evidence boundary
+
+The linguistic measurements are indicators associated with processing difficulty; they do not prove that every sentence containing these features is hard to understand. The controlled experiment uses a small model and a specific task. It does not establish that length penalties are the sole cause of frontier models' writing styles, nor does it test this Automaticity skill.
+
+This is a research-informed design rationale, not a validation result. A direct test would compare meaning-matched ordinary model answers and Automaticity-style answers, measuring comprehension, reading time, recall, and preservation of substantive information.
+
 ------------------------------------------------------------------------
 
 ## Status
 
-**Evidence status:** Biologically grounded; AI application inferred from
-established reading/cognitive-load research.
+**Evidence status:** Biologically grounded; AI application informed by established reading/cognitive-load research and recent research on AI-generated language.
 
-**Claim strength:** The underlying cognitive phenomena are
-experimentally supported. The specific AI-writing application remains an
-engineering hypothesis to be tested.
+**Claim strength:** The underlying reading and linguistic phenomena have empirical support. The specific AI-writing application remains an engineering hypothesis to be tested.
 
 **Core principle:**
 
-> **Make the language automatic enough that the reader can spend their
-> attention on the idea.**
+> **Make the language automatic enough that the reader can spend their attention on the idea.**
