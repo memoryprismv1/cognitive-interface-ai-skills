@@ -5,6 +5,11 @@
 ## Anything can be reviewed
 Stories, project plans, user inputs, conversations, logs, research, code, datasets, designs, agent outputs, and other artifacts are all valid targets. Examples are illustrative, not a closed list.
 
+## Peer-review collation
+Use **`peer-review collate`** (or an equivalent request) for a mixed batch of supplied review files. The agent identifies which files concern which subjects and creates one cumulative human-readable report per topic; the batch need not be pre-sorted. It also creates a batch index mapping each input to its report(s) and an exceptions list for unreadable files, uncertain matches, duplicates, cross-topic files, and context files that are not reviews.
+
+Cumulative means synthesis, not concatenation. Preserve unique and minority findings, disagreements, source provenance, and version differences. Do not treat repeated claims as independent corroboration. See [COLLATION.md](COLLATION.md) for the workflow.
+
 ## Two output layers
 1. **Human-readable report:** overall assessment, meaningful strengths, important findings, uncertainties, evidence limits, and next steps.
 2. **Structured findings:** consistent fields and traceability so different reviewers' findings can be compared and machine-aggregated.
