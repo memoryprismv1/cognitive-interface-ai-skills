@@ -68,7 +68,21 @@ When given multiple reports on the same target, create a consolidated report and
 
 Do not force consensus or silently edit the target. A human or designated decision-maker may need to resolve disputes.
 
-## 6. Evidence boundary and revisions
+## 6. Collate a mixed batch of review files (human-reading workflow)
+When the user asks **`peer-review collate`** or otherwise asks to collate supplied review files, treat the input as a potentially mixed-topic batch. The primary deliverable is cumulative, readable reports for humans, not a machine-only aggregation.
+
+1. Inventory every accessible input: filename/path, format, apparent subject, reviewer/date/version where available, readability, and likely role. Do not claim to have processed inaccessible or partially read files.
+2. Classify by the work actually reviewed, using content, identifiers, versions, cited locations, and context. Filenames are clues, not proof. Similar keywords alone do not justify merging. A file may contribute to multiple topic reports when it covers multiple subjects; retain cross-references.
+3. Produce one cumulative report per coherent topic. Synthesize recurring findings, unique observations, disagreements and rationales, unresolved questions, supported status changes across versions, review coverage gaps, and proportionate next steps.
+4. Deduplicate by underlying issue, not wording alone. Preserve minority findings and source provenance. Repetition is not independent corroboration unless independence is established. Distinguish claims repeated by reviewers from evidence actually inspected.
+5. Do not silently merge materially different versions or treat disappearance from a later report as proof of resolution. Label historical findings and uncertainty.
+6. Produce a batch index mapping every input to its report(s), or to an exception status. Identify unreadable files, ambiguous classifications, cross-topic files, duplicates/likely duplicates, and context/source files that are not reviews. Never silently drop an input.
+7. Write for a human: plain-language summary and organized findings first; tables only where useful. Structured findings can accompany the report but must not replace it.
+8. Default deliverables: one cumulative human-readable report per topic, a batch index, and a concise exceptions/uncertainties section. Add machine-readable findings when useful or requested, using [REPORT-FORMAT.md](REPORT-FORMAT.md). If separate files cannot be created, clearly label each report in one combined output.
+
+Do not require the user to pre-sort a mixed batch. Ask only when a material ambiguity cannot be handled safely with an explicit uncertainty note. **The user supplies the batch; the agent discovers the structure.**
+
+## 7. Evidence boundary and revisions
 Distinguish material inspected directly, second-hand summaries, external/tool checks, unchecked claims, and limitations that could change the conclusion. Keep this proportionate to stakes. When asked to re-review, assess author responses on evidence and reasoning, check the revised artifact, and preserve unresolved disagreement and review history.
 
 ## Output default
