@@ -1,47 +1,28 @@
 # Peer Review
 
-**Skill:** `peer-review`
+**Purpose:** Review any work product or record, produce a human-readable report and structured findings, and optionally aggregate multiple reviews into a traceable gap map.
 
-**Purpose:** Help an AI independently examine work produced by another person, AI, or process, and report consequential findings that are traceable to the artifact and its evidence.
+## Anything can be reviewed
+Stories, project plans, user inputs, conversations, logs, research, code, datasets, designs, agent outputs, and other artifacts are all valid targets. Examples are illustrative, not a closed list.
 
-**Core rule:** Review the work, not its author. Test the claims against the purpose and evidence; report what was actually checked.
+## Two output layers
+1. **Human-readable report:** overall assessment, meaningful strengths, important findings, uncertainties, evidence limits, and next steps.
+2. **Structured findings:** consistent fields and traceability so different reviewers' findings can be compared and machine-aggregated.
 
-## Why this is a distinct capability
+See [REPORT-FORMAT.md](REPORT-FORMAT.md) for the shared report/finding contract and examples.
 
-Critical Thinking helps investigate questions and explanations. Task Integrity tracks scope, coverage, provenance, and honest completion claims. Verification Integrity checks concrete deliverables and whether they were actually delivered and checked. Peer Review has a different immediate target: an existing piece of work produced by someone or something else.
+## Multi-reviewer gap discovery
+The aggregator deduplicates findings about the same underlying issue, preserves source reports and reviewer identities, distinguishes convergent findings from unique observations, keeps disagreements visible, and separates defects in the work from **review coverage gaps** (areas no reviewer examined). It can track findings across revisions.
 
-It should coordinate with those skills rather than duplicate them. It should also remain useful beyond blind scoring: specifications, research summaries, hypotheses, code, data analyses, and proposed skills can all need independent review.
-
-## Research informing the design
-
-Research on LLM-as-a-judge systems shows that evaluations can be affected by presentation order and other biases, and that scores can vary across repeated runs. This supports a cautious design: use task-relevant criteria, ground findings in the artifact, separate observations from explanations, disclose limits, and do not treat one review as an independent guarantee of correctness.
-
-- Shi, L. et al. (2025). [Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](https://aclanthology.org/2025.ijcnlp-long.18/). Studies position bias across pairwise and list-wise judgments.
-- Ye, J. et al. (2025). [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://proceedings.iclr.cc/paper_files/paper/2025/hash/fdca08d371e4b6c031397909e20043bd-Abstract-Conference.html). Analyses multiple potential biases in LLM evaluation.
-- Haldar, R. & Hockenmaier, J. (2025). [Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks](https://aclanthology.org/2025.findings-emnlp.1361/). Examines variation in scores across repeated evaluations.
-
-These papers investigate LLM evaluation under particular experimental setups. They motivate safeguards; they do not validate this skill or prove that every review will exhibit the same failure modes.
-
-## Design choices
-
-- Review the artifact itself, not only its author's account of it.
-- Apply supplied criteria when suitable; when they are missing, make consequential assumptions visible.
-- Tie findings to locations, claims, evidence, and consequences.
-- Distinguish confirmed errors, possible issues, and unknowns.
-- Do not rewrite, score, rank, or declare a winner unless the task calls for it.
-- Use blind-review safeguards only when relevant, and disclose when blinding was compromised.
-- Keep the report proportionate to the stakes and the user's requested format.
+Reviewer count is a signal for prioritization, not proof. Independence must not be assumed, minority findings must not be discarded, and synthesis must not force consensus.
 
 ## Relationship to Q-Batch
+Q-Batch of Evidence retains its role in independent-run setup, evidence preservation, anonymisation, and offline comparison. Peer Review supplies reusable review behaviour and report structure; it is not limited to Q-Batch experiments.
 
-[Q-Batch of Evidence](https://github.com/memoryprismv1/q-batch-of-evidence) is a method for independently specified runs, preserved evidence, and offline comparison. It owns batch setup, resource and environment records, anonymisation, and separation of the runner from the scorer. Peer Review supplies a reusable reviewing behaviour when a Q-Batch comparison calls for one; it does not replace the method or its predeclared criteria.
+## Research and evidence status
+Research on LLM-as-a-judge systems reports position bias, other judgment biases, and variation across repeated evaluations. These findings motivate traceability and caution but do not validate this skill.
+- Shi et al. (2025), [Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge](https://aclanthology.org/2025.ijcnlp-long.18/).
+- Ye et al. (2025), [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://proceedings.iclr.cc/paper_files/paper/2025/hash/fdca08d371e4b6c031397909e20043bd-Abstract-Conference.html).
+- Haldar & Hockenmaier (2025), [Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks](https://aclanthology.org/2025.findings-emnlp.1361/).
 
-## Evaluation plan
-
-Test this skill on varied artifacts and compare its findings against independent checks. Include cases where the work is sound, has a material error, lacks enough evidence, and is persuasive in style but weak in support. For anonymous comparisons, vary presentation order and record prior exposure. Check both review quality and unnecessary review burden.
-
-## Evidence status and limits
-
-This skill began with a small Prism-versus-Blind pilot in a Claude conversation. That pilot showed a potentially useful contrast in two pairs of answers, but used one run per prompt, the same agent for both conditions, and an evaluator who knew the conditions. The pilot did not test this skill's reliability and cannot establish that the Prism instructions caused the observed differences.
-
-The operational procedure remains a proposal. Its effectiveness, transfer to different artifact types, and effect on human review effort need direct testing.
+The skill remains proposed operational behaviour, not a validated guarantee. Evaluate diverse targets, individual finding quality, aggregation, false positives, minority findings, coverage gaps, traceability, and usefulness.
