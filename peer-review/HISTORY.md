@@ -2,6 +2,10 @@
 
 This history records development and evidence limits. The pilot that prompted this skill is an example, not proof that the skill works.
 
+## 25 October 2026 — Mixed-batch collation for human-readable reports
+
+Added a first-class collation workflow: a mixed batch of review files is classified by the subject actually reviewed, then synthesized into one cumulative readable report per coherent topic. The workflow includes an input-to-report batch index and visible exceptions for unreadable files, uncertain matches, cross-topic inputs, duplicates, and context files. It emphasizes synthesis rather than concatenation, provenance, version boundaries, minority findings, and the distinction between repeated claims and independently checked evidence. See [COLLATION.md](COLLATION.md).
+
 ## 25 October 2026 — Generic reports and machine-aggregatable gap discovery
 
 The scope was expanded beyond the original Q-Batch-oriented framing. Any reviewable work or record can be a target, including stories, project plans, single inputs, conversations, logs, and technical artifacts.
