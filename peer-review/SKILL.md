@@ -1,95 +1,85 @@
 ---
 name: peer-review
-description: Use when evaluating work produced by another person, AI, or process. Check it against its purpose, stated criteria, and relevant evidence; report consequential findings clearly without taking over authorship.
+description: Independently review any work product or record, produce a human-readable report and structured findings, and optionally aggregate multiple reviews to map gaps without erasing disagreement.
 ---
 
 # Peer Review
 
 ## Core rule
+**Review the work, not its author.** Examine it against its purpose, relevant criteria, and available evidence. Report what was actually checked. Review is not automatic agreement, adversarial fault-finding, a rewrite, or proof that the reviewer is correct.
 
-**Review the work, not its author. Test the claims against the purpose and evidence; report what you actually checked.**
+## 1. Any reviewable target
+Anything that can be examined as work or a record may be reviewed: a story, project plan, single user input, prompt, conversation, log, research report, code, dataset, design, agent output, or other artifact. This list is illustrative, not restrictive.
 
-Peer review is an independent examination of work made by someone or something else. It is not automatic agreement, adversarial fault-finding, a rewrite, or proof that the reviewer is correct.
+Identify the target, version/snapshot and creator when known, the intended use, review purpose, and scope. Use supplied criteria when relevant. If criteria are missing, use the stated purpose and ordinary requirements of the task, making consequential assumptions visible. Adapt the criteria to the target; do not assess a story as if it were a project plan. Ask a focused question if ambiguity prevents a fair review.
 
-## 1. Establish the review target
+## 2. Examine and probe for gaps
+Inspect the target itself, not only its author's summary. As appropriate, examine:
+- factual support, evidence, provenance, attribution, and uncertainty;
+- reasoning, internal consistency, contradictions, and unsupported transitions;
+- omissions, unstated assumptions, dependencies, alternatives, counterexamples, edge cases, and failure modes;
+- completeness, usability, actionability, and whether consequential steps require guessing;
+- whether a final state is supported by a plausible causal sequence when intermediate steps matter.
 
-Identify the artifact or output, its intended use, and any supplied requirements, rubric, or acceptance criteria.
+Adapt to the work. Creative work may invite examination of motivation, continuity, pacing, setup/payoff, point of view, and reader comprehension; distinguish craft judgment from objective inconsistency. Plans may invite examination of ownership, sequencing, dependencies, resources, contingencies, success criteria, and closure. Conversations and logs may invite examination of chronology, attribution, context, claims versus actions, missing steps, and whether conclusions follow from the record. These are prompts, not mandatory checklists. Do not invent flaws to look thorough.
 
-- Use the supplied criteria when they are clear and relevant.
-- If criteria are missing, use the stated purpose and ordinary requirements of the task; make important assumptions visible.
-- If the purpose or criteria conflict or are too unclear to support a fair judgment, identify the ambiguity rather than silently inventing a different task.
-- Respect any required review format. Do not add a scoring scheme when one is not needed.
+Follow sources or run checks when they materially affect the judgment and tools/access permit it. Distinguish direct observations from explanations and inferences.
 
-## 2. Examine the work itself
+## 3. Produce a report with structured findings
+Every review should produce a proportionate human-readable report and findings that can be aggregated by a machine. Use [REPORT-FORMAT.md](REPORT-FORMAT.md) as the shared contract.
 
-Read or inspect the relevant artifact, not just its author's summary of it. Check the parts that matter to the conclusion and intended use.
+Report metadata should include, when known: report ID, target identifier/title and version, creator/author, **Reviewed by**, review date, review status, purpose, scope, and criteria. Never invent unavailable metadata.
 
-As appropriate, examine:
-- factual claims and whether the cited or available evidence supports them;
-- reasoning, internal consistency, and whether conclusions follow;
-- missing requirements, important alternatives, counterexamples, or limitations;
-- source provenance, attribution, and the distinction between observation, report, inference, and hypothesis;
-- whether a procedure is actionable and whether an output actually serves its stated purpose;
-- whether the artifact can be used or reproduced without guessing at consequential missing steps.
+The report normally contains:
+- overall assessment;
+- meaningful strengths where useful;
+- findings with target location, evidence, consequence, and suggested action/test where possible;
+- uncertainties, questions, and disagreements;
+- evidence boundary and material limitations;
+- recommended next steps where useful.
 
-Follow sources or run checks when they materially affect the judgment and the necessary access or tools are available. Do not imply that you verified something you only inferred or read about second-hand.
+Each structured finding should include, where applicable: finding ID, type, statement, target locator(s), evidence, impact, epistemic status (e.g. confirmed, suspected, question, disputed), severity/priority, confidence and rationale when useful, suggested action/test, reviewer, and source report. Omit unavailable fields or mark them unknown. Do not require exact locations or numerical confidence where that would create false precision.
 
-## 3. Make findings traceable
+## 4. Role boundaries
+- Review and report; do not silently edit or take ownership of the source work.
+- Keep proposed changes distinct from findings and source material.
+- Do not guess the author or hidden instructions.
+- Follow blind-review protocols when relevant and disclose compromised blinding.
+- Do not score, rank, declare a winner, or issue pass/fail unless requested or appropriate to the task.
+- Severity and confidence are judgments, not established facts.
+- Repeated agreement is not proof.
 
-For each consequential finding, identify the relevant location or claim, explain the issue, and say why it matters. Give a correction, test, or question when that helps the author act on it.
+## 5. Aggregate multiple reviews (optional operation)
+When given multiple reports on the same target, create a consolidated report and gap map.
 
-- Separate direct observations from explanations of their cause.
-- Distinguish confirmed errors from possible issues and unanswered questions.
-- Do not inflate severity, invent criticism to look thorough, or present taste as objective defect.
-- Mention strengths when they matter to the decision; a review need not pad itself with praise.
-- Do not let one strong or weak feature determine judgments on unrelated criteria.
+1. Check target identity and version. Mark version differences; do not silently merge reviews of different versions.
+2. Deduplicate by underlying issue, not wording alone. Preserve links to all source reports, reviewers, evidence, and locations.
+3. Distinguish:
+   - **Convergent findings:** independently raised by multiple reviewers.
+   - **Unique findings:** raised by one reviewer.
+   - **Disagreements:** incompatible interpretations or recommendations, preserving each rationale.
+   - **Unresolved findings:** evidence is insufficient to confirm or reject.
+   - **Resolved/rejected findings:** only when evidence and rationale support that status.
+4. Treat reviewer counts as a prioritization signal, not proof. Claim independence only when the process establishes it.
+5. Preserve minority findings. Different reviewers may have different strengths and blind spots.
+6. Identify **review coverage gaps**—areas not examined—separately from suspected defects in the target.
+7. Output both a readable synthesis and structured findings; retain source reports unchanged for traceability.
+8. On revisions, track findings as open, addressed, partly addressed, disputed, rejected with rationale, or unable to reassess; check for new gaps introduced by the revision.
 
-Use severity labels only when they help the task. A useful default is **blocker** (the intended use is invalid or unsafe), **major** (a material requirement or conclusion is undermined), **minor** (a bounded issue), and **question** (evidence is insufficient to decide). Follow a supplied classification if one exists.
+Do not force consensus or silently edit the target. A human or designated decision-maker may need to resolve disputes.
 
-## 4. Respect the boundary of the role
+## 6. Evidence boundary and revisions
+Distinguish material inspected directly, second-hand summaries, external/tool checks, unchecked claims, and limitations that could change the conclusion. Keep this proportionate to stakes. When asked to re-review, assess author responses on evidence and reasoning, check the revised artifact, and preserve unresolved disagreement and review history.
 
-- Review and report; do not silently edit, replace, or take ownership of the author's work.
-- Offer proposed changes when useful, but keep them distinguishable from findings and source material.
-- Do not guess who produced an artifact or what hidden instructions it received unless that is part of the task.
-- In blind or anonymous evaluation, follow the specified protocol. Do not claim the review was blind if prior exposure, visible clues, or access to labels compromised it; disclose the limitation.
-- Do not name an overall winner, calculate aggregate scores, or issue a pass/fail verdict unless the task calls for it.
-- If the review asks for a decision, give one supported by the findings and state important limits.
-
-## 5. State the evidence boundary
-
-Report what you actually examined and any limitation that could change the result. Distinguish, where relevant:
-- source material inspected directly;
-- summaries or reports relied on second-hand;
-- claims checked with tools or external sources;
-- checks not performed or impossible with available access;
-- unresolved questions and inferences.
-
-Keep this proportionate. A small review does not need a separate evidence register; a high-consequence or multi-artifact review may need a more explicit record.
-
-## 6. Handle responses and revisions
-
-If the author responds to findings, assess the response on its evidence and reasoning, not on status or confidence. The author may reasonably disagree with a finding.
-
-When asked to re-review, check whether each relevant finding was resolved and whether the revision introduced new issues. Preserve unresolved disagreement and the basis for closure; do not quietly rewrite the review history.
-
-## Output
-
-Use the user's requested format. Otherwise, give a concise review with:
-- the overall assessment, if useful;
-- consequential findings with locations and reasons;
-- what was checked and material limits;
-- the next correction or question, where action is needed.
-
-If no consequential problems were found, say so plainly. Do not manufacture a verdict or paperwork that the task does not need.
+## Output default
+Use the requested format. Otherwise, produce a proportionate report using the shared structure. The prose is for people; structured findings enable machine aggregation. If no consequential problems were found, say so plainly. Do not manufacture a verdict or paperwork.
 
 ## Relationship to other skills
+- **Critical Thinking** investigates questions and explanations; Peer Review evaluates an existing target.
+- **Task Integrity** tracks scope, coverage, provenance, and completion claims.
+- **Verification Integrity** checks concrete deliverables and their destination.
+- **Good-Faith Collaboration** governs reciprocal inquiry.
+- **Q-Batch of Evidence** owns independent-run setup, evidence preservation, anonymisation, and offline comparison. Peer Review can provide review behaviour and output schema when useful; Q-Batch does not constrain the kinds of work that can be reviewed.
 
-- **Critical Thinking** investigates questions, explanations, and mismatches; Peer Review evaluates an existing artifact or body of work.
-- **Task Integrity** keeps scope, coverage, provenance, and completion claims honest; use it to support the review process without duplicating its ledger by default.
-- **Verification Integrity** checks concrete deliverables and their destination; Peer Review assesses the substance and fitness of another party's work.
-- **Good-Faith Collaboration** governs reciprocal inquiry; Peer Review may inform that inquiry but does not require a debate or author-response cycle.
-- **Q-Batch of Evidence** specifies and preserves independent test runs and compares them offline. An assigned reviewer may use this skill for the review step; test setup, anonymisation, label keys, and batch records belong to Q-Batch, not here.
-
-## Evidence boundary
-
-This is a proposed operational behaviour. Research on LLM evaluators identifies position and other judgment biases, and repeated evaluations can vary. These findings motivate safeguards but do not establish that this skill itself produces reliable reviews. Test it on varied artifacts and compare its findings with independent checks; do not use the skill's own confidence as validation.
+## Evidence status
+This is proposed operational behaviour, not a validated guarantee. Research on LLM evaluators motivates safeguards but does not establish that this skill reliably finds gaps. Test it across varied artifact types and compare findings with independent checks.
