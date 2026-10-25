@@ -17,6 +17,7 @@ Critical thinking and Memory Prism are separate skill sets. The [basic Critical 
 - [Grok development log](dev-logs/CRITICAL-THINKING-DEVELOPMENT-GROK.md)
 - [Skeleton flower case note — ChatGPT](dev-logs/CASE-NOTE-SKELETON-FLOWER-CHATGPT.md)
 - [Trap-jaw ant case note — ChatGPT](dev-logs/CASE-NOTE-TRAP-JAW-CHATGPT.md)
+- [Tree and boulder case note — ChatGPT](dev-logs/CASE-NOTE-TREE-BOULDER-CHATGPT.md)
 
 ## Scope boundary
 
