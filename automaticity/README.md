@@ -1,5 +1,7 @@
 # Automaticity
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23319204)
+
 **Skill:** `automaticity`
 
 **Purpose:** Write responses so that the reader can spend as little

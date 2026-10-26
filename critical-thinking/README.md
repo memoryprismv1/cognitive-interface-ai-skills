@@ -1,5 +1,7 @@
 # Critical Thinking
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23664764)
+
 **Status:** In development; not a finished or validated AI skill.
 
 Critical thinking and Memory Prism are separate skill sets. The [basic Critical Thinking skill](SKILL.md) is provisional and is derived from observed practice and failure patterns in the development records.

@@ -2,13 +2,9 @@
 
 A collection of practical AI skills grounded in human cognition and biology. Each skill translates an observation or research finding into an AI behavior, while keeping evidence separate from engineering hypotheses.
 
-## Work in progress
-
-[Critical Thinking](critical-thinking/README.md) documents the provisional basic skill, cross-log findings, participating assistants' development logs, and the project-author note. **This is development work, not a finished or validated skill.** Critical thinking and Memory Prism remain separate; the tiny Memory Prism checklist is optional and not to be modified.
-
 ## Skills
 
-### [Automaticity](automaticity/README.md)
+### [Automaticity](automaticity/README.md) · [Zenodo record](https://zenodo.org/records/23319204)
 
 **Core rule: Simplify the form. Never simplify the idea.**
 
@@ -18,17 +14,7 @@ Automaticity explores how an AI can present information with less unnecessary la
 - [Research rationale and references](automaticity/README.md)
 - [Development history](automaticity/HISTORY.md)
 
-### [Good-Faith Collaboration](good-faith-collaboration/README.md)
-
-**Core rule: I don't know whether you're right. Let's find out together.**
-
-A reciprocal inquiry protocol for unfamiliar or unconventional ideas. The AI takes initiative and investigates before dismissing; the user contributes honestly from their position and engages with relevant counterevidence. Neither must be right at the outset, and neither gets automatic acceptance. The README distinguishes research that motivates the design from evidence that would validate the protocol itself.
-
-- [Skill instructions](good-faith-collaboration/SKILL.md)
-- [Research rationale and limits](good-faith-collaboration/README.md)
-- [Development history, including the cuttlefish translator-bias incident](good-faith-collaboration/HISTORY.md)
-
-### [A Touch of Grace](a-touch-of-grace/README.md)
+### [A Touch of Grace](a-touch-of-grace/README.md) · [Zenodo record](https://zenodo.org/records/23664639)
 
 **Core rule: Do not make the user pay attention to commentary they did not ask for and do not need.**
 
@@ -38,7 +24,37 @@ A task-relevance skill for work involving prior conversations, model outputs, co
 - [Research rationale and evidence limits](a-touch-of-grace/README.md)
 - [Development history](a-touch-of-grace/HISTORY.md)
 
-### [Task Integrity](task-integrity/README.md)
+### [Critical Thinking](critical-thinking/README.md) · [Zenodo record](https://zenodo.org/records/23664764)
+
+**Status: Provisional and in development; not a finished or validated skill.**
+
+Critical Thinking supports curiosity-led investigation of questions, explanations, and apparent contradictions. Its development records document the provisional basic skill, cross-log findings, participating assistants' development logs, and the project-author note. Critical Thinking and Memory Prism remain separate; the tiny Memory Prism checklist is optional and is not to be modified.
+
+- [Skill instructions](critical-thinking/SKILL.md)
+- [Findings across development logs](critical-thinking/FINDINGS-ACROSS-DEV-LOGS.md)
+- [Development history and project notes](critical-thinking/README.md)
+
+### [Good-Faith Collaboration](good-faith-collaboration/README.md) · [Zenodo record](https://zenodo.org/records/23665326)
+
+**Core rule: I don't know whether you're right. Let's find out together.**
+
+A reciprocal inquiry protocol for unfamiliar or unconventional ideas. The AI takes initiative and investigates before dismissing; the user contributes honestly from their position and engages with relevant counterevidence. Neither must be right at the outset, and neither gets automatic acceptance. The README distinguishes research that motivates the design from evidence that would validate the protocol itself.
+
+- [Skill instructions](good-faith-collaboration/SKILL.md)
+- [Research rationale and limits](good-faith-collaboration/README.md)
+- [Development history, including the cuttlefish translator-bias incident](good-faith-collaboration/HISTORY.md)
+
+### [Peer Review](peer-review/README.md) · [Zenodo record](https://zenodo.org/records/23665428)
+
+**Core rule: Review the work, not its author. Test the claims against the purpose and evidence; report what was actually checked.**
+
+A reusable capability for independently examining work produced by another person, AI, or process. It supports human-readable reports, structured findings, and cumulative collation of mixed review batches while preserving provenance, minority findings, disagreements, and coverage gaps. Q-Batch of Evidence remains responsible for independent batch setup, anonymisation, and offline comparison.
+
+- [Skill instructions](peer-review/SKILL.md)
+- [Research rationale, design choices, and limits](peer-review/README.md)
+- [Development history and pilot evidence boundary](peer-review/HISTORY.md)
+
+### [Task Integrity](task-integrity/README.md) · [Zenodo record](https://zenodo.org/records/23666595)
 
 **Core rule: Keep the work faithful to the requested scope, and keep claims faithful to what has actually been examined or completed.**
 
@@ -48,7 +64,7 @@ A general-purpose capability for tracking task requirements, coverage, evidence 
 - [Rationale and evaluation criteria](task-integrity/README.md)
 - [Development history](task-integrity/HISTORY.md)
 
-### [Verification Integrity](verification-integrity/README.md)
+### [Verification Integrity](verification-integrity/README.md) · [Zenodo record](https://zenodo.org/records/23666717)
 
 **Core rule: Minimise the human effort required to establish whether the requested work was completed correctly.**
 
@@ -57,16 +73,6 @@ A general-purpose capability for delivering the requested artifacts, checking th
 - [Skill instructions](verification-integrity/SKILL.md)
 - [External research, independent work, rationale, and limits](verification-integrity/README.md)
 - [Development history](verification-integrity/HISTORY.md)
-
-### [Peer Review](peer-review/README.md)
-
-**Core rule: Review the work, not its author. Test the claims against the purpose and evidence; report what was actually checked.**
-
-A reusable capability for independently examining work produced by another person, AI, or process. It complements Critical Thinking, Task Integrity, and Verification Integrity rather than duplicating them. Q-Batch of Evidence remains responsible for independent batch setup, anonymisation, and offline comparison.
-
-- [Skill instructions](peer-review/SKILL.md)
-- [Research rationale, design choices, and limits](peer-review/README.md)
-- [Development history and pilot evidence boundary](peer-review/HISTORY.md)
 
 ## How this collection works
 

@@ -1,5 +1,7 @@
 # A Touch of Grace
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23664639)
+
 **Skill:** `a-touch-of-grace`
 
 **Purpose:** Prevent unsolicited evaluative commentary from becoming an extra task for the user when an AI works with prior conversations, model outputs, corrections, and comparisons.

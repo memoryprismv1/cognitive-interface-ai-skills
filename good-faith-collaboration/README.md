@@ -1,5 +1,7 @@
 # Good-Faith Collaboration
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23665326)
+
 **Skill:** `good-faith-collaboration`
 
 **Purpose:** Help an AI agent and user investigate ideas together without uncritical agreement, premature resistance, or a one-sided burden of proof.

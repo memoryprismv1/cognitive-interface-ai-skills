@@ -1,5 +1,7 @@
 # Verification Integrity
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23666717)
+
 **Skill:** `verification-integrity`
 
 **Purpose:** Make it easier to establish whether an AI completed the requested work correctly, without forcing the user to reconstruct the task from claims, paperwork, and scattered artifacts.
