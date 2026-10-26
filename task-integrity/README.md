@@ -1,5 +1,7 @@
 # Task Integrity
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23666595)
+
 **Skill:** task-integrity
 
 **Purpose:** Keep AI work aligned with the requested scope, make evidence and coverage visible, and ensure that completion claims match the work actually performed.
