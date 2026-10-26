@@ -2,6 +2,10 @@
 
 A collection of practical AI skills grounded in human cognition and biology. Each skill translates an observation or research finding into an AI behavior, while keeping evidence separate from engineering hypotheses.
 
+**Publication record:** [Cognitive Interface AI Skills on Zenodo](https://zenodo.org/records/23319204) · DOI: [10.5281/zenodo.23319204](https://doi.org/10.5281/zenodo.23319204) · **Working source:** [memoryprismv1/cognitive-interface-ai-skills](https://github.com/memoryprismv1/cognitive-interface-ai-skills)
+
+This repository is the evolving working source. The Zenodo record identifies the published snapshot; individual skills have different development and evidence statuses, which are stated below and in their own documentation.
+
 ## Work in progress
 
 [Critical Thinking](critical-thinking/README.md) documents the provisional basic skill, cross-log findings, participating assistants' development logs, and the project-author note. **This is development work, not a finished or validated skill.** Critical thinking and Memory Prism remain separate; the tiny Memory Prism checklist is optional and not to be modified.
@@ -66,6 +70,8 @@ A reusable capability for independently examining work produced by another perso
 
 - [Skill instructions](peer-review/SKILL.md)
 - [Research rationale, design choices, and limits](peer-review/README.md)
+- [Mixed-batch collation workflow](peer-review/COLLATION.md) — sorts mixed-topic review batches into cumulative human-readable reports, a batch index, and an exceptions list
+- [Shared report and structured-finding format](peer-review/REPORT-FORMAT.md)
 - [Development history and pilot evidence boundary](peer-review/HISTORY.md)
 
 ## How this collection works
