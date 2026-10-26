@@ -1,5 +1,7 @@
 # Peer Review
 
+**Zenodo record:** [Archived release](https://zenodo.org/records/23665428)
+
 **Purpose:** Review any work product or record, produce a human-readable report and structured findings, and optionally aggregate multiple reviews into a traceable gap map.
 
 ## Anything can be reviewed
