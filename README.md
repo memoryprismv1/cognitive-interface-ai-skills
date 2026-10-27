@@ -44,6 +44,16 @@ A reciprocal inquiry protocol for unfamiliar or unconventional ideas. The AI tak
 - [Research rationale and limits](good-faith-collaboration/README.md)
 - [Development history, including the cuttlefish translator-bias incident](good-faith-collaboration/HISTORY.md)
 
+### [Approach Calibration & Help-Seeking](approach-calibration-help-seeking/README.md)
+
+**Core rule: Help-seeking is a decision, not a default.**
+
+A provisional skill for judging whether the current approach is adequate and choosing whether to continue, adjust, investigate, use a bounded assumption, seek human help, or stop. Its aim is selective help-seeking, not more questions by default; effectiveness remains to be tested.
+
+- [Skill instructions](approach-calibration-help-seeking/SKILL.md)
+- [Research rationale and evaluation plan](approach-calibration-help-seeking/README.md)
+- [Development history](approach-calibration-help-seeking/HISTORY.md)
+
 ### [Peer Review](peer-review/README.md) · [Zenodo record](https://zenodo.org/records/23665428)
 
 **Core rule: Review the work, not its author. Test the claims against the purpose and evidence; report what was actually checked.**
