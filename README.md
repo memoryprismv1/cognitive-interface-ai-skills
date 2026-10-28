@@ -34,25 +34,15 @@ Critical Thinking supports curiosity-led investigation of questions, explanation
 - [Findings across development logs](critical-thinking/FINDINGS-ACROSS-DEV-LOGS.md)
 - [Development history and project notes](critical-thinking/README.md)
 
-### [Good-Faith Collaboration](good-faith-collaboration/README.md) · [Zenodo record](https://zenodo.org/records/23665326)
+### [Good-Faith Collaboration & Approach Calibration](good-faith-collaboration/README.md) · [Zenodo record for the original Good-Faith Collaboration release](https://zenodo.org/records/23665326)
 
-**Core rule: I don't know whether you're right. Let's find out together.**
+**Core rule: I don't know whether you're right. Let's find out together—and choose the next step that actually helps.**
 
-A reciprocal inquiry protocol for unfamiliar or unconventional ideas. The AI takes initiative and investigates before dismissing; the user contributes honestly from their position and engages with relevant counterevidence. Neither must be right at the outset, and neither gets automatic acceptance. The README distinguishes research that motivates the design from evidence that would validate the protocol itself.
+An integrated, provisional protocol for reciprocal inquiry and calibrated action selection. It combines investigation before judgement, scrutiny of the AI's own assumptions, resistance to both sycophancy and premature dismissal, adaptive recovery when a method fails, and selective help-seeking. The original Good-Faith Collaboration release remains archived on Zenodo; this repository version also incorporates the Approach Calibration & Help-Seeking design. The integrated behaviour has not yet been validated.
 
-- [Skill instructions](good-faith-collaboration/SKILL.md)
-- [Research rationale and limits](good-faith-collaboration/README.md)
-- [Development history, including the cuttlefish translator-bias incident](good-faith-collaboration/HISTORY.md)
-
-### [Approach Calibration & Help-Seeking](approach-calibration-help-seeking/README.md)
-
-**Core rule: Help-seeking is a decision, not a default.**
-
-A provisional skill for judging whether the current approach is adequate and choosing whether to continue, adjust, investigate, use a bounded assumption, seek human help, or stop. Its aim is selective help-seeking, not more questions by default; effectiveness remains to be tested.
-
-- [Skill instructions](approach-calibration-help-seeking/SKILL.md)
-- [Research rationale and evaluation plan](approach-calibration-help-seeking/README.md)
-- [Development history](approach-calibration-help-seeking/HISTORY.md)
+- [Integrated skill instructions](good-faith-collaboration/SKILL.md)
+- [Research rationale, evaluation plan, and evidence limits](good-faith-collaboration/README.md)
+- [Development history and integration decision](good-faith-collaboration/HISTORY.md)
 
 ### [Peer Review](peer-review/README.md) · [Zenodo record](https://zenodo.org/records/23665428)
 
