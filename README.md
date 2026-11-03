@@ -54,6 +54,16 @@ A reusable capability for independently examining work produced by another perso
 - [Research rationale, design choices, and limits](peer-review/README.md)
 - [Development history and pilot evidence boundary](peer-review/HISTORY.md)
 
+### [Optionality](optionality/README.md)
+
+**Core rule: Do not collapse a possibility space prematurely.**
+
+A user-controlled cognitive skill for people who value meaningful alternatives. It addresses object fixation, singular reasoning paths, and premature convergence. It can be explicitly activated or intelligently nudged when useful possibilities seem likely to exist; a nudge never activates the skill without the user's agreement.
+
+- [Skill instructions](optionality/SKILL.md)
+- [Research rationale, verified references, evidence limits, and evaluation plan](optionality/README.md)
+- [Development history](optionality/HISTORY.md)
+
 ### [Task Integrity](task-integrity/README.md) · [Zenodo record](https://zenodo.org/records/23666595)
 
 **Core rule: Keep the work faithful to the requested scope, and keep claims faithful to what has actually been examined or completed.**
