@@ -66,7 +66,7 @@ A human neuroimaging study of controllable and uncontrollable aversive stimulati
 
 **5. Neural signatures of choice overload**
 
-Reutskaja, E., et al. (2018). *Choice Overload Reduces Neural Signatures of Choice Set Value in Dorsal Striatum and Anterior Cingulate Cortex.* **Nature Human Behaviour, 2**, 925–935. https://doi.org/10.1038/s41562-018-0444-2
+Reutskaja, E., et al. (2018). *Choice Overload Reduces Neural Signatures of Choice Set Value in Dorsal Striatum and Anterior Cingulate Cortex.* **Nature Human Behaviour, 2**, 925–935. https://doi.org/10.1038/s41562-018-0440-2
 
 An fMRI study comparing choice sets of different sizes. Neural responses showed an inverted-U pattern during active choice; the pattern was absent during browsing. This is an important reason not to equate availability with mandatory evaluation or selection.
 
@@ -82,19 +82,19 @@ This research compares hypothesis search across developmental stages. It suggest
 
 **7. Stability of students' learning-environment preferences**
 
-Könings, K. D., et al. (2012). *Effects of a School Reform on Longitudinal Stability of Students' Preferences with Regard to Education.* **British Journal of Educational Psychology.**
+Könings, K. D., Brand-Gruwel, S., & Elen, J. (2012). *Effects of a School Reform on Longitudinal Stability of Students' Preferences with Regard to Education.* **British Journal of Educational Psychology, 82**(3), 512–532. https://doi.org/10.1111/j.2044-8279.2011.02044.x
 
 A longitudinal study of secondary-school students that found stability in many measured learning-environment preferences over repeated measurements, alongside changes in some preferences. This supports taking learner preferences seriously without treating them as immutable traits.
 
 **8. Multiple external representations in STEM**
 
-Malone, S., et al. (2024). *The More the Better? A Systematic Review and Meta-Analysis of the Benefits of More than Two External Representations in STEM Education.* **Educational Psychology Review.**
+Rexigel, E., Kuhn, J., Becker, S., et al. (2024). *The More the Better? A Systematic Review and Meta-Analysis of the Benefits of More than Two External Representations in STEM Education.* **Educational Psychology Review, 36**, 124. https://doi.org/10.1007/s10648-024-09958-y
 
 A review and meta-analysis reporting benefits for learning performance and cognitive load under the studied conditions. Multiple representations are not the same as multiple delivery modalities, and their benefits depend on how they are designed and supported.
 
 **9. Learning-style matching caution**
 
-Clinton-Lisell, V., & Litzinger, C. (2024). *Is It Really a Neuromyth? A Meta-Analysis of the Learning Styles Matching Hypothesis.* **Frontiers in Psychology.**
+Clinton-Lisell, V., & Litzinger, C. (2024). *Is It Really a Neuromyth? A Meta-Analysis of the Learning Styles Matching Hypothesis.* **Frontiers in Psychology, 15**, 1428732. https://doi.org/10.3389/fpsyg.2024.1428732
 
 This review reports a small overall effect but substantial variability and limited support for the crossover interactions needed to establish reliable learning-style matching. Optionality must not classify a learner permanently as visual, auditory, reading-oriented, or kinesthetic.
 
@@ -102,31 +102,61 @@ This review reports a small overall effect but substantial variability and limit
 
 ### D. AI reasoning, anchoring, and diversity
 
-**10. Tree of Thoughts**
+**10. Tree of Thoughts: branching, evaluation, and backtracking**
 
-Yao, S., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models.* **NeurIPS 2023.** https://arxiv.org/abs/2305.10601
+Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T. L., Cao, Y., & Narasimhan, K. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models.* **NeurIPS 2023.** https://arxiv.org/abs/2305.10601
 
-Introduces branching search over intermediate reasoning steps, with evaluation and backtracking. It demonstrates an approach beyond a single linear reasoning trace, but branching alone does not ensure independent conceptual framings or protect against an early shared assumption.
+Introduces search over coherent intermediate thoughts, including branching, evaluation, lookahead, and backtracking. In the Game of 24 experiment, GPT-4 with ordinary Chain-of-Thought solved 4% of tasks, compared with 74% using Tree of Thoughts. This demonstrates the value of structured exploration on selected search-heavy tasks; it does not establish that branching alone prevents shared framing or object fixation.
 
-**11. Confirmation bias in LLMs**
+**11. Confirmation bias during hypothesis search**
 
-Jhaveri, A., et al. (2026). *Failing to Falsify: Evaluating and Mitigating Confirmation Bias in Language Models.* https://arxiv.org/abs/2602.XXXX
+Jhaveri, A. R., Chen, A. G.-X., Sucholutsky, I., & Choi, E. (2026). *Failing to Falsify: Evaluating and Mitigating Confirmation Bias in Language Models.* https://arxiv.org/abs/2604.02485
 
-Research using rule-discovery tasks to examine whether models seek disconfirming evidence or generate examples that support their current hypothesis. **Bibliographic identifier must be verified before publication.** Do not cite this placeholder as a confirmed reference.
+Across eleven LLMs, the authors adapted a rule-discovery task and found that models often proposed examples that confirmed rather than challenged their current hypothesis. A prompt intervention encouraging counterexamples improved average rule-discovery rates from 42% to 56%. This supports treating the first hypothesis as a candidate to test, not as the organising truth. The reported evaluation is specific to the tested tasks.
 
-**12. Human–AI design fixation**
+**12. Anchoring in LLM judgements**
 
-Wadinambiarachchi, S., et al. (2024). *The Effects of Generative AI on Design Fixation and Divergent Thinking.* **CHI 2024.** https://doi.org/10.1145/3613904.3642919
+Lou, J., & Sun, Y. (2025; journal volume dated 2026). *Anchoring Bias in Large Language Models: An Experimental Study.* **Journal of Computational Social Science, 9**, article 11. https://doi.org/10.1007/s42001-025-00435-2
 
-An experiment examining how generative-AI examples affect human design work. It reported increased design fixation under the tested conditions. This is relevant to the possibility that AI outputs can narrow the user's subsequent exploration, not merely the model's own output.
+An experimental study of the influence of initial information on later LLM judgements. The authors report susceptibility to biased hints and find that collecting information from multiple angles is more useful than relying on simple Chain-of-Thought or reflection interventions. This is evidence about anchoring in the tested setup, not proof that every conversational model response is anchored.
 
-**13. Human–AI idea homogenisation**
+**13. Multi-answer reinforcement learning and mode concentration**
 
-de Rooij, A., & Biskjaer, M. M. (2026). *Does Generative AI Make Us Think Alike? A Systematic Review and Meta-analysis of Homogenisation Effects in Human–AI Co-creation.* **Behaviour & Information Technology.**
+Puri, I., Damani, M., Shenfeld, I., Ghassemi, M., Andreas, J., & Kim, Y. (2026). *Escaping the Mode: Multi-Answer Reinforcement Learning in LMs.* **Proceedings of the 43rd International Conference on Machine Learning, PMLR 306**, 100127–100146. https://proceedings.mlr.press/v306/puri26a.html
 
-A review of research on homogenisation in human–AI co-creation. Its findings motivate attention to task constraints and diversity, but do not establish that every form of AI assistance homogenises thought.
+Studies how post-training can concentrate a model's answer distribution around one dominant response, even when a task admits multiple valid answers or uncertainty. The proposed multi-answer reinforcement-learning approach trains models to produce multiple plausible candidates with confidence estimates. This is a training-level intervention, not a user-facing skill.
 
-**Reference verification note:** The LLM research leads above include work located during the research conversation. Before a formal release or DOI deposit, verify final titles, author lists, publication status, identifiers, and reported results against the publisher or authors' primary records. A search result or preprint is not a substitute for bibliographic verification.
+**14. Distribution matching for diverse reasoning**
+
+Li, X., et al. (2026). *Beyond Mode Collapse: Distribution Matching for Diverse Reasoning.* **Proceedings of the 43rd International Conference on Machine Learning, PMLR 306**, 67829–67847. https://proceedings.mlr.press/v306/li26cc.html
+
+The authors attribute reduced diversity in some on-policy reinforcement-learning methods to reverse-KL mode-seeking behaviour and propose distribution matching to preserve multiple high-reward reasoning trajectories. The work concerns training objectives and benchmarked reasoning tasks; it does not imply that every deployed model or every single response necessarily suffers from this specific mechanism.
+
+**15. Diversity collapse associated with structured prompting formats**
+
+Yun, L., An, C., Wang, Z., Peng, L., & Shang, J. (2025). *The Price of Format: Diversity Collapse in LLMs.* **Findings of EMNLP 2025**, 15454–15468. https://doi.org/10.18653/v1/2025.findings-emnlp.836
+
+This work reports that structured instruction templates can constrain semantic diversity on open-ended generation tasks, with the effect persisting under higher-temperature sampling. It suggests that interaction format can influence output diversity; it does not show that all structured prompts suppress useful reasoning.
+
+**16. Human–AI design fixation**
+
+Wadinambiarachchi, S., Kelly, R. M., Pareek, S., Zhou, Q., & Velloso, E. (2024). *The Effects of Generative AI on Design Fixation and Divergent Thinking.* **CHI 2024**, article 380. https://doi.org/10.1145/3613904.3642919
+
+In a between-participants visual ideation experiment (N=60), participants using an AI image generator showed greater fixation on an initial example; the AI-supported group produced fewer ideas with less variety and lower originality than the baseline. This directly concerns human–AI co-creation in a visual design task, not every form of text-based AI assistance.
+
+**17. Human–AI homogenisation**
+
+de Rooij, A. (2026). *Does Generative AI Make Us Think Alike? A Systematic Review and Meta-analysis of Homogenisation Effects in Human–AI Co-creation.* **Behaviour & Information Technology.** https://doi.org/10.1080/0144929X.2026.2726451
+
+A systematic review and three-level meta-analysis of 19 studies and 61 effect sizes. It reports a small positive pooled homogenisation effect, with substantial heterogeneity. The authors distinguish collective similarity of outputs from a decline in any one person's creativity. This supports careful evaluation of diversity across people and outputs, not a blanket claim that AI always makes users think alike.
+
+**18. Diverse output distributions**
+
+Bellemare-Pepin, A., et al. (2026). *Divergent Creativity in Humans and Large Language Models.* **Scientific Reports, 16**, article 1279. https://www.nature.com/articles/s41598-025-25157-3
+
+Compares semantic diversity in human and LLM responses. The work is relevant to the difference between producing many responses and covering a wider range of ideas. Its findings should be interpreted in relation to the study's divergent-thinking tasks, not as a universal measure of reasoning quality.
+
+These papers describe different levels of the problem: human anchoring and fixation, model output distributions, training-time mode collapse, inference-time branching, and human–AI interaction effects. They should not be collapsed into one explanation or treated as interchangeable evidence.
 
 ## Proposed evaluation
 
