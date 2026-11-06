@@ -84,6 +84,16 @@ A general-purpose capability for delivering the requested artifacts, checking th
 - [External research, independent work, rationale, and limits](verification-integrity/README.md)
 - [Development history](verification-integrity/HISTORY.md)
 
+### [Software Literacy for AI Collaboration](software-literacy/README.md)
+
+**Core rule: The human should be able to make an informed decision even when they do not understand the implementation.**
+
+Software Literacy helps people without a software-engineering background work intelligently with AI on software. It teaches relevant concepts in context, translates technical language, explains choices and consequences, and preserves human decision authority. It is not a programming course.
+
+- [Skill instructions](software-literacy/SKILL.md)
+- [Research rationale, user's prior work, references, and evidence limits](software-literacy/README.md)
+- [Development history](software-literacy/HISTORY.md)
+
 ## How this collection works
 
 Each skill has one folder containing three files:
