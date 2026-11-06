@@ -92,6 +92,16 @@ Each skill has one folder containing three files:
 - SKILL.md — instructions an AI agent can follow.
 - HISTORY.md — how the investigation and skill developed.
 
+## Referencing skills from other repositories
+
+When another repository, test record, or project document refers to a skill in this collection, link to the canonical skill file here rather than relying on the skill name alone. For Critical Thinking, use:
+
+- **Repository:** [memoryprismv1/cognitive-interface-ai-skills](https://github.com/memoryprismv1/cognitive-interface-ai-skills)
+- **Canonical instructions:** [critical-thinking/SKILL.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/critical-thinking/SKILL.md)
+- **Skill overview and status:** [critical-thinking/README.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/critical-thinking/README.md)
+
+The Critical Thinking skill is provisional and in development. When recording an experiment that uses it, identify it as the source of the challenge pass and, where reproducibility matters, record the commit or file revision used. Do not describe the pass as an unspecified generic “critical thinking” procedure or attribute its behaviours to Memory Prism.
+
 ## Skill-design rule
 
 Do not create one skill for every annoyance or isolated failure. Record the incident accurately, identify the general mechanism, check existing skills for overlap, and add or revise a reusable skill only when there is a distinct capability to capture. Use concrete incidents as tests of the general rule.
