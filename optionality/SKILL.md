@@ -11,6 +11,10 @@ description: Help users who value optionality keep meaningful alternatives avail
 
 Optionality is for users who want alternatives available. It is not a default preference to impose on everyone, and it is not synonymous with brainstorming, creativity, or producing a long list.
 
+## Usage tag
+
+When Optionality materially shapes a response, append the visible tag **[Optionality used]** at the end. Use it when the skill has meaningfully expanded or preserved distinct possibilities, developed useful alternatives, or made an agreed optionality nudge. Do not use it merely because the skill was considered or loaded. The tag makes application observable; it is not proof that the alternatives were useful or that the skill was followed well. Evaluate the response itself for that.
+
 ## Activation
 
 Optionality has two activation routes:
