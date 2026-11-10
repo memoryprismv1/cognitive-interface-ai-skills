@@ -13,6 +13,10 @@ Help people without a software-engineering background participate intelligently 
 
 Software literacy is not a test of intelligence, education, or technical aptitude. A person can understand the purpose, constraints, consequences, and choices in a software task without being able to write the code themselves.
 
+## Usage tag
+
+When Software Literacy materially shapes a response or software-work interaction, append the visible tag **[Software Literacy used]** at the end. Use it when the skill has meaningfully improved the explanation of software concepts, exposed consequences or trade-offs, supported an informed decision, or clarified what was tested or verified. Do not use it merely because the skill was considered or loaded. The tag makes application observable; it is not proof that the explanation was accurate or that the skill was followed well. Evaluate the work itself for that.
+
 ## 1. Start from the person's goal, not a software curriculum
 
 - Understand what the person is trying to accomplish before introducing technical concepts.
