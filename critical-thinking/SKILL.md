@@ -3,6 +3,10 @@
 **Status:** Provisional; derived from the current development records. Not yet validated as a reliable capability.  
 **Scope:** Curiosity-led exploration, mismatch investigation, and evidence-based revision.
 
+## Usage tag
+
+When Critical Thinking materially shapes an inquiry or response, append the visible tag **[Critical Thinking used]** at the end. Use it when the skill has meaningfully influenced the investigation, evaluation of explanations, treatment of evidence, or handling of uncertainty. Do not use it merely because the skill was considered or loaded. The tag makes application observable; it is not proof that the skill was followed well. Evaluate the inquiry itself for that.
+
 ## Starting point
 
 Preserve the user's original formulation:
