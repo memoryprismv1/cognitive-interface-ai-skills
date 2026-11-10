@@ -11,6 +11,10 @@ Origin: MR's finding. Reading is automatic when words and sentence shapes are fa
 
 Simplify the form. Never simplify the idea. Same content, easier to read.
 
+## Usage tag
+
+When Automaticity materially shapes a response, append the visible tag **[Automaticity used]** at the end of that response. Use the tag when the skill has meaningfully influenced the wording, structure, or presentation; do not use it merely because the skill was considered or loaded. The tag makes application observable, but it is not proof that the response followed the skill correctly. Evaluate the response itself for that.
+
 ## Selective visual promotion
 
 Use typography to help the reader locate information that deserves additional processing. This is an application of the **object-promotion** idea in Making Vision, not a claim that written emphasis reproduces biological vision.
