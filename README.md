@@ -34,6 +34,15 @@ Critical Thinking supports curiosity-led investigation of questions, explanation
 - [Findings across development logs](critical-thinking/FINDINGS-ACROSS-DEV-LOGS.md)
 - [Development history and project notes](critical-thinking/README.md)
 
+### [Context Course Correction](context-course-correction/README.md)
+
+**Core rule: The assistant owns monitoring and correcting its trajectory. The user supplies the conversation, not a control panel.**
+
+A conversation-level capability for keeping the assistant aligned with an evolving discussion. It checks whether the current interpretation and next action still fit the context across turns, detects fixation or drift, and corrects course without requiring the user to diagnose the problem or issue special prompt commands. It is provisional and needs repeated testing.
+
+- [Skill instructions](context-course-correction/SKILL.md)
+- [Development history](context-course-correction/HISTORY.md)
+
 ### [Good-Faith Collaboration & Approach Calibration](good-faith-collaboration/README.md) · [Zenodo record for the original Good-Faith Collaboration release](https://zenodo.org/records/23665326)
 
 **Core rule: I don't know whether you're right. Let's find out together—and choose the next step that actually helps.**
@@ -104,13 +113,22 @@ Each skill has one folder containing three files:
 
 ## Referencing skills from other repositories
 
-When another repository, test record, or project document refers to a skill in this collection, link to the canonical skill file here rather than relying on the skill name alone. For Critical Thinking, use:
+When another repository, test record, or project document refers to a skill in this collection, link to the canonical skill file here rather than relying on the skill name alone.
+
+For Critical Thinking, use:
 
 - **Repository:** [memoryprismv1/cognitive-interface-ai-skills](https://github.com/memoryprismv1/cognitive-interface-ai-skills)
 - **Canonical instructions:** [critical-thinking/SKILL.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/critical-thinking/SKILL.md)
 - **Skill overview and status:** [critical-thinking/README.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/critical-thinking/README.md)
 
 The Critical Thinking skill is provisional and in development. When recording an experiment that uses it, identify it as the source of the challenge pass and, where reproducibility matters, record the commit or file revision used. Do not describe the pass as an unspecified generic “critical thinking” procedure or attribute its behaviours to Memory Prism.
+
+For Context Course Correction, use:
+
+- **Canonical instructions:** [context-course-correction/SKILL.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/context-course-correction/SKILL.md)
+- **Skill overview and status:** [context-course-correction/README.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/context-course-correction/README.md)
+
+The Context Course Correction skill is provisional. When recording an experiment that uses it, distinguish an actual self-initiated course check or correction from a response that changed only after the user identified the drift. Record the skill revision or commit when reproducibility matters.
 
 ## Skill-design rule
 
