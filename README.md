@@ -36,12 +36,13 @@ Critical Thinking supports curiosity-led investigation of questions, explanation
 
 ### [Context Course Correction](context-course-correction/README.md)
 
-**Core rule: The assistant owns monitoring and correcting its trajectory. The user supplies the conversation, not a control panel.**
+**Core rule: Monitor the trajectory, not merely the finished answer. The assistant owns detection, interruption, and repair.**
 
-A conversation-level capability for keeping the assistant aligned with an evolving discussion. It checks whether the current interpretation and next action still fit the context across turns, detects fixation or drift, and corrects course without requiring the user to diagnose the problem or issue special prompt commands. It is provisional and needs repeated testing.
+A research-informed, provisional capability for monitoring an assistant's evolving reasoning and action trajectory. It addresses online drift, early-assumption persistence, object or frame fixation, and failures to locate and repair reasoning errors. Incoming information must be allowed to change the active state and what happens next. The skill distinguishes monitoring, control, error localisation, and repair, and makes material use visible without treating the tag as proof of success.
 
 - [Skill instructions](context-course-correction/SKILL.md)
-- [Development history](context-course-correction/HISTORY.md)
+- [Research rationale, references, and implementation limits](context-course-correction/README.md)
+- [Development history and first sequencing observation](context-course-correction/HISTORY.md)
 
 ### [Good-Faith Collaboration & Approach Calibration](good-faith-collaboration/README.md) · [Zenodo record for the original Good-Faith Collaboration release](https://zenodo.org/records/23665326)
 
@@ -91,7 +92,7 @@ A general-purpose capability for delivering the requested artifacts, checking th
 
 - [Skill instructions](verification-integrity/SKILL.md)
 - [External research, independent work, rationale, and limits](verification-integrity/README.md)
-- [Development history](verification-integrity/HISTORY.md)
+- [Development history and pilot evidence boundary](verification-integrity/HISTORY.md)
 
 ### [Software Literacy for AI Collaboration](software-literacy/README.md)
 
@@ -126,9 +127,9 @@ The Critical Thinking skill is provisional and in development. When recording an
 For Context Course Correction, use:
 
 - **Canonical instructions:** [context-course-correction/SKILL.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/context-course-correction/SKILL.md)
-- **Skill overview and status:** [context-course-correction/README.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/context-course-correction/README.md)
+- **Skill overview and research:** [context-course-correction/README.md](https://github.com/memoryprismv1/cognitive-interface-ai-skills/blob/main/context-course-correction/README.md)
 
-The Context Course Correction skill is provisional. When recording an experiment that uses it, distinguish an actual self-initiated course check or correction from a response that changed only after the user identified the drift. Record the skill revision or commit when reproducibility matters.
+Context Course Correction is provisional. When recording an experiment that uses it, distinguish self-initiated detection from signal-responsive or externally prompted recovery. Record the skill revision or commit when reproducibility matters.
 
 ## Skill-design rule
 
