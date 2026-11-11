@@ -1,67 +1,115 @@
 # Context Course Correction
 
+**Skill:** \`context-course-correction\`
+
 **Status:** Basic skill; provisional and in development.
 
-**Core rule: The assistant owns monitoring and correcting its trajectory. The user supplies the conversation, not a control panel.**
+**Core rule: Monitor the trajectory, not merely the finished answer. The assistant owns detection, interruption, and repair.**
 
-Context Course Correction is a conversation-level capability. It helps an AI assistant stay aligned with an evolving discussion by checking whether its current interpretation and next action still fit the context established across turns.
+## Purpose
 
-It addresses a failure that is easy to mistake for a content problem: the assistant may have access to earlier messages yet continue along a stale or overly narrow line of reasoning. It may fixate on an object, repeat an already rejected explanation, turn an analogy into a premature design, or ask the user to tell it how to correct itself.
+Context Course Correction is intended to prevent an AI assistant from continuing along an obsolete or mistaken reasoning path after the conversation or evidence has changed.
 
-The skill requires more than retrieving or summarising prior messages. The assistant must use relevant context to change its subsequent interpretation or action when the conversation calls for it.
+The failure is not simply forgetting prior messages. An assistant may have the earlier conversation available and still remain fixed on an early interpretation, object, assumption, or solution. It may acknowledge a new contribution without letting that contribution change the work. It may discover an error only after producing a complete answer, or correct a local detail while retaining the faulty frame that caused it.
 
-## What it does
+The skill therefore treats a conversation as an ongoing interaction with a changing state and trajectory. New information can change what the assistant is doing next. Monitoring, control, error localisation, and repair must operate before completion as well as at the end.
 
-- Maintains a compact working model of the current objective, broader purpose, constraints, observations, corrections, and unresolved question.
-- Interprets each new contribution as something that may continue, modify, challenge, or replace the current direction.
-- Checks the assistant's own trajectory for object fixation, stale assumptions, repetition, premature concretisation, level mismatch, and scope drift.
-- Interrupts and revises its own course without waiting for the user to diagnose the problem.
-- Asks the user for help only when a specific material uncertainty cannot be resolved from available context.
-- Shows a visible usage tag when a meaningful context/trajectory check affects the response.
+## What it targets
 
-## What makes it distinct
+1. **Online production failure:** the developing answer or action drifts away from the intended direction while it is being produced.
+2. **Multi-turn trajectory failure:** an early assumption persists after later information should have changed it.
+3. **Object or frame fixation:** the assistant keeps attending to the most visible object, answer, or proposed solution instead of the process, interaction, relationship, or level that matters.
+4. **Error-localisation failure:** the assistant recognises that something is wrong but cannot identify where the reasoning first diverged.
+5. **Correction-without-incorporation:** the assistant acknowledges feedback but does not change what it does next.
 
-This skill is not a general instruction to remember more, summarise more, brainstorm more, or apologise more.
+## Research rationale
 
-**Optionality** preserves meaningful alternatives for the user. **Good-Faith Collaboration** governs inquiry and action selection. **Critical Thinking** supports investigation and evidence-based revision. **Task Integrity** tracks scope and completion. Context Course Correction monitors the assistant's own direction across the evolving conversation and makes it responsible for correcting drift.
+The research motivates the design. It does not demonstrate that this particular skill is effective.
 
-The central distinction is between *having context available* and *allowing context to change what happens next*.
+### Biological monitoring and repair
 
-## Working model
+Gauvin and Hartsuiker's review of verbal monitoring (2020) describes internal monitoring of planned speech and external monitoring of produced speech. It also reviews multiple competing models and notes that a complete account of verbal monitoring has not been established. Nozari, Martin and McCloskey (2019) examine whether speech repair is automatic or controlled.
 
-A conversation is treated as an evolving interaction. Each new contribution enters a context that already has a trajectory. It can change the meaning of earlier observations, invalidate an assumption, alter the useful level of analysis, or change the appropriate next action.
+The design inference is that monitoring and repair should be separate operations, and that monitoring can be relevant before an output is complete. The AI skill is a functional analogy, not a proposed copy of a brain circuit.
 
-This is a design model derived from the development conversation, not a claim that the conversation literally instantiates a particular physical or biological system.
+### Fixation and mental sets
 
-## Visible use
+The Einstellung effect describes how an activated solution strategy can interfere with solving a later problem for which that strategy is unsuitable. Work comparing anchoring and Einstellung treats their relationship as a question about mental sets, not a settled equivalence.
 
-When the skill materially shapes a response, the assistant appends:
+The AI-specific term "object fixation" in this project describes the observed tendency to keep organising an investigation around an initial object or frame. It should not be treated as identical to a human cognitive effect.
+
+### Multi-turn LLM failures
+
+Laban et al. (ICLR 2026), *LLMs Get Lost in Multi-Turn Conversation*, report an average 39% performance drop across six generation tasks in their multi-turn experiments. Their analysis of more than 200,000 simulated conversations finds that early assumptions and premature solution proposals can persist, leaving models unable to recover from wrong turns.
+
+This directly motivates conversation-level trajectory monitoring rather than relying on single-turn answer quality.
+
+### Error localisation and correction
+
+Tyen et al. (Findings of ACL 2024) found that tested LLMs struggled to find logical reasoning errors but could correct them more effectively when the error location was supplied. Samanta et al. (ICML 2026) explore semantically coherent reasoning steps as boundaries for locating errors and backtracking to the last correct step.
+
+These findings motivate identifying the first divergence and repairing from the last sound point. They do not establish that an ordinary skill prompt can reliably find its own reasoning errors.
+
+### Dynamic interaction and incoming information
+
+Skipper, Devlin and Lametti (2017) review evidence that speech perception and production networks interact, with production-related involvement varying dynamically with context. Li, Naito and Shirado (ICML 2026) find failures in multi-agent systems that must combine distributed information: their tested agents often converge on shared information while failing to recognise information that has not yet been communicated.
+
+These are related findings about active systems interacting with information. They support the design idea that incoming information may change the receiver's state and what it can or should do next. They are not direct tests of Context Course Correction.
+
+A 2025 preprint, *Self-Correction Bench*, reports a blind spot in correcting errors in a model's own outputs compared with external answers. It is an additional lead, not settled general evidence.
+
+## Operating principle
+
+Keep an active representation of the user's purpose, the current reasoning trajectory, important assumptions, evidence, unresolved issues, and prior corrections. When new information arrives, assess how it changes that state rather than merely adding it to a static summary.
+
+Monitor the developing work at meaningful semantic checkpoints. When a divergence appears, locate its earliest identifiable cause, pause the faulty line, return to the last sound point, retain valid work, and continue along a repaired trajectory.
+
+A correction must affect subsequent reasoning and action. Acknowledging it is not enough.
+
+## Visible usage signal
+
+When the skill materially changes the assistant's interpretation, response, or next action, it appends:
 
 **[Context Course Correction used]**
 
-A short explanation immediately before the tag says what was checked, changed, preserved, or redirected. The tag is not used merely because context was available, and it is not proof of successful application.
+A short note explains what changed. Where relevant, the note distinguishes self-initiated detection from a response to new information or an explicit user correction. A correction made only after the user points out the error is not evidence of autonomous detection.
 
-## Evaluation
+## Implementation boundary
 
-The skill should be tested across ordinary and exploratory conversations. Useful tests include:
+The basic skill can direct behaviour at meaningful reasoning boundaries and require revision before responding. It cannot inspect hidden activations, guarantee token-level monitoring, provide an independent monitor, or reliably interrupt arbitrary streaming output. A stronger runtime would need intermediate semantic checkpoints, a monitor, a controller able to pause and backtrack, and preferably independent evidence or verification.
 
-- New information changes the interpretation rather than being forced into the old frame.
-- The assistant notices and abandons a repeatedly rejected explanation.
-- A process-level question is not reduced to a fixation on one object or artefact.
-- The assistant distinguishes a new topic from a change within an ongoing investigation.
-- The assistant corrects itself without asking the user for prompt commands or diagnostic work.
-- The assistant sometimes correctly keeps the existing direction when new information does not warrant a change.
-- Visible usage signals correspond to actual, material context checks.
+The skill does not update model weights or guarantee persistent learning across sessions. It supports in-conversation state updating; persistent transfer is a separate capability.
 
-The skill is provisional. A written procedure and a self-reported usage tag do not establish that the capability is reliable. Repeated tests and recorded failures are needed.
+## Evaluation criteria
+
+The skill should be evaluated on whether the assistant:
+- detects drift before the user identifies it;
+- localises the first divergence rather than vaguely rechecking the whole answer;
+- preserves valid work while repairing the faulty part or frame;
+- incorporates new information into subsequent behaviour;
+- correctly maintains its direction when no correction is warranted;
+- distinguishes self-initiated correction from externally prompted recovery.
+
+A usage tag is not proof of success. A fluent final answer is not proof that online monitoring took place.
 
 ## Files
 
 - [Skill instructions](SKILL.md)
 - [Development history](HISTORY.md)
 
+## References
+
+- Gauvin, H. S. & Hartsuiker, R. J. (2020). [Towards a New Model of Verbal Monitoring](https://doi.org/10.5334/joc.81). *Journal of Cognition*, 3(1), 17.
+- Nozari, N., Martin, C. D. & McCloskey, N. (2019). [Is repairing speech errors an automatic or a controlled process?](https://doi.org/10.1080/23273798.2019.1637007). *Language, Cognition and Neuroscience*, 34(9), 1230–1245.
+- Lane, D. M. & Jensen, D. G. (1993). [Einstellung: Knowledge of the Phenomenon Facilitates Problem Solving](https://doi.org/10.1177/154193129303701816).
+- Navarre, A., Didierjean, A. & Thomas, C. (2022). [Are the anchoring effect and the Einstellung effect two facets of the same phenomenon?](https://doi.org/10.1016/j.newideapsych.2021.100918).
+- Laban, P., Hayashi, H., Zhou, Y. & Neville, J. (2026). [LLMs Get Lost in Multi-Turn Conversation](https://proceedings.iclr.cc/paper_files/paper/2026/hash/59f6421e64707225fdf5b28840679a07-Abstract-Conference.html). ICLR 2026.
+- Tyen, G. et al. (2024). [LLMs cannot find reasoning errors, but can correct them given the error location](https://aclanthology.org/2024.findings-acl.826/). Findings of ACL 2024.
+- Samanta, A. et al. (2026). [Structure Enables Effective Self-Localization of Errors in LLMs](https://proceedings.mlr.press/v306/samanta26a.html). ICML 2026.
+- Skipper, J. I., Devlin, J. T. & Lametti, D. R. (2017). [The hearing ear is always found close to the speaking tongue](https://doi.org/10.1016/j.bandl.2016.10.004). *Brain and Language*, 164, 77–105.
+- Li, Y., Naito, A. & Shirado, H. (2026). [Systematic Failures in Collective Reasoning under Distributed Information in Multi-Agent LLMs](https://proceedings.mlr.press/v306/li26ej.html). ICML 2026.
+- Tsui, K. (2025). [Self-Correction Bench](https://arxiv.org/abs/2507.02778). Preprint.
+
 ## Evidence boundary
 
-The initial design comes from a conversational experiment in which the assistant repeatedly narrowed an evolving investigation to objects and proposed architectures, failed to update its framing when the user's examples changed the level of analysis, and then shifted the burden of course correction onto the user. The resulting skill is an engineering response to that observed failure pattern. This case motivates the procedure; it does not prove that the procedure generalises or works reliably.
-
-No claim is made here that Context Course Correction is a scientifically validated cognitive mechanism or that it changes the underlying model's weights or persistent memory.
+The original conversational experiment identified a concrete failure: the assistant persisted with early frames, repeatedly fixated on objects rather than interactions and trajectories, and required the user to point out the fixation. Research provides relevant mechanisms and evidence that related failures occur in speech monitoring, human problem solving, and LLM reasoning. It does not establish that this skill will reliably solve them. The skill remains a testable engineering proposal.
