@@ -84,6 +84,17 @@ A general-purpose capability for tracking task requirements, coverage, evidence 
 - [Rationale and evaluation criteria](task-integrity/README.md)
 - [Development history](task-integrity/HISTORY.md)
 
+### [Modularity](modularity/README.md)
+
+**Core rule: Establish what the work needs before dividing up the work that will use it.**
+
+A general-purpose planning and coordination capability. It identifies blockers and prerequisite collections (base modules), establishes their internal ordering and readiness, decomposes deliverables into bounded work packages, maps dependencies, estimates resource consumption, and chooses sensible execution and branch boundaries. Its research rationale and limits distinguish established findings from proposed AI behaviour.
+
+- [Skill instructions](modularity/SKILL.md)
+- [Research rationale, references, and evidence limits](modularity/README.md)
+- [Development history](modularity/HISTORY.md)
+- [Initial evaluation cases](modularity/tests/)
+
 ### [Verification Integrity](verification-integrity/README.md) · [Zenodo record](https://zenodo.org/records/23666717)
 
 **Core rule: Minimise the human effort required to establish whether the requested work was completed correctly.**
