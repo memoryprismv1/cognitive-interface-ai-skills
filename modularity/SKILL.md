@@ -173,15 +173,48 @@ Do not create branches, change repositories, delegate to external agents, or mod
 
 ### 8. Plan checkpoints and recovery
 
-For work that may exceed a conversation, context, token, runtime, or tool limit:
-- divide execution into resumable units;
-- persist completed outputs and decisions outside transient working context where the environment allows;
-- record status, dependencies, validation, and next action;
-- checkpoint after meaningful deliverables, not arbitrary tiny intervals;
-- make retries local to the failed package and its affected dependents;
-- preserve successful outputs rather than rerunning the entire workflow.
+Treat context, conversation, token, runtime, and tool limits as normal operating constraints. The objective is not to prevent the conversation from ending. The objective is to arrange execution so that an ending or interruption leaves the work at a recoverable boundary.
 
-A skill instruction cannot extend a platform timeout, create persistent storage, or guarantee recovery when the runtime offers no such facility. State the limitation and use the strongest available handoff or checkpoint mechanism.
+Plan checkpoints before execution. For each substantial work package, identify one or more meaningful stopping points and define what must be true before each is declared safe.
+
+A checkpoint is a recorded state of work, not necessarily a completed work package. Distinguish three states:
+- **Completed:** the work is finished, its acceptance checks have been run, the result and evidence are preserved, and its downstream consumers can rely on it.
+- **Recoverable/in progress:** the work is incomplete, but its current state, changes, decisions, evidence, blockers, and precise next action are preserved well enough to resume without reconstructing or repeating completed work.
+- **Pending/blocked:** the work has not started or cannot proceed; record the missing prerequisite, dependency, decision, access, or external response.
+
+For each checkpoint, record the information needed to resume:
+- checkpoint identifier and the objective/work package it belongs to;
+- completed outputs and their durable locations or references;
+- verification performed and its actual results;
+- in-progress work, including files or artefacts changed and the current partial state;
+- decisions, assumptions, interfaces, and constraints that must remain stable;
+- dependencies, blockers, and unresolved questions;
+- next executable action and its required inputs;
+- work that is already complete and must not be repeated;
+- relevant branch, workspace, commit, or version references where applicable.
+
+Persist the checkpoint outside transient conversation context whenever the available environment permits. Verify that the saved artefact exists and can be read or referenced before declaring it persisted. A summary displayed only in the chat is a conversational handoff, not durable storage. Distinguish clearly between:
+- saved and verified;
+- prepared but not saved;
+- unable to persist with the available tools or permissions.
+
+Never claim a durable checkpoint or successful handoff when persistence has not been verified. If no external persistence mechanism is available, produce the most compact useful handoff possible, state that it is not durable, and do not imply that another session will automatically have access to it.
+
+Schedule execution around checkpoint completion:
+- reserve enough context and execution capacity for verification, recording results, and persisting the checkpoint;
+- distinguish total context consumption from peak working-context occupancy;
+- account for the uncertainty of platform limits; do not invent or claim access to hidden context budgets;
+- avoid starting another substantial work package when the remaining capacity is unlikely to be sufficient to reach its next safe checkpoint;
+- as available capacity becomes constrained, finish the smallest useful checkpoint rather than expanding scope or starting new work;
+- treat conversation termination as an expected lifecycle event, not an exceptional failure.
+
+Do not make checkpoints arbitrarily frequent. Place them after meaningful outputs, verified foundations, independently usable partial results, or safe interruption points. A checkpoint may preserve a blocked or incomplete package if it records exactly what is missing and what must happen next.
+
+When resuming, load the latest verified checkpoint and only the additional context needed for the next action. Confirm the checkpoint's references and current state before acting. Do not repeat completed discovery or implementation unless new evidence, changed requirements, or failed verification makes that necessary.
+
+Make retries local to the failed package and its affected dependents. Preserve successful outputs rather than rerunning the entire workflow. Reassess downstream readiness when a prerequisite changes.
+
+A skill instruction cannot extend a platform timeout, create persistent storage, expose a hidden context meter, or guarantee recovery when the runtime offers no such facility. State the limitation and use the strongest available checkpoint mechanism.
 
 ### 9. Allow infrastructure and scope to evolve
 
@@ -216,8 +249,9 @@ For substantial work, make the plan inspectable. Use a compact form appropriate 
 6. **Dependency and partial-order map**
 7. **Resource profiles:** per base module and work package, plus project totals and assumptions
 8. **Execution allocation:** sequence, safe parallel work, workspace/branch boundaries, and integration path
-9. **Checkpoints, risks, recovery points, and verification**
-10. **Current readiness and next executable action**
+9. **Checkpoint plan:** stopping conditions, saved-state contents and locations, verification, recovery, and next-session handoff
+10. **Risks and integration verification**
+11. **Current readiness and next executable action**
 
 Do not make the plan longer than the work warrants. For small tasks, a short prerequisite check and direct execution are enough.
 
@@ -246,6 +280,10 @@ Do not:
 - present guesses as precise consumption forecasts;
 - claim a task is ready when a required input is missing;
 - restart completed work after a local failure without a dependency-based reason;
+- treat a conversational summary as durable persistence;
+- mark incomplete work complete merely because a checkpoint was written;
+- continue starting substantial work when there is insufficient capacity to verify and preserve a safe checkpoint;
+- claim a checkpoint was saved or is resumable without verifying its durable location and accessibility;
 - claim that the skill can override platform limits or provide infrastructure it does not have.
 
 ## Evaluation
@@ -262,7 +300,11 @@ Assess:
 - calibration of resource estimates and uncertainty;
 - sensible branch/workspace allocation;
 - avoidance of unnecessary serialisation and over-parallelisation;
-- checkpoint and local-recovery quality;
+- checkpoint quality and whether stopping conditions are defined before execution;
+- distinction between completed, recoverable/in-progress, and pending/blocked state;
+- verified persistence of outputs and handoff state (not merely a chat summary);
+- ability to resume from a checkpoint without repeating completed work;
+- whether execution stops before context exhaustion at a safe, useful boundary;
 - adaptation when new blockers emerge;
 - successful integration against the original objective.
 
