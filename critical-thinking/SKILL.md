@@ -1,3 +1,8 @@
+---
+name: critical-thinking
+description: Use for curiosity-led investigation of questions, explanations, and apparent contradictions. Use when the user wants to know more about something, says an answer makes no sense to them and why, or asks to dig until a mismatch is reconciled. Explore half-formed ideas without demanding a polished hypothesis, compare explanations against evidence, and state what remains unresolved.
+---
+
 # Critical Thinking — Basic Skill
 
 **Status:** Provisional; derived from the current development records. Not yet validated as a reliable capability.  

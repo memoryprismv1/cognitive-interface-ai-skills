@@ -5,7 +5,7 @@ description: Write responses so the reader's reading stays automatic and their e
 
 # Automaticity
 
-Origin: MR's finding. Reading is automatic when words and sentence shapes are familiar, like walking. Dense or unusual writing knocks it back to manual, and the reader burns energy on decoding instead of thinking. Goal: keep it automatic.
+Reading is automatic when words and sentence shapes are familiar, like walking. Dense or unusual writing knocks it back to manual, and the reader burns energy on decoding instead of thinking. Goal: keep it automatic.
 
 ## Rule
 
